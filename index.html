@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>go USA</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/gousa.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body class="mainPage">
+   <div id="sitemapPanel">
+        <div>
+            <h2>SITE MAP</h2>
+            <input type="button" value="panelClose" class="btn_close">
+            <ul>
+                <li><a href="https://www.thebrandusa.com/press?tab-order=0" target="_blank">미디어 관련 문의</a></li>
+                <li><a href="call.html">연락하기</a></li>
+                <li><a href="Terms_of_Use.html">이용약관</a></li>
+                <li><a href="usa_travels.html">미국 여행 정보</a></li>
+                <li><a href="ask_for.html">자주 묻는 질문</a></li>
+                <li><a href="https://www.thebrandusa.com/" target="_blank">brand usa</a></li>
+                <!-- 모든 페이지 brand usa,미디어 관련 문의 링크 삽입 -->
+            </ul>
+        </div>
+   </div>
+   <header id="top">
+        <h1>
+            <a href="index.html">
+                <img src="images/logo_header.png" alt="goUSA">
+            </a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="destination.html">목적지</a></li>
+                <li><a href="travel.html">여행</a></li>
+                <li><a href="experience.html">체험</a></li>
+                <li><input type="button" value="apps" class="material-icons" data-panel="sitemapPanel"></li>
+            </ul>
+        </nav>
+   </header>
+   <section class="mainContainer">
+    <!-- ! js에서 운영하거나 공통 css 대상이 아닌 부분에 불필요한 class 사용금지 -->
+        <div class="mainSliderBox">
+            <div>
+                <h2>
+                    <small>미국 공식 여행 웹사이트</small>
+                    <span>
+                        United Stories: <br>
+                        여정 따라가기
+                    </span>
+                </h2>
+                <a href="destination.html" class="btn_more">더 보기</a>
+            </div>
+            <ul class="mainCarouselSlider">
+                <li class="active"><img src="images/slide1_01.jpeg" alt="slide01"></li>
+                <li><img src="images/slide1_02.jpeg" alt="slide02"></li>
+                <li><img src="images/slide1_03.jpeg" alt="slide03"></li>
+                <li><img src="images/slide1_04.jpeg" alt="slide04"></li>
+                <li><img src="images/slide1_05.jpeg" alt="slide05"></li>
+            </ul>
+            <div>
+                <span>스크롤해서 더 자세한 내용을 확인하세요.</span>
+            </div>
+            <!-- <div class="slideButton">
+                <input type="button">
+            </div> -->
+            <!-- mainslide fin -->
+        </div>
+        <div>
+            <ul class="travelList active">
+                 <li>
+                    <a href="hightLight.html">
+                        <img src="images/menubar1_01.jpg" alt="01">
+                        <strong>하이라이트</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="lifestyle.html">
+                        <img src="images/menubar2_01.jpg" alt="02">
+                        <strong>라이프스타일</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="shop.html">
+                        <img src="images/menubar3_01.jpg" alt="03">
+                        <strong>쇼핑</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="food_to_drink.html">
+                        <img src="images/menubar4_01.jpg" alt="04">
+                        <strong>음식 및 음료</strong>
+                    </a>
+                </li>
+            </ul>
+            <ul class="expList">
+                <li>
+                    <a href="hightLight.html">
+                        <img src="images/menubar2_01.jpg" alt="01">
+                        <strong>하이라이트</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="lifeStyle.html">
+                        <img src="images/menubar2_02.jpg" alt="02">
+                        <strong>라이프스타일</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="shop.html">
+                        <img src="images/menubar3_02.jpg" alt="03">
+                        <strong>쇼핑</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="food_to_drink.html">
+                        <img src="images/menubar4_02.jpg" alt="04">
+                        <strong>음식 및 음료</strong>
+                    </a>
+                </li>
+            </ul>
+            <div>
+                <div class="tabBox">
+                    <input type="button" value="여행" data-tabName="travelList" class="active">
+                    <input type="button" value="체험" data-tabName="expList">
+                </div>
+                <div class="travelList active">
+                    <h2>
+                        일별 여행 일정 및 <br>
+                        여행 아이디어 살펴보기
+                    </h2> 
+                    <p>
+                        운전석에 앉아 탁 트인 도로를 자유롭게 달리며 미국을 여행해보세요.
+                        탁월한 풍경, 매력적인 소도시, 숨겨진 보석과 같은 관광 명소를 체험
+                        하기에 이보다 더 좋은 방법은 없습니다. 미국 전역의 엄선된 여행지를 
+                        살펴보고 미국 여행 플래너를 이용해 나만의 여행을 계획해 보세요.
+                    </p>
+                    <a href="#" class="btn_circle"><strong>L</strong>earn more</a>
+                </div>
+                <div class="expList">
+                    <h2>
+                        일별 여행 일정 및 <br>
+                        여행 아이디어 살펴보기
+                    </h2>
+                    <p>
+                        공식 가이드라는 이름에 걸맞게, 여러분이 직접 체험할 수 있는 다채롭고 특별한 경험을
+                        소개해드리겠습니다. 미국 전역의 엄선된 여행 아이디어를 살펴보고 미국 여행 플래너를
+                        이용해 나만의 여행을 계획해 보세요.
+                    </p>
+                    <a href="#" class="btn_circle"><strong>L</strong>earn more</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h2>현재 트랜드</h2>
+                <ul>
+                    <li>
+                        <a href="https://www.youtube.com/playlist?list=PL6fmpLi2ZMJwwKYf4533eFqvR3i9fCkwv" target="_blank"><img src="images/content3_02.jpeg"  alt="01" >
+                            <strong>음악 팬을 위한 미국 최고의 <br>여행지 관광하기</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="usamusic.html"><img src="images/content3_01.jpeg"  alt="02" >
+                            <strong>GoUSA TV 신작! 미국 소도시의<br> 놀라운 이야기 시청</strong>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- trend fin -->
+            <div>
+                <h2>영감을 주는 아이디어</h2>
+                <ul>
+                    <li>
+                        <a href="marry.html">
+                            <strong>미국 10대 신혼여행지</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="snowboard.html">
+                            <strong>미국으로 떠나는 스키 또는 스노보드 여행에 대한 7가지 팁</strong>
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="idea.html">
+                            <strong>앨리배마주 걸프 쇼스와 오렌지 비치의 해변과 그너머</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="hippop.html">
+                            <strong>미국의 힙합: 음악 뒤의 도시 탐방 즐겨보기</strong>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- exp fin -->
+        </div>
+        <div>
+            <figure>
+                <a href="https://youtu.be/fyN5B13rs0Q" target="_blank">
+                    <img src="images/videoarea_bg.png" alt="videobg">
+                </a>
+                <figcaption>
+                    <span>여행 후기 정보 제공 파트너:</span>
+                    <a href="https://www.tripadvisor.com/" target="_blank">
+                        <img src="images/videoarea_logo.png" alt="videologo"> 
+                    </a>
+                </figcaption>
+            </figure>
+            <div>
+                <h2>현지인의 이야기</h2>
+                <p>
+                    자신의 도시를 사랑하는 현지인들로부터 최고의 제안을 받아 보세요. <br>
+                    각 여행지마다 현지인들이 유용한 정보, 조언 및 경험을 공유해 줍니다.<br>
+                    명소, 음식점, 쇼핑 등에 관한 최신 추천 정보를 확인해 보세요.
+                </p>
+                <a href="allvideo.html" class="btn_circle"><b>모</b>든 비디오 보기</a>
+            </div>
+        </div>
+        <!-- video fin -->
+        <div>
+            <h2>
+                <b>여기? 저기?</b>
+                아래의 두 이미지 중 하나를 골라 내게 맞는 여정을 계획하고 원하는 콘텐츠를 선택해보세요
+            </h2>            
+            <ul>
+                <li>
+                    <a href="#" onclick="randomplace()">
+                        <img src="images/content4_05.jpeg" alt="bigcity">
+                        <strong>화려한 대도시</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick="randomplace()">
+                        <img src="images/content4_06.jpeg" alt="smallcity">
+                    <strong>매력적인 소도시</strong>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- fin -->
+   </section>
+   <footer>
+        <a href="#">위로가기</a>
+        <div>
+            <h2>
+                <img src="images/footer_logo.png" alt="footer_logo">
+            </h2>
+            <p>Because every place has a story.</p>
+            <p>Visit The USA © 2023 Brand USA. All rights reserved.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.fexy.gousatv&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank">googlePlay</a>
+            <a href="https://apps.apple.com/us/app/gousa-tv/id1434602122" target="_blank">appStore</a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="https://www.thebrandusa.com/" target="_blank">brand usa</a></li>
+                <li><a href="https://www.thebrandusa.com/press?tab-order=0" target="_blank">미디어 관련 문의</a></li>
+                <li><a href="call.html">연락하기</a></li>
+                <li><a href="userName.html">여행기획</a></li>
+                <li><a href="Terms_of_Use.html">자주 묻는 질문</a></li>
+            </ul>
+            <a href="https://mp.mydigitalpublication.com/publication/?i=756559&p=&pn=" target="_blank">최신 Go USA가이드를 읽고 여행을 계획해보세요.</a>
+            <a href="https://www.gousa.or.kr/unitedstories" target="_blank">미국 여행 플래너로 맞춤형 여정을 만드세요.</a>
+        </div>
+   </footer>
+   <!-- !구조화 완료되면 validation 반드시 해오기 -->
+   <!-- ! header , footer는 채워넣기만 하면 공용부 성립. -->
+</body>
+</html>
