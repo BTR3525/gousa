@@ -9,6 +9,7 @@ $(document).ready(function(){
     funnyboxEvent(".funnystory");
     listSlider();
     sideSlide();
+    // mainslide();
     // sidesliderbutton(".sideSlide");
     // randomEvent(".mainContainer > div:last-child ul li a");
 });
@@ -102,8 +103,11 @@ function moreboxEvent(){
     });
 };
 function listSlider(){
-    $(".mainCarouselSlider").bxSlider();
+    $(".listContainer > .mainSliderBox > .mainCarouselSlider").bxSlider();
 }
 function sideSlide(){
     $(".sideSlide").bxSlider();
 }
+// function mainslide(){
+//     $(".mainContainer > .mainSliderBox .mainCarouselSlider").bxSlider();
+// }
