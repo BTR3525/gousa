@@ -50,6 +50,22 @@ footer > div > p:last-of-type{
 }
 
 @media screen and (max-width: 767px){
+
+    .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
+        position: absolute; left: 3.3%; top: 170px; 
+    }
+    .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url("../images/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        padding: 5px; background-color: transparent;
+        border-radius: 50%; background-size: 5px;
+        border: 3px solid white; background-position: center;
+    }
+    .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url("../images/arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        padding: 5px;
+        left: 60px; background-size: 5px; background-color: transparent;
+        border: 3px solid white; border-radius: 50%; background-position: center;
+    }
     .mainPage{
         background: url('../images/footer_moblie.png') left bottom / contain no-repeat;
         width: 100%;
@@ -242,6 +258,23 @@ footer > div > p:last-of-type{
 /* moblie fin */
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+
+    
+    .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
+        position: absolute; left: 3.3%; top: 280px;
+    }
+    .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url("../images/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        padding: 10px; color: white; background-color: transparent;
+        border-radius: 50%; background-size: 20px;
+        border: 3px solid white; background-position: center;
+    }
+    .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url("../images/arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        padding: 10px;
+        left: 85px; background-size: 20px; background-color: transparent;
+        border: 3px solid white; border-radius: 50%; background-position: center;
+    }
     .mainPage{
         background: url('../images/footer_tablet.png') left bottom / contain no-repeat;
         width: 100%;
@@ -456,6 +489,22 @@ footer > div > p:last-of-type{
 /* tablet fin */
 
 @media screen and (min-width: 1280px) {
+
+    .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
+        position: absolute; left: 6.09%; top: 600px;
+    }
+    .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url("../images/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        padding: 30px; color: white; background-color: transparent;
+        border-radius: 50%; background-size: 30px;
+        border: 5px solid white; background-position: center;
+    }
+    .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url("../images/arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        padding: 30px;
+        left: 220px; background-size: 30px; background-color: transparent;
+        border: 5px solid white; border-radius: 50%; background-position: center;
+    }
     .mainPage{
         background: url('../images/bg_footer.png') right bottom / contain no-repeat;
     }

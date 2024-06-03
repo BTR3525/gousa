@@ -317,21 +317,18 @@
         list-style: none; 
     }
     .listContainer .mainSliderBox .mainCarouselSlider li img{
-        width: 100%; filter: brightness(0.7); z-index: -1; height: 180px;
+        width: 100%; filter: brightness(0.7); z-index: -1; height: 200px;
     }
     .listContainer .mainSliderBox .mainCarouselSlider li h2{
         position: absolute; top: 70px;  
-        font-size: 20px; color: white; font-weight: 700;
-        margin-bottom: 20px; line-height: 30px;
-        padding: 0 3.3%; z-index: 1;
+        font-size: 18px; color: white; font-weight: 700;
+        line-height: 22px; 
+        padding: 0 3.3% 120px 3.3%; z-index: 1;
     }
     .listContainer .mainSliderBox .mainCarouselSlider li h2 > small{
         font-size: 12px; line-height: 18px; color: white;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         display: block;
-    }
-    .listContainer .mainSliderBox .mainCarouselSlider li:not(:first-child){
-        display: none;
     }
     .listContainer > div:nth-child(2){
         margin-bottom: 80px;
@@ -1792,9 +1789,6 @@
         font-size: 12px; line-height: 18px; color: white;
         margin-bottom: 30px;
         display: block;
-    }
-    .listContainer .mainaroww{
-        position: absolute; top: 260px; left: 3.3%; width: 100%;
     }
     .listContainer .mainaroww > input[type="button"]{
         border: 5px solid white; border-radius: 50%; padding: 15px; color: white;
