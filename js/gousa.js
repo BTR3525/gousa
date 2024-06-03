@@ -8,6 +8,7 @@ $(document).ready(function(){
     moreboxEvent(".moreBox");
     funnyboxEvent(".funnystory");
     listSlider();
+    sideSlide();
     // sidesliderbutton(".sideSlide");
     // randomEvent(".mainContainer > div:last-child ul li a");
 });
@@ -54,16 +55,7 @@ function maintravelandexp(target){
         $(currenttab).addClass("active");
     });
 }
-function sidesliderbutton(target){
-    var currentbutton = null;
-    var sidebutton = $(".arrowbox > span");
-     
-    sidebutton.click(function(){
-        $(".sideSlide > li").sidebutton.addClass("active");
-        currentbutton = "." + $(target).$(".sideSlide");
-        sidebutton.removeClass("active");
-    });
-}
+
 function funnyboxEvent(target){
     var currentfunny = null;
     var funnyevent = $(".funnystory > li");
@@ -111,4 +103,7 @@ function moreboxEvent(){
 };
 function listSlider(){
     $(".mainCarouselSlider").bxSlider();
+}
+function sideSlide(){
+    $(".sideSlide").bxSlider();
 }
