@@ -200,7 +200,7 @@
     }
     .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul li a strong{
         position: absolute; left: 0; bottom: 45px; text-align: center;
-        color: #ffffff; font-size: 18px; font-weight: 700; padding: 0 20px;
+        color: #ffffff; font-size: 18px; font-weight: 700; padding: 0 7%;
     }
     .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li:nth-child(1){
         position: relative;
@@ -354,11 +354,8 @@
     .listContainer > div:nth-child(3) .sideSlide{
         margin: 0 3.3% 100px 3.3%;
     }
-    .listContainer > div:nth-child(3) .sideSlide > small{
+    .listContainer > div:nth-child(3) .sideSlide > li > small{
         display: none;
-    }
-    .listContainer > div:nth-child(3) .sideSlide .arrowbox{
-        text-align: center; margin-bottom: 50px;
     }
     .listContainer > div:nth-child(3) .sideSlide li{
         list-style: none;
@@ -367,9 +364,6 @@
         max-width: 250px; box-sizing: border-box; 
         width: 100%; border-radius: 10px; margin-bottom: 20px;
     } 
-    .listContainer > div:nth-child(3) .sideSlide li:not(.active){
-        display: none;
-    }
     .listContainer > div:nth-child(3) .sideSlide li h3{
         font-size: 20px;
         margin-bottom: 20px;
@@ -1847,9 +1841,7 @@
         width: 100%; border-radius: 10px; 
         float: left; margin-right: 16.6%;      
     } 
-    .listContainer > div:nth-child(3) .sideSlide li:not(.active){
-        display: none;
-    }
+    
     .listContainer > div:nth-child(3) .sideSlide li h3{
         font-size: 30px;
         padding: 40px 0 40px 0;
@@ -3328,22 +3320,6 @@
     .listContainer > div:nth-child(3){
         background: url("../images/list_text_circle_img.png") left top / contain no-repeat;
         background-size: 140px; margin-bottom: 200px;
-    }
-    .sideSlide{
-        position: relative;
-    }
-    .sideSlide > .active > .arrowbox{
-        cursor: pointer; position: absolute; bottom: -150px; left: 80px;
-        width: 100%;
-    }
-    .sideSlide > .active > .arrowbox > span.material-icons{
-        padding: 0 1.6%;
-    }
-    .sideSlide > .active > .arrowbox > span.slash{
-        padding: 1 0;
-    }
-    .sideSlide > .active > .arrowbox > strong{
-        font-size: 26px; font-weight: 700;
     }
     .listContainer > div:nth-child(3) .sideSlide::after{
         content: ""; display: block; clear: both;

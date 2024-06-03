@@ -66,6 +66,18 @@ footer > div > p:last-of-type{
         left: 60px; background-size: 5px; background-color: transparent;
         border: 3px solid white; border-radius: 50%; background-position: center;
     }
+    .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction{
+        position: absolute; top: 700px; left: 12%;
+    }
+    .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url("../images/arrow_back_ios_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-repeat: no-repeat; background-size: 30px; background-position: center;
+    }
+    .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url("../images/arrow_forward_ios_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-repeat: no-repeat; background-size: 30px; background-position: center;
+        left: 50px;
+    }
     .mainPage{
         background: url('../images/footer_moblie.png') left bottom / contain no-repeat;
         width: 100%;
@@ -274,6 +286,18 @@ footer > div > p:last-of-type{
         padding: 10px;
         left: 85px; background-size: 20px; background-color: transparent;
         border: 3px solid white; border-radius: 50%; background-position: center;
+    }
+    .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction{
+        position: absolute; top: 200px; left: 12%;
+    }
+    .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url("../images/arrow_back_ios_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-repeat: no-repeat; background-size: 30px; background-position: center;
+    }
+    .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url("../images/arrow_forward_ios_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-repeat: no-repeat; background-size: 30px; background-position: center;
+        left: 50px;
     }
     .mainPage{
         background: url('../images/footer_tablet.png') left bottom / contain no-repeat;
