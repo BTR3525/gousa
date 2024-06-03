@@ -7,6 +7,7 @@ $(document).ready(function(){
     popupEvent(".formbox form fieldset input[type='button']");
     moreboxEvent(".moreBox");
     funnyboxEvent(".funnystory");
+    listSlider();
     // sidesliderbutton(".sideSlide");
     // randomEvent(".mainContainer > div:last-child ul li a");
 });
@@ -108,3 +109,6 @@ function moreboxEvent(){
         }
     });
 };
+function listSlider(){
+    $(".mainCarouselSlider").bxSlider();
+}
