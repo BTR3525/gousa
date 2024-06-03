@@ -34,7 +34,9 @@ footer > div > p:last-of-type{
     background: #fff;
 }
 .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
-    background-color: red;
+    background-color: transparent;
+    background-image: url("../images/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.png");
+    border-radius: 50%; color: white;
 }
 
 
