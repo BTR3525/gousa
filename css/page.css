@@ -1,0 +1,4489 @@
+
+.btn_circle{
+    font-size: 14px; line-height: 20px; color: #62832b;
+    display: block;
+}
+.btn_circle > *{
+    max-width: 80px; border-radius: 40px; background-color: #62832b;
+    font-size: 36px; color: white; text-align: right; line-height: 42px;
+    padding-left: 30px;
+}
+.btn_before{
+    font-size: 18px; font-weight: 700; color: #4d4c4c; line-height: 58px;
+    border: 1px solid #d28c1d;
+    background-color: #d28c1d;
+    border-radius: 20px; 
+    width: 210px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .mainContainer > div:nth-child(3),
+    .mainContainer > div:nth-child(4),
+    .mainContainer > div:nth-child(5),
+    .mainContainer > div:last-child{
+        max-width: 260px; margin: 0 auto;
+    }
+    .mainContainer .mainSliderBox{
+        margin-bottom: 80px;
+    }
+    .mainContainer .mainSliderBox div:first-child{
+        position: absolute; top: 80px; left: 3.7%;
+        color: white; width: 100%; 
+    }
+    .mainContainer .mainSliderBox h2 > small{
+        font-size: 8px;
+        margin-bottom: 20px;
+        display: block; line-height: 12px;
+    }
+    .mainContainer .mainSliderBox div h2 span{
+        font-weight: 700;
+        font-size: 20px;
+        display: block;
+        margin-bottom: 20px;
+        line-height: 36px;
+    }
+    .btn_more{
+        display: block; text-align: center;
+        font-size: 20px;font-weight: 700;
+        max-width: 140px; background-color: #dfa927;
+        color: black; border-radius: 30px;
+        line-height: 30px;
+    }
+    .mainContainer .mainSliderBox ul li:nth-child(1) img{
+        width: 100%; height: 350px; object-fit: cover;
+    }
+    .mainContainer .mainSliderBox ul li:not(.active) img{
+        display: none;
+    }
+    .mainContainer .mainSliderBox div:last-child{
+        position: absolute; top: 200px; right: 3%;
+        transform: rotate(-90deg); line-height: 80px;
+        width: 200px; padding-left: 40px; display: none;
+    }
+    /* ! code 해석해오기 */
+    .mainContainer .mainSliderBox div:last-child::before{
+        content: "　"; background-color: #62832b; border-radius: 40px;
+        width: 80px; display: block; left: 0; top: 0; position: absolute; opacity: 0.5;
+        z-index: -1;
+    }
+    .mainContainer .mainSliderBox div:last-child span{
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: 700;
+        color: white;
+    }
+    /* fin */
+
+    /* .mainContainer > div:nth-child(2)::after{
+        content: ""; display: block; clear: both;
+    } */
+    .mainContainer > div:nth-child(2){
+        margin: 0 0 80px 3%; 
+    }
+    .mainContainer div:nth-child(2) > .travelList{
+        display: block; width: 100%; overflow-x: scroll;
+        white-space: nowrap; margin-bottom: 30px;
+    }
+    .mainContainer > div:nth-child(2) > .travelList li:not(:first-child){
+        margin-left: 20px;
+    }
+    .mainContainer div:nth-child(2) .travelList li{
+        box-sizing: border-box;
+        list-style: none; position: relative; display: inline-block;
+    }
+    .mainContainer div:nth-child(2) .travelList li a{
+       display: block;
+    }
+    .mainContainer div:nth-child(2) .travelList li a img{
+        width: 100%; border-radius: 10px; max-width: 140px; height: 180px;
+        object-fit: cover;
+    }
+    .mainContainer div:nth-child(2) .travelList li a strong{
+        font-size: 16px; font-weight: 700;
+        position: absolute; left: 0; bottom: 30px; width: 100%;
+        text-align: center; color: #ffffff;
+    }
+    .mainContainer div:nth-child(2) .expList{
+        display: none;
+    }
+    .mainContainer div:nth-child(2) .tabBox{
+        padding-bottom: 15px;
+    }
+    .mainContainer > div:nth-child(2) > div .tabBox input.active{
+        border-bottom: 3px solid #62832b;
+    }
+    .mainContainer div:nth-child(2) .tabBox input[type="button"]{
+        font-size: 18px; font-weight: 700; line-height: 24px;
+        background-color: transparent; border: none;
+        cursor: pointer;
+    }
+    .mainContainer div:nth-child(2) .tabBox input[type="button"]:last-of-type{
+        margin-left: 1%;
+    }
+    .mainContainer div:nth-child(2) .travelList h2{
+        font-size: 30px; font-weight: 700; line-height:36px;
+        margin-bottom: 20px; 
+    }
+    .mainContainer div:nth-child(2) .travelList p{
+        font-size: 12px; line-height: 18px; color: #737373;
+        margin-bottom: 50px;   
+    }
+    /* fin */
+
+    .mainContainer > div:nth-child(3){
+        padding: 0 1;
+    }
+    /* .mainContainer > div:nth-child(3):after{
+        content: ''; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(3) > div{
+        float: left; margin-bottom: 70px;
+        width: 57%;
+    } */
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1){
+        /* width: 58.23%; */
+        width: 31%; margin-right: 8%; display: none;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1) h2{
+        font-size: 30px; font-weight: 700; color: #4a2b83; margin-bottom: 40px;
+        text-align: center;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1) ul::after{
+        content: ""; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1) ul li{
+        float: left; margin-right: 1%; 
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1) ul li{
+        float: left; box-sizing: border-box;
+        list-style: none; position: relative;
+        filter: drop-shadow(5px 5px 10px #000);
+    }
+    .mainContainer > div:nth-child(3) > div:first-child ul li:first-child{
+        margin-right: 12%; 
+    }
+    .mainContainer > div:nth-child(3) > div:first-child ul li a{
+        display: block; background-color: transparent; 
+        border: none;
+    }
+    .mainContainer > div:nth-child(3) > div:first-child ul li a img{
+        width: 100%; border-radius: 10px; margin-bottom: 40px; height: 250px;
+      
+    }
+    .mainContainer > div:nth-child(3) > div:first-child ul li a strong{
+        position: absolute; left: 0; bottom: 45px; text-align: center; padding-bottom: 30px;
+        color: white; font-size: 18px; width: 100%; box-sizing: border-box;
+    }
+    /* fin */
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2){
+        width: 100%; margin: 60px auto;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) h2{
+        font-size: 25px; color: #62832b; text-align: center; font-weight: 700;
+        margin-bottom: 30px;
+    }
+    /* .mainContainer > div:nth-child(3) > div:nth-of-type(2):after{
+        content: ''; display: block; clear: both;
+    } */
+    /* .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul{
+         float: left; width: 45.48%; 
+    } */
+    
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul li{
+        padding: 220px 0 45px; margin-bottom: 30px;
+        list-style: none; background-repeat: no-repeat; background-size: cover;
+        background-position: center bottom; position: relative;
+        border-radius: 10px; 
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul li a strong{
+        position: absolute; left: 0; bottom: 45px; text-align: center;
+        color: #ffffff; font-size: 18px; font-weight: 700; padding: 0 7%;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li:nth-child(1){
+        position: relative;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li::before{
+        content: ""; opacity: 0.5; position: absolute; left: 0; top: 0; background-color: #000;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li:nth-child(1){
+        background-image: url("../images/content4_02.jpeg"); 
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li:nth-child(2){
+        background-image: url("../images/content4_03.jpeg");
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(2) li:nth-child(1){
+        background-image: url("../images/content4_01.jpeg");
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(2) li:nth-child(2){
+        background-image: url("../images/content4_04.jpeg");
+    }
+    /* fin */
+    /* .mainContainer > div:nth-child(4)::after{
+        content: ""; display: block; clear: both;
+    } */
+    .mainContainer > div:nth-child(4){
+        margin-bottom: 50px;
+    }
+    /* .mainContainer > div:nth-child(4) > div{
+        float: left; width: 50%; padding-left: 4%;
+    }  */
+    .mainContainer > div:nth-child(4) figure > a:first-child{
+        display: block; max-width: 770px; box-sizing: border-box;
+    }
+    /* .mainContainer > div:nth-child(4) figure::after{
+        content: ""; display: block; clear: both;
+    } */
+    .mainContainer > div:nth-child(4) figure > a{
+        max-width: 225px; box-sizing: border-box; display: block;
+        margin-bottom: 15px;
+    }
+    .mainContainer > div:nth-child(4) figure > a img{
+        width: 100%;
+    }
+    .mainContainer > div:nth-child(4) figure > figcaption{
+        display: flex; margin-bottom: 20px;
+    }
+    .mainContainer > div:nth-child(4) figure > figcaption span{
+        font-size: 10px; line-height: 16px; font-weight: 700;color: #71a35e;
+        justify-content: center; align-items: center; margin-right: 5%;
+    }
+    .mainContainer > div:nth-child(4) figure > figcaption a img{
+        max-width: 120px; box-sizing: border-box;
+    }
+    .mainContainer > div:nth-child(4) > div h2{
+        font-size: 30px; font-weight: 700; color: #62832b;
+        padding-bottom: 30px;
+    }
+    .mainContainer > div:nth-child(4) > div p{
+        font-size: 16px; line-height: 22px; font-weight: 700; 
+        padding-bottom: 35px; 
+    }
+    .mainContainer > div:nth-child(4) > div a{
+        font-size: 16px; line-height: 22px; font-weight: 700;
+        display: block; text-align: center;
+    }
+    .mainContainer > div:nth-child(4) > div a > b{
+        font-size: 30px; color: #ffffff; border-radius: 40px; width: 80px;
+        background-color: #62832b; line-height: 22px; text-align: right; 
+        padding: 5px 0 5px 20px;
+    }
+    /* fin */
+    
+    .mainContainer >div:last-child{
+        margin-bottom: 70px;
+    }
+    .mainContainer >div:last-child h2{
+        font-size: 20px; font-weight: 700;
+        color: black;
+        margin-bottom: 50px;
+    }
+    .mainContainer >div:last-child  h2 > b{
+        font-size: 20px; line-height: 26px; font-weight: 700;
+        text-align: right; margin-bottom: 50px;
+        color: #ffffff; display: none;
+    }
+    .mainContainer > div:last-child ul{
+        display: flex; justify-content: flex-end;
+    }
+    .mainContainer > div:last-child ul li{
+        width: 49%; box-sizing: border-box;
+        position: relative; list-style: none;
+    }
+    .mainContainer > div:last-child ul li:last-child{
+        margin-left: 2%; 
+    }
+    .mainContainer > div:last-child ul li a{
+        display: block; 
+    }
+    .mainContainer > div:last-child ul li a strong{
+        color: #ffffff; position: absolute; top: 250px; left: 155px;
+        padding-bottom: 50px; visibility: hidden;
+    }
+    .mainContainer > div:last-child ul li a img{
+        width: 100%; border-radius: 10px; 
+    }
+    /* mainpage fin */
+
+    .listContainer{
+        margin-bottom: 100px;
+    }
+    .listContainer .mainSliderBox{
+        margin-bottom: 80px;
+    }
+    .listContainer .mainSliderBox .mainCarouselSlider{
+        list-style: none; 
+    }
+    .listContainer .mainSliderBox .mainCarouselSlider li img{
+        width: 100%; filter: brightness(0.7); z-index: -1; height: 200px;
+    }
+    .listContainer .mainSliderBox .mainCarouselSlider li h2{
+        position: absolute; top: 70px;  
+        font-size: 18px; color: white; font-weight: 700;
+        line-height: 22px; 
+        padding: 0 3.3% 120px 3.3%; z-index: 1;
+    }
+    .listContainer .mainSliderBox .mainCarouselSlider li h2 > small{
+        font-size: 12px; line-height: 18px; color: white;
+        margin-bottom: 10px;
+        display: block;
+    }
+    .listContainer > div:nth-child(2){
+        margin-bottom: 80px;
+    }
+    .listContainer > div:nth-child(2) figure img{
+        width: 100%;  box-sizing: border-box;
+        background-color: #f1f3ed;  height: 180px;
+        object-fit: cover; padding: 10px 30px 10px 0;
+        margin-bottom: 30px;
+    }
+    .listContainer > div:nth-child(2) figure figcaption h3{
+        font-size: 20px; font-weight: 700; padding-bottom: 30px;
+        line-height: 26px; 
+    }
+    .listContainer > div:nth-child(2) figure figcaption p{
+        font-size: 14px; line-height: 20px; font-weight: 400;
+        color: #848484; 
+    }
+    /* fin */
+    .listContainer > div:nth-child(3) .sideSlide::after{
+        content: ""; display: block; clear: both;
+    }
+    .listContainer > div:nth-child(3) .sideSlide{
+        margin: 0 3.3% 100px 3.3%;
+    }
+    .listContainer > div:nth-child(3) .sideSlide > li > small{
+        display: none;
+    }
+    .listContainer > div:nth-child(3) .sideSlide li{
+        list-style: none;
+    }
+    .listContainer > div:nth-child(3) .sideSlide li img{
+        max-width: 250px; box-sizing: border-box; 
+        width: 100%; border-radius: 10px; margin-bottom: 50px;
+    } 
+    .listContainer > div:nth-child(3) .sideSlide li h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .listContainer > div:nth-child(3) .sideSlide li p{
+        font-size: 14px; line-height: 20px; color: #737373;
+        font-weight: 400; margin-bottom: 45px; 
+    }
+    .listContainer > div:nth-child(3) .sideSlide li:after{
+        content: ""; display: block; clear: both;
+    }
+    .listContainer > div:nth-child(3) .sideSlide li > a,
+    .listContainer > div:nth-child(3) .sideSlide li > u{
+        float: left; 
+    }
+    .listContainer > div:nth-child(3) .sideSlide li > a{
+        margin-bottom: 20px; display: block; font-size: 16px; line-height: 22px;
+        font-weight: 700;  color: #62832b;
+    }
+    .listContainer > div:nth-child(3) .sideSlide li > a:last-child{
+        width: 60%; margin-left: 5%;
+    }
+    .listContainer > div:nth-child(3) .sideSlide li a strong{
+        font-size: 20px; font-weight: 700; line-height: 30px; color: white;
+        border: 1px solid #62832b; background-color: #62832b; width: 80px;
+        border-radius: 50px; padding: 12px 0 12px 30px; 
+    }
+    .listContainer > div:nth-child(3) .sideSlide li u{
+        color: #6a92f6; font-size: 14px; line-height: 20px; font-weight: 700;
+    }
+    /* fin */
+    .listContainer > div:nth-child(4){
+        margin-bottom: 80px;   
+    }
+    .listContainer > div:nth-child(4) h3{
+        text-align: center; font-size: 30px;
+        margin-bottom: 40px;
+    }
+    /* .listContainer > div:nth-child(4) .expcardSlot::after{
+        content: ""; display: block; clear: both;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li{
+        width: 25.60%; list-style: none; float: left;
+    } */
+    
+    .listContainer > div:nth-child(4) .expcardSlot{
+        width: 100%; overflow-x: scroll; white-space: nowrap; display: block;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li{ 
+        list-style: none; display: inline-block; box-sizing: border-box;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li a{
+        display: block; position: relative;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li a strong{
+        position: absolute; bottom: 30px; width: 100%; left: 0;
+        font-size: 16px; font-weight: 700; color: #fff;
+        text-align: center; padding: 0 8%; display: block; 
+        box-sizing: border-box; white-space: normal;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li a img{
+        width: 100%; border-radius: 20px;
+        height: 250px; object-fit: cover;
+        filter: brightness(0.7);
+    }
+    /* fin */
+    .listContainer > div:nth-child(5){
+        margin-bottom: 80px;
+    }
+    .listContainer > div:nth-child(5) img{
+        width: 100%; height: 300px;
+        padding: 0 20px 40px 0; background-color: #cfd6c5;
+        border-radius: 10px; object-fit: cover;
+    }
+    .listContainer > div:nth-child(5)::after{
+        content: ""; display: block; clear: both;
+    }
+    .airplanebox{
+        margin-bottom: 50px;
+    }
+    .airplanebox h3{
+        font-size: 25px; font-weight: 700;
+        margin-bottom: 70px; padding-top: 60px;
+    }
+    .airplanebox div:first-of-type{
+        margin-bottom: 40px;
+    }
+    .airplanebox div b{
+       font-size: 14px; line-height: 24px; color: #444444; 
+    }
+    .airplanebox div:first-of-type:after{
+        content: ""; display: block; clear: both;
+    }
+    .airplanebox div:first-of-type ul{
+        list-style: none; float: right; 
+    }
+    .airplanebox div:first-of-type ul li{
+        font-size: 14px; color: #848484; font-weight: 700;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+    .airplanebox div:last-of-type span{
+        padding-left: 50px; font-size: 14px; line-height: 20px; font-weight: 700; color: #939393;
+    }
+    /* fin */
+    .listContainer > div:nth-child(6){
+        margin-bottom: 80px;  
+    }
+    .funnystory li{
+        list-style: none;
+    }
+    .funnystory li img{
+        width: 100%; border-radius: 10px;
+        margin-bottom: 50px; height: 400px; object-fit: cover;
+    }
+    .funnystory li:not(:first-of-type){
+        display: none;
+    }
+    .funnystory li h3{
+        font-size: 20px; font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .funnystory li p{
+        font-size: 14px; line-height: 20px; font-weight: 400;
+    }
+    /* class active 추가하기!!!!!!!!*/
+    .moreBox{
+        /* margin-bottom: 145px; */
+        padding-bottom: 80px; opacity: 0;
+    }
+    .moreBox.active{
+        opacity: 1; transition: 0.4s
+    }
+    .moreBox.active ul li:first-child{
+        transition-delay: 0.1s;
+    }
+    .moreBox.active ul li:nth-child(2){
+        transition-delay: 0.2s;
+    }
+    .moreBox.active ul li:nth-child(3){
+        transition-delay: 0.3s;
+    }
+    .moreBox.active ul li:nth-child(4){
+        transition-delay: 0.4s;
+    }
+    .moreBox.active ul li:nth-child(5){
+        transition-delay: 0.5s;
+    }
+    .moreBox.active ul li:last-child{
+        transition-delay: 0.6s;
+    }
+    .moreBox h3{
+        margin-bottom: 40px;
+        font-size: 16px; line-height: 22px; color: #565656; font-weight: 700;
+    }
+    /* .moreBox ul::after{
+        content: ""; display: block; clear: both;
+    } */
+    .moreBox ul{
+        list-style: none;
+    }
+    /* .moreBox ul li{
+        width: 24.8%; float: left; 
+    }*/
+    .moreBox ul li{
+        margin-bottom: 30px; width: 100%;
+    }
+    .moreBox ul li a{
+        display: block; font-size: 18px; line-height: 22px; font-weight: 700; color: #565656;
+    }
+    .moreBox ul li a img{
+        width: 100%; box-sizing: border-box; margin-bottom: 10px;height: 200px;
+        object-fit: cover;
+    }
+    /* 각각 주마다 이미지 삽입필요!!!!!! */
+    .moreBox ul li a b{
+        display: block; font-size: 12px; line-height: 18px; margin: 10px 0 0 8%; 
+        font-weight: 400; color: #565656;
+    }
+    /* fin */   
+    .websitebox{
+        position: relative;
+        /* margin-bottom: 300px; */
+        padding-bottom: 80px;
+    }
+    .websitebox h3{
+        font-size: 18px; line-height: 22px; font-weight: 400; color: #7d7b7b;
+        margin-bottom: 30px;
+    }
+    .websitebox:after{
+        content: ""; display: block; clear: both;
+    }
+    .websitebox > a{
+        color: #565656; font-size: 14px; line-height: 22px; font-weight: 400;
+        width: 49%; float: left; display: block;
+        
+    }
+    .websitebox a:last-child{
+        margin-left: 2%;
+    }
+    .websitebox a img{
+        width: 100%; max-width: 250px; box-sizing: border-box; display: block;
+        margin-bottom: 10px;
+    }
+    /* fin */
+    .videobox{
+        box-sizing: border-box;
+        padding: 0 6% 250px 6%;
+    }
+    .videobox h3{
+        font-size: 20px; line-height: 24px; font-weight: 700;
+        padding-bottom: 10px; color: #7d7b7b;
+    }
+    .videobox > b{
+        font-size: 14px; font-weight: 400; line-height: 18px;
+        color: #7d7b7b; 
+    }
+    .videobox img{
+        width: 100%; 
+        padding-top: 20px;
+    }
+    .videobox a{
+        display: block; background-color: #151f3a; color: white;
+        text-align: center; padding: 20px 20px; border-radius: 10px; font-weight: 700;
+    }
+    section > a:last-child{
+        display: block;
+    }
+    /* fin */
+/* list pages fin */ 
+/* .detailContainer{
+    max-width: 1230px; margin: 0 auto; 
+} */
+.detailContainer{
+    margin-bottom: 100px;
+}
+.detailContainer div:first-child{
+    position: relative; margin-bottom: 80px;
+}
+.detailContainer div:first-child h2{
+    position: absolute; left: 3.3%; top: 70px; font-size: 18px; font-weight: 700; 
+    z-index: 1; color: white; 
+}
+.detailContainer div:first-child h2 small{
+    font-size: 12px; line-height: 18px; font-weight: 700;
+    display: block; margin-bottom: 20px; box-sizing: border-box;
+}
+.detailContainer div:first-child h2 cite{
+    font-weight: 700; font-size: 12px; line-height: 50px;
+}
+.detailContainer div:first-child img{
+    width: 100%; filter: brightness(0.7); z-index: -1; height: 250px; object-fit: cover;
+}
+/* fin */
+.detailContainer div:nth-child(2){
+    margin-bottom: 100px;
+}
+.detailContainer div:nth-child(2):after{
+    content: ""; display: block; clear: both;
+}
+.detailContainer div:nth-child(2) figure > img{
+    width: 100%;  box-sizing: border-box; margin-bottom: 30px;
+}
+/* .detailContainer div:nth-child(2) figure:after{
+    content: ""; display: block; clear: both;
+} */
+.detailContainer div:nth-child(2) figure figcaption h3{
+    font-size: 20px; font-weight: 700; color: #000;
+    margin-bottom: 40px; 
+}
+.detailContainer div:nth-child(2) figure figcaption h3 small{
+    display: block; font-size: 12px; margin-left: 5%; 
+    padding-top: 10px; color: #686464; font-weight: 400;
+}
+.detailContainer div:nth-child(2) figure p{
+    font-size:  14px; line-height: 20px; font-weight: 400; margin-bottom: 40px;
+}
+.detailContainer div:nth-child(2) figure div h4{
+    font-size: 18px; line-height: 22px; font-weight: 400;
+    color: #565656; padding-bottom: 25px; 
+}
+.detailContainer div:nth-child(2) figure div a{
+    display: block; font-size: 16px; line-height: 20px; font-weight: 400;
+    color: #565656;
+}
+.detailContainer div:nth-child(2) figure div a small{
+    margin-left: 5%; font-size: 12px; 
+}
+.detailContainer div:nth-child(2) figure div a img{
+    width: 100%; max-width: 70%; margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.detailContainer div:nth-child(2) figure div a b{
+    padding-bottom: 10px; display: block; font-size: 14px; 
+    font-weight: 700; color: #565656;
+}
+/* fin */
+.detailContainer > div:nth-child(3) img{
+    margin-bottom: 30px; width: 100%; border-radius: 10px;
+    object-fit: cover;
+}
+.detailContainer div:nth-child(3) h2{
+    text-align: center; font-size: 20px; font-weight: 700;
+    padding-bottom: 30px;
+}
+.detailContainer div:nth-child(3) h2 small{
+    display: block; font-size: 12px; padding-top: 10px; color: #565656;
+    line-height: 18px; font-weight: 400; 
+}
+.detailContainer div:nth-child(3) p{
+    font-size: 14px; line-height: 24px; font-weight: 400;
+    text-align: center;
+}
+/* fin */
+.detailContainer div:nth-child(4){
+    margin-bottom: 80px;
+}
+.detailContainer div:nth-child(4) figure:after{
+    content: ""; display: block; clear: both;
+}
+.detailContainer div:nth-child(4) figure img{
+    object-fit: cover; max-width: 70%; height: 300px;
+    border-radius: 10px; 
+}
+.detailContainer div:nth-child(4) figure figcaption{
+    margin-top: 40px;
+} 
+.detailContainer div:nth-child(4) figure figcaption h3{
+    margin-bottom: 40px; font-size: 25px; font-weight: 700;
+}
+.detailContainer div:nth-child(4) figure figcaption h3 small{
+    display: block; font-size: 10px; line-height: 16px; color: #565656;
+    padding: 10px 0 0 5%; font-weight: 400;
+}
+.detailContainer div:nth-child(4) figure figcaption p{
+    line-height: 22px; font-size: 14px; font-weight: 400; color: #565656;
+}
+.detailContainer .floatBox{
+    margin-bottom: 80px; list-style: none;
+}
+.detailContainer .floatBox li figure img{
+    height: 230px; width: 100%; margin-bottom: 30px;
+}
+.detailContainer .floatBox .limgRtxt{
+    margin-bottom: 100px;
+}
+/* .floatBox .limgRtxt figure:after{
+    content: ""; display: block; clear: both;
+} */
+.floatBox .limgRtxt figure figcaption{
+    width: 100%;
+}
+.floatBox .limgRtxt figure figcaption h3{
+    margin-bottom: 40px; font-size: 20px; font-weight: 700; 
+}
+.floatBox .limgRtxt figure figcaption p{
+    font-size: 14px; line-height: 20px; font-weight: 400; color: #565656; 
+}
+.detailContainer .floatBox .ltxtRimg{
+    margin-bottom: 80px; position: relative;
+}
+/* .floatBox .ltxtRimg figure:after{
+    content: ""; display: block; clear: both;
+} */
+.detailContainer .floatBox .ltxtRimg figure img{
+    height: 230px; margin-bottom: 35px;
+    /* height? */
+}
+.floatBox .ltxtRimg figure figcaption{
+    width: 100%;
+}
+.floatBox .ltxtRimg figure h3{
+    margin-bottom: 40px; font-size: 20px; font-weight: 700;
+    display: block;  
+}
+.floatBox .ltxtRimg figure figcaption p{
+    font-size: 14px; line-height: 22px; font-weight: 400; color: #565656; 
+    margin-bottom: 20px;
+}
+.floatBox .ltxtRimg figure figcaption small{
+    bottom: -40px;
+    font-size: 12px; line-height: 18px;
+}
+/* fin */
+.detailContainer div:last-child{
+    margin-bottom: 50px;
+}
+.detailContainer div:last-child h3{
+    font-size: 20px; text-align: center; margin-bottom: 40px; font-weight: 700;
+}
+.detailContainer .expcardSlot{
+    margin-bottom: 80px; width: 100%; overflow-x: scroll; display: block; white-space: nowrap;
+}
+.detailContainer .expcardSlot li{
+    list-style: none; display: inline-block; position: relative; box-sizing: border-box;
+}
+.detailContainer .expcardSlot li a{
+    display: block;
+}
+.detailContainer .expcardSlot li a strong{
+    position: absolute; bottom: 30px; width: 100%; left: 0;
+    font-size: 14px; font-weight: 700; color: #fff; line-height: 20px;
+    text-align: center; padding: 0 8%; display: block; 
+    box-sizing: border-box;  white-space: normal;
+}
+.detailContainer .expcardSlot li a img{
+    border-radius: 20px; box-sizing: border-box;
+    height: 170px; object-fit: cover; max-width: 130px;
+    filter: brightness(0.7);
+}
+/* .expcardSlot li a img:hover{
+    transform: scale(1.1);
+    overflow: hidden; transition: transform 0.3s; box-sizing: border-box;
+} */
+/* detalipages fin */
+
+
+.destination{
+    margin-bottom: 100px;
+}
+    .destination > div:first-child{
+        position: relative;
+        margin-bottom: 80px;
+    }
+    .destination div:first-child h2{
+        position: absolute;
+        top: 80px; left: 3.3%;
+        padding-bottom: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+    }
+    .destination div:first-child img{
+        width: 100%; height: 220px;
+        object-fit: cover;
+    }
+    .destination .guide h3{
+        text-align: center; font-size: 20px; font-weight: 700; margin-bottom: 20px;
+    }
+    .destination .guide > .destinatiMenu{
+        width: 100%; overflow-x: scroll; white-space: nowrap; display: block; 
+        margin-bottom: 50px;
+    }
+    .destination .guide > .destinatiMenu li{
+        display: inline-block; font-size: 14px; font-weight: 700;
+    }
+    .destination .guide > .destinatiMenu li:not(:last-child){
+        margin-right: 15px;
+    }
+    /* .destination .guide > .destinatiMenu{
+        display: flex; font-size: 18px; font-weight: 700;
+        justify-content: space-between;
+        list-style: none;
+        margin-bottom: 100px; cursor: pointer;
+    } */
+    .destination .guide > .destinatiMenu > .active{
+        border-bottom: 4px solid #4e53bb; border-radius: 2px;
+        padding-bottom: 10px;
+    }
+    /* .destination .guide > .imgslotbox::after{
+        content: ""; display: block; clear: both;
+    }
+    .destination .guide > .imgslotbox > .active ul{
+        float: left; width: 26.41%;
+        list-style: none;
+    } */
+    .destination .guide > .imgslotbox ul:not(:last-child){
+        /* display: inline-block;  */float: left;
+        width: 49%;
+    }
+    .destination .guide > .imgslotbox ul:not(:last-child) li{
+        margin-right: 1%;
+    }
+    .destination .guide > .imgslotbox .active ul li{
+        margin-bottom: 30px; list-style: none; 
+        position: relative;
+    }
+    .destination .guide > .imgslotbox .active ul:last-child::after{
+        content: ""; display: block; clear: both;
+    }
+    .destination .guide > .imgslotbox .active ul:last-child > li{
+        float: left; width: 48%; margin-left: 1%;
+    }
+    .destination .guide > .imgslotbox .active ul:last-child > li:first-child{
+        margin-right: 1%;
+    }
+    .destination .guide > .imgslotbox .active ul li a{
+        display: block;
+    }
+    .destination .guide > .imgslotbox .active ul li a img{
+        width: 100%; border-radius: 20px; filter: brightness(0.8);
+        height: 150px;
+        /* height로 사용가능? */
+        object-fit: cover; 
+    }
+    /* .destination .guide > .imgslotbox .active ul li a img:hover{
+        transform:scale(1.2); box-sizing: border-box; transition: transform 0.5s;
+    } */
+    .destination .guide > .imgslotbox .active ul li a strong{
+        position: absolute; bottom: 30px; left: 0; 
+        font-size: 16px; width: 100%; 
+        text-align: center;
+        color: white; 
+    }
+    .imgslotbox > div:not(.active){
+        display: none;
+    }
+    /* 수정 중 class 사용 */
+    
+/* destination fin */
+    .travel{
+        margin-bottom: 100px;
+    }
+    .travel > div:first-child{
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .travel div:first-child h2{
+        position: absolute;
+        top: 80px; left: 3.3%;
+        padding-bottom: 40px;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        z-index: 1;
+    }
+    .travel div:first-child img{
+        width: 100%; height: 220px; filter: brightness(0.8);
+    }
+    .travel .guide h3{
+     text-align: center; font-size: 20px; font-weight: 700;
+     margin-bottom: 30px;   
+    }
+    .travel .guide > p{
+        font-size: 14px; line-height: 20px;
+        font-weight: 700; margin-bottom: 30px;
+    }
+    .travel .guide > p > a{
+        color: #4e53bb;
+    }
+    .travel .guide > .destinatiMenu{
+        list-style: none; padding: 0 6.6%;
+        font-size: 18px; font-weight: 700;
+        display: block; width: 100%; overflow-x: scroll; white-space: nowrap;
+        margin-bottom: 50px; cursor: pointer;
+    }
+    .travel .guide .destinatiMenu li{
+        display: inline-block;
+    }
+    .travel .guide .destinatiMenu li:not(:first-child){
+        margin-left: 5%;
+    }
+    .travel .guide .destinatiMenu > .active{
+        border-bottom: 4px solid #4e53bb; border-radius: 2px;
+        padding-bottom: 10px;
+    }   
+    .travel .guide > .imgslotbox > div:not(.active){
+        display: none;
+    }
+    .travel .guide > .imgslotbox{
+        margin-bottom: 80px; 
+    }
+    .travel .guide > .imgslotbox:after{
+        content: ""; display: block; clear: both;
+    }
+    .travel .guide > .imgslotbox > .active ul:after{
+        content: ""; display: block; clear: both;
+    }
+    .travel .guide > .imgslotbox > .active ul:not(:last-child){  
+        list-style: none; width: 48%; float: left;
+    }
+    .travel .guide > .imgslotbox > .active ul:not(:first-child){
+        margin-left: 1%;
+    }
+    .travel .guide > .imgslotbox > .active ul:last-child li{
+        float: left; width: 48%; list-style: none; margin-left: 1%;
+    }
+    .travel .guide > .imgslotbox > .active ul:last-child li:first-child{
+        margin-right: 1%;
+    }
+    .travel .guide > .imgslotbox .active ul li{
+        margin-bottom: 30px; 
+        position: relative;
+    }
+    .travel .guide > .imgslotbox .active ul li a{
+        display: block; 
+    }
+    .travel .guide > .imgslotbox .active ul li a img{
+        width: 100%; border-radius: 20px;
+        height: 140px;
+        /* height로 사용가능? */
+        object-fit: cover;
+        filter: brightness(0.7);
+    }
+    .travel .guide > .imgslotbox .active ul li a:hover img{
+        transform: scale(1.1);
+        overflow: hidden; transition: transform 0.3s;
+    }
+    .travel .guide > .imgslotbox .active ul li a strong{
+        position: absolute; bottom: 30px; left: 0; 
+        font-size: 12px; width: 100%; font-weight: 700; 
+        text-align: center; padding: 0 5%; box-sizing: border-box;
+        color: white; 
+    }
+    /* traver fin */
+    .experience{
+        margin-bottom: 100px;
+    }
+    .experience > div:first-child{
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .experience div:first-child h2{
+        position: absolute;
+        top: 80px; left: 6.6%;
+        padding-bottom: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        z-index: 1;
+    }
+    .experience div:first-child img{
+        width: 100%; height: 220px; filter: brightness(0.8);
+    }
+    .experience .guide h3{
+     text-align: center; font-size: 60px; font-weight: 700;
+     margin-bottom: 50px;   
+    }
+    .experience .guide > p{
+        text-align: center; font-size: 14px;line-height: 20px;
+        font-weight: 700; margin-bottom: 30px;
+    }
+    .experience .guide > p > a{
+        color: #4e53bb;
+    }
+    .experience .guide > .destinatiMenu{
+        list-style: none;
+        display:block; font-size: 18px; font-weight: 700;
+        overflow-x: scroll; width: 100%;white-space: nowrap;
+        margin-bottom: 50px; cursor: pointer;
+    }
+    .experience .guide > .destinatiMenu li{
+        display: inline-block; 
+    }
+    .experience .guide > .destinatiMenu li:not(:first-child){
+        margin-left: 5%;
+    }
+    .experience .guide .destinatiMenu > .active{
+        border-bottom: 4px solid #4e53bb; border-radius: 2px;
+        padding-bottom: 10px;
+    }   
+    .experience .guide > .imgslotbox > div:not(.active){
+        display: none;
+    }
+    .experience .guide > .imgslotbox{
+        margin-bottom: 20px;
+    }
+    .experience .guide > .imgslotbox::after{
+        content: ""; display: block; clear: both;
+    }
+    .experience .guide > .imgslotbox ul:not(:last-child){
+        /* display: inline-block;  */float: left;
+        width: 48%;
+    }
+    .experience .guide > .imgslotbox ul:not(:last-child) li{
+        margin-right: 1%;
+    }
+    .experience .guide > .imgslotbox .active ul li{
+        margin-bottom: 30px; list-style: none; 
+        position: relative;
+    }
+    .experience .guide > .imgslotbox .active ul:last-child::after{
+        content: ""; display: block; clear: both;
+    }
+    .experience .guide > .imgslotbox .active ul:last-child > li{
+        float: left; width: 48%; margin-left: 1%;
+    }
+    .experience .guide > .imgslotbox .active ul:last-child > li:first-child{
+        margin-right: 1%;
+    }
+    .experience .guide > .imgslotbox .active ul li{
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .experience .guide > .imgslotbox .active ul li a{
+        display: block; 
+    }
+    .experience .guide > .imgslotbox .active ul li a img{
+        width: 100%; border-radius: 20px;
+        height: 145px;
+        /* height로 사용가능? */
+        object-fit: cover;
+        filter: brightness(0.7);
+    }
+    /* .experience .guide > .imgslotbox .active ul li a:hover img{
+        transform: scale(1.1);
+        overflow: hidden; transition: transform 0.3s;
+    } */
+    .experience .guide > .imgslotbox .active ul li a strong{
+        position: absolute; bottom: 30px; left: 0; 
+        font-size: 16px; width: 100%; font-weight: 700; 
+        text-align: center;
+        color: white; 
+    }
+    /* experience fin */
+    
+    .loadMapContainer{
+        margin-bottom: 100px;
+    }
+    .loadMapContainer > div:first-child{
+        margin-bottom: 80px; position: relative;
+    }
+    .loadMapContainer > div:first-child h2{
+        position: absolute; top: 75px;
+        font-size: 20px; font-weight: 700; line-height: 26px;
+        padding-bottom: 30px; color: white;
+        margin-left: 3.3%; z-index: 1;
+    }
+    .loadMapContainer > div:first-child h2 cite{
+        font-size: 12px; line-height: 30px;
+    }
+    .loadMapContainer > div:first-child img{
+        width: 100%; filter: brightness(0.7); height: 145px;
+    }
+    .centerbox{
+         padding-bottom: 80px;
+    }
+    .centerbox h3{
+        font-size: 20px; font-weight: 700; text-align: center;
+        margin-bottom: 30px; color: black;
+    }
+    .centerbox p{
+        font-size: 12px; line-height: 18px; color: #686464;
+    }
+    /* fin */
+    .loadMapContainer .floatBox{
+        margin-bottom: 100px; list-style: none; width: 90%; margin: 0 auto;
+    }
+    /* .loadMapContainer .floatBox::after{
+        content: ""; display: block; clear: both;
+    } */
+    .loadMapContainer .floatBox li{
+        padding-bottom: 90px;
+    }
+    .loadMapContainer .floatBox li figure img{
+        display: block; height: 160px; object-fit: cover; width: 100%;;
+        border-radius: 10px; margin-bottom: 30px;
+    }
+     .loadMapContainer .floatBox li figure figcaption{
+        margin-bottom: 80px;
+     }
+     .loadMapContainer .floatBox li figure figcaption h3{
+        font-size: 20px; line-height: 26px; color: black;
+        font-weight: 700; margin-bottom: 25px;
+     }
+     .loadMapContainer .floatBox li figure figcaption p{
+        font-size: 12px; font-weight: 400; line-height: 18px;
+     }
+     .loadMapContainer .floatBox li > div{ 
+        box-sizing: border-box; margin-bottom: 20px;
+        clear: both; position: relative; border-radius: 10px;
+    }
+     .loadMapContainer .floatBox li > div h4{
+        margin-bottom: 10px; font-size: 20px; font-weight: 400; color: #7d7b7b;
+    }
+     .loadMapContainer .floatBox li > div a img{
+        width: 100%; max-width: 70%; margin-bottom: 10px; 
+    }
+     .loadMapContainer .floatBox li > div a > *{
+        display: block;
+    }
+     .loadMapContainer .floatBox li > div a b{
+        color: #565656; font-size: 16px; margin-bottom: 10px; 
+    }
+     .loadMapContainer .floatBox li > div a small{
+        padding-left: 2%; color: #565656; font-size: 12px; margin-bottom: 20px;
+    }
+    /* .loadMapContainer .floatBox li.limgRtxt > div mark{
+        padding-right: 60px; line-height: 25px; color: black;
+        position: absolute; left: 0; top: 100px; transform: rotate(-90deg); 
+        text-transform: uppercase; background-color: transparent; transform-origin: left bottom;
+    }
+    .loadMapContainer .floatBox li.ltxtRimg > div mark{
+        padding-left: 60px; line-height: 25px; position: absolute; right: -95px; top: 80px; padding: 30px 0 30px 100px;
+        transform: rotate(90deg); color: black;
+        text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
+        background-size: 40px;
+    } */
+    .loadMapContainer .floatBox li > div mark{
+        line-height: 25px; position: absolute; left: -76px; top: 200px;
+        transform: rotate(-90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
+        text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
+        background-size: 35px; padding: 20px 110px 20px 0; text-align: center;
+    }
+    .loadMapContainer .floatBox li:last-child div:last-of-type{
+        border: none; width: 100%;    
+    }
+    .circlebox{
+        padding: 20px 0 0 3%; border-left: 20px solid #8294c4;
+    }
+    .car,
+    .speed,
+    .airplane{
+        text-align: center; display: block;
+    }
+    .car{
+        background-image: url("../images/loadmap/loadmapPart/carimg.png");
+        background-repeat: no-repeat; 
+        background-size: 30px; padding-bottom: 50px; margin-top: 30px;
+    } 
+    .speed{
+        background-image: url("../images/loadmap/loadmapPart/speedimg.png");
+        background-repeat: no-repeat; 
+        background-size: 30px; padding-bottom: 50px;
+    }
+    .airplane{
+        background-image: url("../images/loadmap/loadmapPart/airplane.png");
+        background-repeat: no-repeat;
+        background-size: 30px;  padding-bottom: 50px; margin-top: 30px;
+    }
+    
+/* fin */
+    .top_menucontainer{
+        margin-bottom: 100px;
+    }
+    .top_menucontainer > div:first-child{
+        position: relative; margin-bottom: 80px;
+    }
+    .top_menucontainer div:first-child h2{
+        position: absolute; top: 80px; padding-left: 3.3%;
+        color: white; font-size: 20px; z-index: 1;
+    }
+    .top_menucontainer div:first-child h2 small{
+        font-size: 12px; line-height: 18px; display: block;
+        padding-bottom: 40px;
+    }
+    .top_menucontainer div:first-child > img{
+        width: 100%; filter: brightness(0.6); height: 180px;
+    }
+    .top_menucontainer .menubox{
+        display: none;
+    }
+    .top_menucontainer > div:nth-child(3){
+        margin-bottom: 100px;
+    }
+    /* .top_menucontainer > div:nth-child(3)::after{
+        content: ""; display: block; clear: both;
+    }
+    .top_menucontainer > div:nth-child(3) > div{
+        float: left; width: 60%;
+    } */
+    .top_menucontainer > div:nth-child(3) > div form fieldset legend{
+        font-size: 16px;
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset > label{
+        color: #b7b3b3; border-bottom: 4px solid #b7b3b3; border: none;
+        font-size: 12px; line-height: 18px;
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset > div:first-child{
+        margin-bottom: 40px; font-weight: 700;
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset > div:first-child > label{
+        font-size: 12px; line-height: 18px; 
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset > div:last-child input{
+        display: block; margin-bottom: 30px; 
+        border: none; box-shadow: none; border-bottom: 4px solid #b7b3b3;
+        background-image: none; background-color: transparent;
+        padding-bottom: 10px; font-size: 16px; line-height: 22px; font-weight: 700;
+        color: #b7b3b3; width: 80%;
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child{
+        padding: 0;
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child h3{
+        font-size: 16px; font-weight: 700; margin-bottom: 30px;
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child p{
+        font-size: 14px; line-height: 20px; font-weight: 700; color:#aaaaaa;
+        margin-bottom: 30px;
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child textarea{
+        display: block; margin-bottom: 20px; width:100%; height: 200px; 
+        background-color: #e5e5e5; border: none; font-size: 14px; line-height: 20px;
+        color: #b7b3b3; font-weight: 700; 
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child [type="button"]{
+        width: 100%; padding: 10px 0; background-color: #62832b; color: white;
+        font-size: 16px; font-weight: 700; border: none;
+        cursor: pointer; border-radius: 30px;
+    }
+    .top_menucontainer .textbox h2{
+        font-size: 20px; font-weight: 700; text-align: center;
+        margin-bottom: 40px;
+    }
+    .top_menucontainer div:nth-child(3) h3,
+    .brandusasubbox h3{
+        font-size: 20px; 
+        margin-bottom: 30px;
+    }
+    .top_menucontainer .brand_usaTextarea,
+    .brandusasubbox{
+        list-style: none; 
+    }
+    .brandusasubbox{
+        margin-bottom: 100px;
+    }
+    .top_menucontainer .brand_usaTextarea li,
+    .brandusasubbox li{
+        margin-bottom: 30px; font-size: 14px; line-height: 20px;
+        font-weight: 700; color: #aaaaaa;
+    }
+    .top_menucontainer  .brand_usaTextarea li p > a,
+    .top_menucontainer  .brand_usaTextarea li  a,
+    .brandusasubbox li a{
+        color: #7dc1ef;
+    }
+    .top_menucontainer .textbox .brand_usaTextarea li,
+    .brandusasubbox{
+        font-size: 14px; line-height: 20px; margin-bottom: 30px;
+        color: #aaaaaa; font-weight: 700;
+    } 
+    .brand_usaTextarea,
+    .brandusasubbox{
+        margin-bottom: 50px;   
+    }
+    .brandusasubbox [type="button"]{
+        border: none; background-color: transparent;
+    }
+    .brandusasubbox li{
+        border-bottom: 3px solid #aaaaaa;
+    }
+    .brandusasubbox > li > p{
+        opacity: 0; transition: opacity 0.7s ease-in-out; font-size: 14px; 
+        margin-bottom: 20px;
+    }
+    .brandusasubbox > li .open{
+        opacity: 1;
+    }
+    .brandusasubbox > li [type="button"].open{
+        transform: rotate(90deg);
+    }
+    .brandusasubbox [type="button"]:hover{
+        cursor: pointer; 
+    } 
+    .subscribepopup{
+        display: none;
+    }
+    .formbox form{
+        position: relative;
+    }
+    .formbox form > #confirmPopup.active{
+        display: block; position: absolute; left:0; top: 250px;
+        background-color: #d4d4d4; width: 100%; max-width: 400px;
+        box-sizing: border-box; overflow: hidden;
+    }
+    .formbox form > #confirmPopup.active img{
+        width: 100%; max-width: 100px; position: absolute; right: -50px; top: -20px;
+    }
+    .formbox form > #confirmPopup.active h3{
+        padding-top: 60px; font-size: 30px; color: black; display: block;
+        text-align: center; font-weight: 700;
+    }
+    .formbox form > #confirmPopup.active span{
+        display: block; font-size: 20px; color: #aaaaaa;
+        padding-bottom: 70px; text-align: center; font-weight: 700;
+    }
+    .formbox form > #confirmPopup.active input{
+        font-size: 20px; padding: 20px 0; background-color: #d28c1d;
+        width: 100%; max-width: 170px; margin: 0 auto; text-align: center; border: none;
+        font-weight: 700; cursor: pointer; box-sizing: border-box;
+    }
+    #confirmPopup{
+        display: none;
+    }
+    /* .formbox::after{
+        content: ""; display: block; clear: both;
+    } */
+    .formbox form fieldset legend{
+        margin-bottom: 45px;
+    }
+    .formbox form fieldset{
+        font-size: 16px; font-weight: 700; line-height: 22px;
+        color: #aaaaaa; margin-bottom: 45px;
+    }
+    .formbox form fieldset [type="checkbox"]{
+        display: inline-block; margin-right: 1%;
+    }
+    .formbox form fieldset > a{
+        color: #b3cadb; padding: 20px 0; display: block;
+    }
+    .formbox form fieldset > label{
+        line-height: 22px; margin-bottom: 20px;
+    }
+    .formbox form fieldset input[type="button"]{
+        color: white; border: none; background-color: #dfa927; padding: 16px 0;
+        width: 100%;  border-radius: 10px; font-size: 16px; font-weight: 700;
+    }
+    .formbox form fieldset input[type="button"]:hover{
+        cursor: pointer;
+    }
+    .formbox fieldset > input[type="text"],
+    .formbox fieldset > input[type="email"]{
+        display: block; font-size: 16px; line-height: 22px; color: #aaaaaa; border: none;
+        border-bottom: 4px solid #aaaaaa; padding-bottom: 10px;
+        margin-bottom: 40px; font-weight: 700; width: 100%;
+    }
+    .formbox > div:first-child > a img{
+        width: 100%; max-width: 250px;
+    }
+    .formbox div:last-child a img{
+        width: 100%; margin-bottom: 20px;
+    }
+    .formbox div:last-child > b{
+        font-size: 12px; line-height: 22px; color: #aaaaaa;font-weight: 700;
+    }
+    .formbox div:last-child > h3{
+        font-weight: 700; font-size: 20px; padding-top: 40px;
+    }
+    .formbox div:last-child > p > b{
+        margin-top: 30px; display: block; font-size: 12px;
+    }
+    /* fin */
+    .allvideoContainer{
+        margin-bottom: 100px; position: relative;
+    }
+    .allvideoContainer > div:first-child{
+        margin-bottom: 80px; z-index: 1;
+    }
+    .allvideoContainer > div:first-child > h2{
+        font-size: 20px; font-weight: 700; color: white; 
+        position: absolute; left: 3.3%; top: 80px; z-index: 1;
+    }
+    .allvideoContainer > div:first-child > img{
+        object-fit: cover; filter: brightness(0.8); width: 100%; height: 180px;
+    }
+    .allvideoContainer > div:first-child > h2 small{
+        display: block; font-size: 14px; color: white; font-weight: 700; 
+        margin-bottom: 30px;
+    }
+    .allvideoContainer > div:nth-child(2) > h3{
+        font-size: 20px; font-weight: 700; margin-bottom: 30px; text-align: center;
+    }
+    .allvideoContainer > div:nth-child(2) > p{
+        font-size: 16px; line-height: 22px; margin-bottom: 40px; font-weight: 700;
+        color: #686464;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox{
+        margin-bottom: 80px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video{
+        display: block; 
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox:after{
+        content: ""; display: block; clear: both;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:not(:last-child){
+        list-style: none; float: left; width: 48%;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li{
+        list-style: none; position: relative; margin-bottom: 30px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video:after{
+        content: ""; display: block; clear: both;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:nth-child(2){
+        margin-left: 1%;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:last-child li{
+        float: left; width: 48%;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:last-child li:last-child{
+        margin-left: 1%;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li a{
+        display: block; 
+    } 
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li a img{
+        width: 100%; border-radius: 10px; height: 170px; object-fit: cover;
+        filter: brightness(0.8);
+    }
+    /* .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li a:hover img{
+        transform: scale(1.2); box-sizing: border-box; overflow-y: hidden; transition: transform 0.3s;
+    } */
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li a strong{
+        position: absolute; bottom: 30px; width: 100%; text-align: center; left: 0;
+        font-size: 14px; color: white;  padding: 0 3.3%; box-sizing: border-box;
+    }
+
+}
+/* moblie fin */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    
+    
+    .mainContainer > div:nth-child(2),
+    .mainContainer > div:nth-child(3),
+    .mainContainer > div:nth-child(4),
+    .mainContainer > div:nth-child(5),
+    .mainContainer > div:last-child{
+        max-width: 720; padding:0 3.3%;
+    }
+    .mainContainer .mainSliderBox{
+        margin-bottom: 80px;
+    }
+    .mainContainer .mainSliderBox div:first-child{
+        position: absolute; top: 120px; left: 3.3%;
+        color: white; 
+    }
+    .mainContainer .mainSliderBox h2 > small{
+        font-size: 14px;
+        margin-bottom: 40px;
+        display: block;
+    }
+    .mainContainer .mainSliderBox div h2 span{
+        font-weight: 700;
+        font-size: 30px;
+        display: block;
+        margin-bottom: 40px;
+        line-height: 36px;
+    }
+    .btn_more{
+        display: block; text-align: center;
+        font-size: 20px;font-weight: 700;
+        max-width: 140px; background-color: #dfa927;
+        color: black; border-radius: 30px;
+        line-height: 30px;
+    }
+    .mainContainer .mainSliderBox ul li:nth-child(1) img{
+        width: 100%;
+    }
+    .mainContainer .mainSliderBox ul li:not(:first-child) img{
+        display: none;
+    }
+    .mainContainer .mainSliderBox div:last-child{
+        position: absolute; top: 200px; right: 3%;
+        transform: rotate(-90deg); line-height: 80px;
+        width: 200px; padding-left: 40px;
+    }
+    /* ! code 해석해오기 */
+    .mainContainer .mainSliderBox div:last-child::before{
+        content: "　"; background-color: #62832b; border-radius: 40px;
+        width: 80px; display: block; left: 0; top: 0; position: absolute; opacity: 0.5;
+        z-index: -1;
+    }
+    .mainContainer .mainSliderBox div:last-child span{
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: 700;
+        color: white;
+    }
+    /* fin */
+
+    .mainContainer > div:nth-child(2)::after{
+        content: ""; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(2){
+        margin-bottom: 85px;
+    }
+    .mainContainer div:nth-child(2) .travelList:first-child{
+        float: left; padding-right: 8%; 
+        width: 50%; 
+    }
+    .mainContainer div:nth-child(2) .travelList:last-child{
+        padding-top: 150px; float: left;  
+    }
+    .mainContainer div:nth-child(2) .travelList li{
+        max-width: 47%; box-sizing: border-box; width: 50%;
+        float: left; list-style: none; position: relative;
+    }
+    .mainContainer div:nth-child(2) .travelList li a{
+        display: block; 
+    }
+    .mainContainer div:nth-child(2) .travelList li a img{
+        width: 100%; border-radius: 10px;
+        object-fit: cover; height: 200px;
+    }
+    .mainContainer div:nth-child(2) .travelList li a strong{
+        font-size: 18px; font-weight: 700;
+        position: absolute; left: 0; bottom: 30px; width: 100%;
+        text-align: center; color: #ffffff;
+        
+    }
+    .mainContainer div:nth-child(2) .travelList li:first-of-type,
+    .mainContainer div:nth-child(2) .travelList li:nth-of-type(3){
+        /* margin: 0 75px 75px 0; */
+        margin: 0 4.46% 4.46% 0;
+    }
+    .mainContainer div:nth-child(2) .travelList li:nth-of-type(2),
+    .mainContainer div:nth-child(2) .travelList li:last-of-type{
+        margin-top: 75px;  
+    }
+    .mainContainer div:nth-child(2) .expList{
+        display: none;
+    }
+    .mainContainer div:nth-child(2) .tabBox{
+        padding-bottom: 15px;
+    }
+    .mainContainer > div:nth-child(2) > div .tabBox input.active{
+        border-bottom: 3px solid #62832b;
+    }
+    .mainContainer div:nth-child(2) .tabBox input[type="button"]{
+        font-size: 13px; font-weight: 700; line-height: 21px;
+        background-color: transparent; border: none;
+        cursor: pointer;
+    }
+    .mainContainer div:nth-child(2) .tabBox input[type="button"]:last-of-type{
+        margin-left: 1%;
+    }
+    .mainContainer div:nth-child(2) .travelList h2{
+        font-size: 30px; font-weight: 700; line-height:36px;
+        margin-bottom: 20px; 
+    }
+    .mainContainer div:nth-child(2) .travelList p{
+        font-size: 16px; line-height: 22px; color: #737373;
+        margin-bottom: 70px;   
+    }
+    /* fin */
+
+    .mainContainer > div:nth-child(3){
+        padding: 0 1; 
+    }
+    .mainContainer > div:nth-child(3):after{
+        content: ''; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(3) > div{
+        float: left; margin-bottom: 70px;
+        width: 57%;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1){
+        /* width: 58.23%; */
+        width: 31%; margin-right: 8%;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1) h2{
+        font-size: 30px; font-weight: 700; color: #4a2b83; margin-bottom: 40px;
+        text-align: center;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1) ul::after{
+        content: ""; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1) ul li{
+        float: left; margin-right: 1%; 
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1) ul li{
+        float: left; box-sizing: border-box;
+        list-style: none; position: relative;
+        filter: drop-shadow(5px 5px 10px #000);
+    }
+    /* .mainContainer > div:nth-child(3) > div:first-child ul li:first-child{
+        margin-right: 12%; 
+    } */
+    .mainContainer > div:nth-child(3) > div:first-child ul li a{
+        display: block; background-color: transparent; 
+        border: none;
+    }
+    .mainContainer > div:nth-child(3) > div:first-child ul li a img{
+        width: 100%; border-radius: 10px; margin-bottom: 40px; height: 250px;
+    }
+    .mainContainer > div:nth-child(3) > div:first-child ul li a strong{
+        position: absolute; left: 0; bottom: 45px; text-align: center; padding-bottom: 30px;
+        color: white; font-size: 18px; width: 100%; box-sizing: border-box;
+    }
+    /* fin */
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2){
+        margin-left: 1.17%; 
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) h2{
+        font-size: 30px; color: #62832b; text-align: center; font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2):after{
+        content: ''; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul{
+         float: left; width: 45.48%; 
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1){
+        padding-top: 135px;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(2){
+        margin-left: 9.04%;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul li{
+        padding: 220px 0 45px; margin-bottom: 30px;
+        list-style: none; background-repeat: no-repeat; background-size: cover;
+        background-position: center bottom; position: relative;
+        border-radius: 10px;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul li a strong{
+        position: absolute; left: 0; bottom: 45px; text-align: center;
+        color: #ffffff; font-size: 18px; font-weight: 700; padding: 0 20px;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li:nth-child(1){
+        position: relative;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li::before{
+        content: ""; opacity: 0.5; position: absolute; left: 0; top: 0; background-color: #000;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li:nth-child(1){
+        background-image: url("../images/content4_02.jpeg");
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li:nth-child(2){
+        background-image: url("../images/content4_03.jpeg");
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(2) li:nth-child(1){
+        background-image: url("../images/content4_01.jpeg");
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(2) li:nth-child(2){
+        background-image: url("../images/content4_04.jpeg");
+    }
+    /* fin */
+    .mainContainer > div:nth-child(4)::after{
+        content: ""; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(4){
+        margin-bottom: 50px; padding: 0 6.6%;
+    }
+    .mainContainer > div:nth-child(4) > div{
+        float: left; width: 50%; padding-left: 4%;
+    } 
+    .mainContainer > div:nth-child(4) figure{
+        margin-right: 1%; float: left; width: 45%;
+    }
+    .mainContainer > div:nth-child(4) figure > a:first-child{
+        display: block; max-width: 770px; box-sizing: border-box;
+    }
+    .mainContainer > div:nth-child(4) figure::after{
+        content: ""; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(4) figure > a{
+        max-width: 225px; box-sizing: border-box; display: block;
+    }
+    .mainContainer > div:nth-child(4) figure > a img{
+        width: 100%;
+    }
+    .mainContainer > div:nth-child(4) figure > figcaption{
+        display: flex;
+    }
+    .mainContainer > div:nth-child(4) figure > figcaption span{
+        padding: 30px 0 20px 0;
+        font-size: 16px; line-height: 22px; font-weight: 700;color: #71a35e;
+        justify-content: center; align-items: center;
+    }
+    .mainContainer > div:nth-child(4) figure > figcaption a img{
+        padding-top: 45px; max-width: 140px; box-sizing: border-box;
+    }
+    .mainContainer > div:nth-child(4) > div h2{
+        font-size: 30px; font-weight: 700; color: #62832b;
+        padding-bottom: 30px;
+    }
+    .mainContainer > div:nth-child(4) > div p{
+        font-size: 16px; line-height: 28px; font-weight: 700; 
+        padding-bottom: 35px;
+    }
+    .mainContainer > div:nth-child(4) > div a{
+        font-size: 16px; line-height: 22px; font-weight: 700;
+        display: block;
+    }
+    .mainContainer > div:nth-child(4) > div a > b{
+        font-size: 30px; color: #ffffff; border-radius: 40px; width: 80px;
+        background-color: #62832b; line-height: 22px; text-align: right; 
+        padding: 5px 0 5px 20px;
+    }
+    /* fin */
+    
+    .mainContainer >div:last-child{
+        margin-bottom: 100px;
+    }
+    .mainContainer >div:last-child h2{
+        font-size: 30px; font-weight: 700;
+        text-align: center; color: black;
+        margin-bottom: 50px; width: 80%; padding: 0 10%;
+    }
+    .mainContainer >div:last-child  h2 > b{
+        font-size: 20px; line-height: 26px; font-weight: 700;
+        text-align: right; margin-bottom: 50px;
+        color: #ffffff; display: none;
+    }
+    .mainContainer > div:last-child ul{
+        display: flex; justify-content: flex-end;
+    }
+    .mainContainer > div:last-child ul li{
+        max-width: 400px;  box-sizing: border-box;
+        position: relative; list-style: none; margin: 0 4%;
+    }
+    
+    .mainContainer > div:last-child ul li:last-child{
+        margin-left: 30px; 
+    }
+    .mainContainer > div:last-child ul li a{
+        display: block; 
+    }
+    .mainContainer > div:last-child ul li a strong{
+        color: #ffffff; position: absolute; top: 250px; left: 155px;
+        padding-bottom: 50px; visibility: hidden;
+    }
+    .mainContainer > div:last-child ul li a img{
+        width: 100%; border-radius: 10px; 
+    }
+    /* mainpage fin */
+
+    .listContainer{
+        margin-bottom: 100px;
+    }
+    .listContainer .mainSliderBox .mainCarouselSlider{
+        list-style: none; position: relative;
+    }
+    .listContainer .mainSliderBox .mainCarouselSlider li img{
+        width: 100%; filter: brightness(0.7); z-index: -1;
+    }
+    .listContainer .mainSliderBox .mainCarouselSlider li h2{
+        position: absolute; top: 130px;  
+        font-size: 30px; color: white; font-weight: 700;
+        margin-bottom: 30px; line-height: 36px;
+        padding: 0 3.3%; z-index: 1;
+    }
+    .listContainer .mainSliderBox .mainCarouselSlider li h2 > small{
+        font-size: 12px; line-height: 18px; color: white;
+        margin-bottom: 30px;
+        display: block;
+    }
+    .listContainer .mainaroww > input[type="button"]{
+        border: 5px solid white; border-radius: 50%; padding: 15px; color: white;
+        background-color: transparent; cursor: pointer; 
+    }
+    /* .listContainer .mainSliderBox .mainCarouselSlider li:not(:first-child){
+        display: none;
+    } */
+    .listContainer > div:nth-child(2){
+        margin-bottom: 100px;
+    }
+    .listContainer > div:nth-child(2) figure img{
+        width: 100%; max-width: 45%; box-sizing: border-box;
+        background-color: #f1f3ed; padding: 40px 20px 10px 0;
+        margin-left: 5%; object-fit: cover;
+    }
+    .listContainer > div:nth-child(2) figure{
+        display: flex; flex-direction: row-reverse;
+    }
+    .listContainer > div:nth-child(2) figure figcaption{
+        width: 51%; padding-top: 60px;
+    }
+    .listContainer > div:nth-child(2) figure figcaption h3{
+        font-size: 30px; font-weight: 700; padding-bottom: 30px;
+        line-height: 36px; 
+    }
+    .listContainer > div:nth-child(2) figure figcaption p{
+        font-size: 16px; line-height: 22px; font-weight: 400;
+        color: #848484; 
+    }
+    /* fin */
+    .listContainer > div:nth-child(3) .sideSlide::after{
+        content: ""; display: block; clear: both;
+    }
+    .sideSlide{
+        position: relative;
+    }
+    .sideSlide > small{
+        display: none;
+    }
+    .sideSlide > .active > .arrowbox{
+        cursor: pointer; position: absolute; bottom: 0; left: 75px;
+        width: 100%;
+    }
+    .sideSlide > .active > .arrowbox span{
+        font-size: 16px; font-weight: 700;
+    }
+    .listContainer > div:nth-child(3) .sideSlide{
+        margin: 0 3.3% 100px 3.3%; 
+    }
+    .listContainer > div:nth-child(3) .sideSlide li{
+        list-style: none; 
+    }
+    .listContainer > div:nth-child(3) .sideSlide li img{
+        max-width: 250px; box-sizing: border-box; height: 430px;
+        width: 100%; border-radius: 10px; 
+        float: left; margin-right: 16.6%;      
+    } 
+    
+    .listContainer > div:nth-child(3) .sideSlide li h3{
+        font-size: 30px;
+        padding: 40px 0 40px 0;
+    }
+    .listContainer > div:nth-child(3) .sideSlide li p{
+        font-size: 18px; line-height: 24px; color: #737373;
+        font-weight: 400; margin-bottom: 70px; width: 45%; float: left;
+    }
+    .listContainer > div:nth-child(3) .sideSlide li > a{
+        margin-bottom: 20px; display: block; font-size: 20px; line-height: 26px;
+        font-weight: 700;  color: #62832b; 
+    }
+    .listContainer > div:nth-child(3) .sideSlide li a strong{
+        font-size: 24px; font-weight: 700; line-height: 30px; color: white;
+        border: 1px solid #62832b; background-color: #62832b; width: 80px;
+        border-radius: 50px; padding: 15px 0 15px 40px; 
+    }
+    .listContainer > div:nth-child(3) .sideSlide li u{
+        text-align: right; display: block;
+        color: #6a92f6; font-size: 18px; line-height: 24px; font-weight: 700;
+        padding: 20px 0 0 25%;
+    }
+    /* fin */
+    .listContainer > div:nth-child(4){
+        margin-bottom: 100px;   
+    }
+    .listContainer > div:nth-child(4) h3{
+        text-align: center; font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot::after{
+        content: ""; display: block; clear: both;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li{
+        width: 25.60%; list-style: none; float: left;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(1),
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(2),
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(4),
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(5),
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(7){
+        /* padding-right: 11.78%; */margin-right: 10%;
+    }
+    .expcardSlot > li:nth-child(2),
+    .expcardSlot > li:nth-child(5),
+    .expcardSlot > li:nth-child(8){
+        margin-top: 30px;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(3),
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(6){
+        margin-top: 60px;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li a{
+        display: block; position: relative;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li a strong{
+        position: absolute; bottom: 30px; width: 100%; left: 0;
+        font-size: 18px; font-weight: 700; color: #fff;
+        text-align: center; padding: 0 8%; display: block; 
+        box-sizing: border-box;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li a img{
+        width: 100%; border-radius: 20px;
+        height: 250px; object-fit: cover;
+        filter: brightness(0.7);
+    }
+    /* fin */
+    .listContainer > div:nth-child(5){
+        margin-bottom: 100px; background-color: #f2f2f2;
+    }
+    .listContainer > div:nth-child(5) img{
+        width: 100%; max-width: 30%; height: 300px;
+        padding: 50px 0; background-color: #cfd6c5;
+        border-radius: 10px; object-fit: cover;
+    }
+    .listContainer > div:nth-child(5)::after{
+        content: ""; display: block; clear: both;
+    }
+    .listContainer > div:nth-child(5) > div{
+        float: right; margin: 0 auto;
+        width: 60%;
+    }
+    .airplanebox{
+        margin-right: 6.5%; 
+    }
+    .airplanebox h3{
+        font-size: 30px; font-weight: 700;
+        margin-bottom: 70px; padding-top: 60px;
+    }
+    .airplanebox div:first-of-type{
+        margin-bottom: 40px;
+        display: inline-block;
+    }
+    .airplanebox div b{
+       font-size: 14px; line-height: 24px; color: #444444; 
+    }
+    .airplanebox div:first-of-type:after{
+        content: ""; display: block; clear: both;
+    }
+    .airplanebox div:first-of-type ul{
+        list-style: none; float: right; 
+        padding-left: 55px;
+    }
+    .airplanebox div:first-of-type ul li{
+        font-size: 14px; color: #848484; font-weight: 700;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+    .airplanebox div:last-of-type span{
+        padding-left: 80px; font-size: 14px; line-height: 20px; font-weight: 700; color: #939393;
+    }
+    /* fin */
+    .listContainer > div:nth-child(6){
+        margin-bottom: 145px;  
+    }
+    .funnystory{
+        margin: 0 5%;
+    }
+    .funnystory li{
+        list-style: none;
+    }
+    .funnystory li img{
+        width: 100%; border-radius: 10px;
+        margin-bottom: 50px; height: 200px; object-fit: cover;
+    }
+    .funnystory li:not(:first-of-type){
+        display: none;
+    }
+    .funnystory li h3{
+        font-size: 20px; font-weight: 400;
+        margin-bottom: 45px;
+    }
+    .funnystory li p{
+        font-size: 14px; line-height: 20px; font-weight: 400;
+    }
+    /* class active 추가하기!!!!!!!!*/
+    .moreBox{
+        /* margin-bottom: 145px; */
+        padding-bottom: 100px;
+    }
+    .moreBox h3{
+        margin-bottom: 40px;
+        font-size: 16px; line-height: 22px; color: #565656; font-weight: 700;
+    }
+    /* .moreBox ul::after{
+        content: ""; display: block; clear: both;
+    } */
+    .moreBox ul{
+        list-style: none; display: flex; flex-wrap: wrap;
+    }
+    /* .moreBox ul li{
+        width: 24.8%; float: left; 
+    }*/
+    .moreBox ul li:first-of-type,
+    .moreBox ul li:nth-of-type(2),
+    .moreBox ul li:nth-of-type(3){
+        padding-bottom: 100px;
+    }
+    .moreBox ul li{
+        justify-content: space-between; width: 25%;
+    }
+    .moreBox ul li a{
+        display: block; font-size: 18px; line-height: 22px; font-weight: 700; color: #565656;
+    }
+    .moreBox ul li a img{
+        width: 100%; box-sizing: border-box; margin-bottom: 10px;height: 200px;
+        object-fit: cover;
+    }
+    /* 각각 주마다 이미지 삽입필요!!!!!! */
+    .moreBox ul li a b{
+        display: block; font-size: 12px; line-height: 18px; margin: 10px 0 0 8%; 
+        font-weight: 400; color: #565656;
+    }
+    .moreBox ul li:not(:nth-child(3)),
+    .moreBox ul li:not(:last-of-type){
+        padding-right: 8%;
+    }
+    /* fin */   
+    .websitebox{
+        position: relative;
+        /* margin-bottom: 300px; */
+        padding-bottom: 80px;
+    }
+    .websitebox h3{
+        font-size: 16px; line-height: 22px; font-weight: 400; color: #7d7b7b;
+        margin-bottom: 40px;
+    }
+    .websitebox a{
+        margin-right: 7.72%; color: #565656; font-size: 14px; line-height: 22px; font-weight: 400;
+        display: inline-block;
+    }
+    .websitebox a img{
+        width: 100%; max-width: 250px; box-sizing: border-box; display: block;
+        margin-bottom: 10px;
+    }
+    /* fin */
+    .videobox{
+        box-sizing: border-box;
+        padding: 0 6% 250px 6%;
+    }
+    .videobox h3{
+        font-size: 20px; line-height: 24px; font-weight: 700;
+        padding-bottom: 10px; color: #7d7b7b;
+    }
+    .videobox > b{
+        font-size: 14px; font-weight: 400; line-height: 18px;
+        color: #7d7b7b; 
+    }
+    .videobox img{
+        width: 100%; 
+        padding-top: 20px;
+    }
+    .videobox a{
+        display: block; background-color: #151f3a; color: white;
+        text-align: center; padding: 20px 20px; border-radius: 10px; font-weight: 700;
+    }
+    /* fin */
+/* list pages fin */ 
+/* .detailContainer{
+    max-width: 1230px; margin: 0 auto; 
+} */
+.detailContainer{
+    margin-bottom: 100px;
+}
+.detailContainer div:first-child{
+    position: relative; margin-bottom: 100px;
+}
+.detailContainer div:first-child h2{
+    position: absolute; left: 3.3%; top: 150px; font-size: 30px; font-weight: 700; 
+    z-index: 1; color: white; 
+}
+.detailContainer div:first-child h2 small{
+    font-size: 16px; line-height: 22px; font-weight: 700;
+    display: block; margin-bottom: 40px;
+}
+.detailContainer div:first-child h2 cite{
+    font-weight: 700; font-size: 14px; line-height: 80px;
+}
+.detailContainer div:first-child img{
+    width: 100%; filter: brightness(0.7); z-index: -1;
+}
+/* fin */
+.detailContainer div:nth-child(2){
+    margin-bottom: 100px;
+}
+.detailContainer div:nth-child(2):after{
+    content: ""; display: block; clear: both;
+}
+.detailContainer div:nth-child(2) figure > img{
+    width: 100%; max-width: 50%; box-sizing: border-box; height: 300px;
+}
+.detailContainer div:nth-child(2) figure:after{
+    content: ""; display: block; clear: both;
+}
+.detailContainer div:nth-child(2) figure figcaption{
+    float: right; width: 40%;
+}
+.detailContainer div:nth-child(2) figure figcaption h3{
+    font-size: 25px; font-weight: 700; color: #000;
+    margin-bottom: 40px; 
+}
+.detailContainer div:nth-child(2) figure figcaption h3 small{
+    display: block; font-size: 12px; margin-left: 5%; 
+    padding-top: 10px; color: #686464; font-weight: 400;
+}
+.detailContainer div:nth-child(2) figure p{
+    font-size:  14px; line-height: 20px; font-weight: 400; margin-bottom: 40px;
+}
+.detailContainer div:nth-child(2) figure div h4{
+    font-size: 18px; line-height: 22px; font-weight: 400;
+    color: #565656; padding-bottom: 10px; 
+}
+.detailContainer div:nth-child(2) figure div a{
+    display: block; font-size: 16px; line-height: 20px; font-weight: 400;
+    color: #565656;
+}
+.detailContainer div:nth-child(2) figure div a small{
+    margin-left: 5%; font-size: 14px; 
+}
+.detailContainer div:nth-child(2) figure div a img{
+    width: 100%; max-width: 54.25%; margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.detailContainer div:nth-child(2) figure div a b{
+    padding-bottom: 10px; display: block; font-size: 18px; line-height: 24px; 
+    font-weight: 700; color: #565656;
+}
+
+.detailContainer > div:nth-child(3) img{
+    margin-bottom: 50px; width: 100%; border-radius: 10px;
+    height: 300px; object-fit: cover;
+}
+.detailContainer div:nth-child(3) h2{
+    text-align: center; font-size: 25px; font-weight: 700;
+    padding-bottom: 40px;
+}
+.detailContainer div:nth-child(3) h2 small{
+    display: block; font-size: 12px; padding-top: 10px; color: #565656;
+    line-height: 18px; font-weight: 400; 
+}
+.detailContainer div:nth-child(3) p{
+    font-size: 14px; line-height: 24px; font-weight: 400;
+    text-align: center; margin-bottom: 100px;
+}
+.detailContainer div:nth-child(4){
+    margin-bottom: 145px;
+}
+.detailContainer div:nth-child(4) figure:after{
+    content: ""; display: block; clear: both;
+}
+.detailContainer div:nth-child(4) figure img{
+    max-width: 45%; height: 400px; object-fit: cover;
+    border-radius: 10px; margin: 0 3.3%;
+}
+.detailContainer div:nth-child(4) figure figcaption{
+    float: right; width: 45%; margin-top: 40px;
+} 
+.detailContainer div:nth-child(4) figure figcaption h3{
+    margin-bottom: 40px; font-size: 25px; font-weight: 700;
+}
+.detailContainer div:nth-child(4) figure figcaption h3 small{
+    display: block; font-size: 12px; line-height: 18px; color: #565656;
+    padding: 10px 0 0 5%; font-weight: 400;
+}
+.detailContainer div:nth-child(4) figure figcaption p{
+    line-height: 22px; font-size: 14px; font-weight: 400; color: #565656;
+}
+.detailContainer .floatBox{
+    margin-bottom: 100px; list-style: none;
+}
+.detailContainer .floatBox li figure img{
+    max-width: 45%; margin: 0 3.3%; height: 400px;
+}
+.detailContainer .floatBox .limgRtxt{
+    margin-bottom: 100px;
+}
+.floatBox .limgRtxt figure:after{
+    content: ""; display: block; clear: both;
+}
+.floatBox .limgRtxt figure figcaption{
+    float: right; width: 45%;
+}
+.floatBox .limgRtxt figure figcaption h3{
+    margin-bottom: 40px; font-size: 25px; font-weight: 700; 
+}
+.floatBox .limgRtxt figure figcaption p{
+    font-size: 14px; line-height: 20px; font-weight: 400; color: #565656; 
+}
+.detailContainer .floatBox .ltxtRimg{
+    margin-bottom: 145px; position: relative;
+}
+.floatBox .ltxtRimg figure:after{
+    content: ""; display: block; clear: both;
+}
+.detailContainer .floatBox .ltxtRimg figure img{
+    padding-left: 5%;
+    height: 400px; float: right;
+    /* height? */
+}
+.floatBox .ltxtRimg figure figcaption{
+    float: left; width: 40%; 
+}
+.floatBox .ltxtRimg figure h3{
+    margin-bottom: 40px; font-size: 30px; font-weight: 700;
+    display: block; text-align: right; 
+}
+.floatBox .ltxtRimg figure figcaption p{
+    font-size: 14px; line-height: 22px; font-weight: 400; color: #565656; 
+    margin-top: 60px;  
+}
+.floatBox .ltxtRimg figure figcaption small{
+    text-align: right; position: absolute; right: -0; bottom: -40px;
+    font-size: 12px; line-height: 18px;
+}
+/* fin */
+.detailContainer div:last-child{
+    margin-bottom: 50px;
+}
+.detailContainer .expcardSlot{
+    margin: 0 3.3% 100px 3.3%;
+}
+.detailContainer div:last-child h3{
+    font-size: 30px; text-align: center; margin-bottom: 40px; font-weight: 700;
+}
+.detailContainer .expcardSlot::after{
+    content: ""; display: block; clear: both;
+}
+.detailContainer .expcardSlot li{
+    width: 25.60%; list-style: none; float: left;
+}
+.detailContainer .expcardSlot li:nth-child(1),
+.detailContainer .expcardSlot li:nth-child(2),
+.detailContainer .expcardSlot li:nth-child(4),
+.detailContainer .expcardSlot li:nth-child(5),
+.detailContainer .expcardSlot li:nth-child(7){
+    /* padding-right: 11.78%; */margin-right: 10%;
+}
+.detailContainer .expcardSlot > li:nth-child(2),
+.detailContainer .expcardSlot > li:nth-child(5),
+.detailContainer .expcardSlot > li:nth-child(8){
+    margin-top: 30px;
+}
+.detailContainer .expcardSlot li:nth-child(3),
+.detailContainer .expcardSlot li:nth-child(6){
+    margin-top: 60px;
+}
+.detailContainer .expcardSlot li a{
+    display: block; position: relative;
+}
+.detailContainer .expcardSlot li a strong{
+    position: absolute; bottom: 30px; width: 100%; left: 0;
+    font-size: 16px; font-weight: 700; color: #fff; line-height: 22px;
+    text-align: center; padding: 0 8%; display: block; 
+    box-sizing: border-box;  
+}
+.detailContainer .expcardSlot li a img{
+    width: 100%; border-radius: 20px; box-sizing: border-box;
+    height: 250px; object-fit: cover;
+    filter: brightness(0.7);
+}
+/* .expcardSlot li a img:hover{
+    transform: scale(1.1);
+    overflow: hidden; transition: transform 0.3s; box-sizing: border-box;
+} */
+/* detalipages fin */
+
+
+.destination{
+    margin-bottom: 50px;
+}
+    .destination div:first-child{
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .destination div:first-child h2{
+        position: absolute;
+        bottom: 0; left: 3.3%;
+        padding-bottom: 50px;
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+    }
+    .destination div:first-child img{
+        width: 100%; 
+        object-fit: cover;
+    }
+    .destination .guide h3{
+     text-align: center; font-size: 30px; font-weight: 700;
+     margin-bottom: 50px;   
+    }
+    .destination .guide > .destinatiMenu{
+        display: flex; font-size: 18px; font-weight: 700;
+        justify-content: space-between;
+        list-style: none;
+        margin-bottom: 100px; cursor: pointer;
+    }
+    .destination .guide > .destinatiMenu > .active{
+        border-bottom: 4px solid #4e53bb; border-radius: 2px;
+        padding-bottom: 10px;
+    }
+    .destination .guide > .imgslotbox{
+        padding: 0 6.25%;
+        margin-bottom: 100px;
+    }
+    .destination .guide > .imgslotbox::after{
+        content: ""; display: block; clear: both;
+    }
+    .destination .guide > .imgslotbox > .active ul{
+        float: left; width: 26.41%;
+        list-style: none;
+    }
+    .destination .guide > .imgslotbox .active ul:first-child{
+        margin-right: 10.29%;
+    }
+    .destination .guide > .imgslotbox .active ul:nth-child(2){
+        margin-top: 50px;
+        margin-right: 10.29%;
+    }
+    .destination .guide > .imgslotbox .active ul:last-child{
+        margin-top: 100px;
+    }
+    .destination .guide > .imgslotbox .active ul li{
+        margin-bottom: 50px; 
+        position: relative;
+    }
+    .destination .guide > .imgslotbox .active ul li a{
+        display: block;
+    }
+    .destination .guide > .imgslotbox .active ul li a img{
+        width: 100%; border-radius: 20px; filter: brightness(0.8);
+        height: 250px;
+        /* height로 사용가능? */
+        object-fit: cover; 
+    }
+    .destination .guide > .imgslotbox .active ul li a img:hover{
+        transform:scale(1.2); box-sizing: border-box; transition: transform 0.5s;
+    }
+    .destination .guide > .imgslotbox .active ul li a strong{
+        position: absolute; bottom: 30px; left: 0; 
+        font-size: 16px; width: 100%; 
+        text-align: center;
+        color: white; 
+    }
+    .imgslotbox > div:not(.active){
+        display: none;
+    }
+    /* 수정 중 class 사용 */
+    
+/* destination fin */
+    .travel{
+        margin-bottom: 50px;
+    }
+    .travel div:first-child{
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .travel div:first-child h2{
+        position: absolute;
+        bottom: 0; left: 3.3%;
+        padding-bottom: 40px;
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+    }
+    .travel div:first-child img{
+        width: 100%;
+    }
+    .travel .guide h3{
+     text-align: center; font-size: 30px; font-weight: 700;
+     margin-bottom: 50px;   
+    }
+    .travel .guide > p{
+        text-align: center; font-size: 16px; line-height: 22px;
+        font-weight: 700; margin-bottom: 50px;
+    }
+    .travel .guide > p > a{
+        color: #4e53bb;
+    }
+    .travel .guide > .destinatiMenu{
+        list-style: none; padding: 0 6.6%;
+        display: flex; font-size: 18px; font-weight: 700;
+        justify-content: space-between;
+        list-style: none; 
+        margin-bottom: 50px; cursor: pointer;
+    }
+    .travel .guide .destinatiMenu > .active{
+        border-bottom: 4px solid #4e53bb; border-radius: 2px;
+        padding-bottom: 10px;
+    }   
+    .travel .guide > .imgslotbox > div:not(.active){
+        display: none;
+    }
+    .travel .guide > .imgslotbox{
+        padding: 0 6.25%;
+        margin-bottom: 100px;
+    }
+    .travel .guide > .imgslotbox::after{
+        content: ""; display: block; clear: both;
+    }
+    .travel .guide > .imgslotbox > .active ul{
+        float: left; width: 26.41%;
+        list-style: none;
+    }
+    .travel .guide > .imgslotbox .active ul:first-child{
+        margin-right: 10.29%;
+    }
+    .travel .guide > .imgslotbox .active ul:nth-child(2){
+        margin-top: 50px;
+        margin-right: 10.29%;
+    }
+    .travel .guide > .imgslotbox .active ul:last-child{
+        margin-top: 100px;
+    }
+    .travel .guide > .imgslotbox .active ul li{
+        margin-bottom: 50px; 
+        position: relative;
+    }
+    .travel .guide > .imgslotbox .active ul li a{
+        display: block; 
+    }
+    .travel .guide > .imgslotbox .active ul li a img{
+        width: 100%; border-radius: 20px;
+        height: 250px;
+        /* height로 사용가능? */
+        object-fit: cover;
+        filter: brightness(0.7);
+    }
+    .travel .guide > .imgslotbox .active ul li a:hover img{
+        transform: scale(1.1);
+        overflow: hidden; transition: transform 0.3s;
+    }
+    .travel .guide > .imgslotbox .active ul li a strong{
+        position: absolute; bottom: 30px; left: 0; 
+        font-size: 16px; width: 100%; font-weight: 700; 
+        text-align: center; padding: 0 5%; box-sizing: border-box;
+        color: white; 
+    }
+    /* traver fin */
+    .experience{
+        margin-bottom: 50px;
+    }
+    .experience div:first-child{
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .experience div:first-child h2{
+        position: absolute;
+        bottom: 0; left: 6.6%;
+        padding-bottom: 40px;
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+    }
+    .experience div:first-child img{
+        width: 100%;
+    }
+    .experience .guide h3{
+     text-align: center; font-size: 60px; font-weight: 700;
+     margin-bottom: 50px;   
+    }
+    .experience .guide > p{
+        text-align: center; font-size: 16px;line-height: 22px;
+        font-weight: 700; margin-bottom: 50px;
+    }
+    .experience .guide > p > a{
+        color: #4e53bb;
+    }
+    .experience .guide > .destinatiMenu{
+        list-style: none;
+        display: flex; font-size: 18px; font-weight: 700;
+        justify-content: space-between;
+        list-style: none; 
+        margin-bottom: 50px; cursor: pointer;
+    }
+    .experience .guide .destinatiMenu > .active{
+        border-bottom: 4px solid #4e53bb; border-radius: 2px;
+        padding-bottom: 10px;
+    }   
+    .experience .guide > .imgslotbox > div:not(.active){
+        display: none;
+    }
+    .experience .guide > .imgslotbox{
+        padding: 0 6.25%;
+        margin-bottom: 110px;
+    }
+    .experience .guide > .imgslotbox::after{
+        content: ""; display: block; clear: both;
+    }
+    .experience .guide > .imgslotbox > .active ul{
+        float: left; width: 26.41%;
+        list-style: none;
+    }
+    .experience .guide > .imgslotbox .active ul:first-child{
+        margin-right: 10.29%;
+    }
+    .experience .guide > .imgslotbox .active ul:nth-child(2){
+        margin-top: 50px;
+        margin-right: 10.29%;
+    }
+    .experience .guide > .imgslotbox .active ul:last-child{
+        margin-top: 100px;
+    }
+    .experience .guide > .imgslotbox .active ul li{
+        margin-bottom: 50px; 
+        position: relative;
+    }
+    .experience .guide > .imgslotbox .active ul li a{
+        display: block; 
+    }
+    .experience .guide > .imgslotbox .active ul li a img{
+        width: 100%; border-radius: 20px;
+        height: 250px;
+        /* height로 사용가능? */
+        object-fit: cover;
+        filter: brightness(0.7);
+    }
+    .experience .guide > .imgslotbox .active ul li a:hover img{
+        transform: scale(1.1);
+        overflow: hidden; transition: transform 0.3s;
+    }
+    .experience .guide > .imgslotbox .active ul li a strong{
+        position: absolute; bottom: 30px; left: 0; 
+        font-size: 16px; width: 100%; font-weight: 700; 
+        text-align: center;
+        color: white; 
+    }
+    /* experience fin */
+    
+    .loadMapContainer{
+        margin-bottom: 100px;
+    }
+    .loadMapContainer > div:first-child{
+        margin-bottom: 100px; position: relative;
+    }
+    .loadMapContainer > div:first-child h2{
+        position: absolute; top: 150px;
+        font-size: 30px; font-weight: 700; line-height: 36px;
+        padding-bottom: 40px; color: white;
+        margin-left: 3.3%; z-index: 1;
+    }
+    .loadMapContainer > div:first-child h2 cite{
+        font-size: 14px; line-height: 40px;
+    }
+    .loadMapContainer > div:first-child img{
+        width: 100%; filter: brightness(0.7);
+    }
+    .centerbox{
+        text-align: center; padding-bottom: 100px;
+    }
+    .centerbox h3{
+        font-size: 25px; font-weight: 700;
+        margin-bottom: 40px; color: black;
+    }
+    .centerbox p{
+        font-size: 14px; line-height: 22px; color: #686464;
+    }
+    /* fin */
+    .loadMapContainer .floatBox{
+        margin-bottom: 100px; list-style: none; width: 90%; margin: 0 auto;
+    }
+    .loadMapContainer .floatBox::after{
+        content: ""; display: block; clear: both;
+    }
+    .loadMapContainer .floatBox li{
+        padding-bottom: 90px;
+    }
+    .loadMapContainer .floatBox .limgRtxt figure > *{
+        float: left; width: 48%;
+    }
+    .loadMapContainer .floatBox .ltxtRimg figure > *{
+        float: right; width: 48%;
+    }
+    .loadMapContainer .floatBox li figure img{
+        display: block; height: 300px; object-fit: cover; width: 40%;
+        border-radius: 10px;
+    }
+     .loadMapContainer .floatBox .limgRtxt figure figcaption{
+        margin-left: 4%;
+     }
+     .loadMapContainer .floatBox .ltxtRimg figure figcaption{
+        margin-right: 4%; 
+     }
+     .loadMapContainer .floatBox li figure figcaption h3{
+        font-size: 30px; line-height: 30px; color: black;
+        font-weight: 700;
+     }
+     .loadMapContainer .floatBox li figure figcaption p{
+        font-size: 12px; font-weight: 400; line-height: 18px;
+     }
+     .loadMapContainer .floatBox li > div{
+        border-bottom: 28px solid transparent; 
+        padding: 50px 25px 100px; box-sizing: border-box;
+        clear: both; position: relative; border-radius: 10px;
+    }
+     .loadMapContainer .floatBox li > div h4{
+        margin-bottom: 10px; font-size: 20px; font-weight: 400; color: #7d7b7b;
+    }
+     .loadMapContainer .floatBox li > div a img{
+        width: 40%; margin-bottom: 10px; 
+    }
+     .loadMapContainer .floatBox li > div a > *{
+        display: block;
+    }
+     .loadMapContainer .floatBox li > div a b{
+        color: #565656; font-size: 16px; margin-bottom: 10px; 
+    }
+     .loadMapContainer .floatBox li > div a small{
+        padding-left: 2%; color: #565656; font-size: 14px;
+        width: 40%;
+    }
+     .loadMapContainer .floatBox li > div .circlebox{
+        position: absolute; right: 0; bottom: 0;
+    }
+    .loadMapContainer .floatBox li.limgRtxt > div{
+        border-left: 28px solid transparent;  
+        border-image: linear-gradient(90deg,#8294c4 0%,#ffead2 100%);
+        border-image-slice: 1;  
+        background-position-y: 50px;
+    }
+    .loadMapContainer .floatBox li.limgRtxt > div mark{
+        padding-right: 60px; line-height: 25px; color: white;
+        position: absolute; left: 0; top: 100px; transform: rotate(-90deg); 
+        text-transform: uppercase; background-color: transparent; transform-origin: left bottom;
+    }
+    .loadMapContainer .floatBox li.ltxtRimg > div mark{
+        padding-left: 60px; line-height: 25px; position: absolute; right: -95px; top: 80px; padding: 30px 0 30px 100px;
+        transform: rotate(90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
+        text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
+        background-size: 40px;
+    }
+    .loadMapContainer .floatBox li.limgRtxt > div mark{
+        line-height: 25px; position: absolute; left: 19px; top: 80px;
+        transform: rotate(-90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
+        text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
+        background-size: 40px; padding: 20px 110px 20px 0; text-align: center;
+    }
+    .loadMapContainer .floatBox li.ltxtRimg > div{
+        border-right: 28px solid transparent; border-image: linear-gradient(90deg,#8294c4 0%,#ffead2 100%);
+        border-image-slice: 1; 
+    }
+    .loadMapContainer .floatBox li:last-child div:last-of-type{
+        margin-left: 43.90%; border: none; width: 100%;    
+    }
+    .circlebox{
+        padding-bottom: 55px; 
+    }
+    .car,
+    .speed,
+    .airplane{
+        width: 180px; height: 180px; border-radius: 80px; background-color: #f5f5f5;
+        text-align: center;
+    }
+    .car{
+        background-image: url("../images/loadmap/loadmapPart/carimg.png");
+        background-repeat: no-repeat; background-size: 30px;
+        background-position:center 60px; padding: 90px 20px 50px;
+    } 
+    .speed{
+        background-image: url("../images/loadmap/loadmapPart/speedimg.png");
+        background-repeat: no-repeat; background-position: center 60px;
+        padding: 90px 50px 50px; margin-left: 40px; background-size: 30px;
+    }
+    .airplane{
+        background-image: url("../images/loadmap/loadmapPart/airplane.png");
+        background-repeat: no-repeat; background-position: center;
+        padding: 90px 20px 50px; background-size: 30px;
+    }
+    
+/* fin */
+    .top_menucontainer{
+        margin-bottom: 100px;
+    }
+    .top_menucontainer > div:first-child{
+        position: relative; margin-bottom: 100px;
+    }
+    .top_menucontainer div:first-child h2{
+        position: absolute; top: 150px; padding-left: 3.3%;
+        color: white; font-size: 30px; z-index: 1;
+    }
+    .top_menucontainer div:first-child h2 small{
+        font-size: 14px; line-height: 20px; display: block;
+        padding-bottom: 40px;
+    }
+    .top_menucontainer div:first-child > img{
+        width: 100%; filter: brightness(0.6);
+    }
+    .top_menucontainer .menubox{
+        display: none;
+    }
+    .top_menucontainer > div:nth-child(3){
+        margin-bottom: 100px;
+    }
+    .top_menucontainer > div:nth-child(3)::after{
+        content: ""; display: block; clear: both;
+    }
+    .top_menucontainer > div:nth-child(3) > div:first-child{
+        margin-right: 10%;
+    }
+    .top_menucontainer > div:nth-child(3) > div{
+        float: left; width: 50%; 
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset legend{
+        display: inline;
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset > input{
+        font-size: 16px; line-height: 22px; font-weight: 700; 
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset > label{
+        color: #b7b3b3; border-bottom: 4px solid #b7b3b3; border: none;
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset > div:first-child{
+        margin-bottom: 80px; 
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset > div:last-child input{
+        display: block; margin-bottom: 50px; 
+        border: none; box-shadow: none; border-bottom: 4px solid #b7b3b3;
+        background-image: none; background-color: transparent;
+        padding-bottom: 10px; font-size: 16px; line-height: 22px; font-weight: 700;
+        color: #b7b3b3; width: 100%;
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child{
+        width: 40%; padding: 0;
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child h3{
+        font-size: 20px; font-weight: 700; margin-bottom: 20px;
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child p{
+        font-size: 14px; line-height: 20px; font-weight: 700; color:#aaaaaa;
+        margin-bottom: 50px;
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child textarea{
+        display: block; margin-bottom: 20px; width:100%; height: 200px; 
+        background-color: #e5e5e5; border: none; font-size: 14px; line-height: 20px;
+        color: #b7b3b3; font-weight: 700; 
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child [type="button"]{
+        width: 100%; padding: 15px; background-color: #62832b; color: white;
+        font-size: 16px; line-height: 22px; font-weight: 700; border: none;
+        cursor: pointer; border-radius: 10px;
+    }
+    .top_menucontainer .textbox h2{
+        font-size: 30px; font-weight: 700; text-align: center;
+        margin-bottom: 40px;
+    }
+    .top_menucontainer div:nth-child(3) h3,
+    .brandusasubbox h3{
+        font-size: 25px; 
+        margin-bottom: 40px;
+    }
+    .top_menucontainer .brand_usaTextarea,
+    .brandusasubbox{
+        list-style: none; 
+    }
+    .brandusasubbox{
+        margin-bottom: 145px;
+    }
+    .top_menucontainer .brand_usaTextarea li,
+    .brandusasubbox li{
+        margin-bottom: 40px; font-size: 14px; line-height: 20px;
+        font-weight: 700; color: #aaaaaa;
+    }
+    .top_menucontainer  .brand_usaTextarea li p > a,
+    .top_menucontainer  .brand_usaTextarea li  a,
+    .brandusasubbox li a{
+        color: #7dc1ef;
+    }
+    .top_menucontainer .textbox .brand_usaTextarea li,
+    .brandusasubbox{
+        font-size: 18px; line-height: 24px; margin-bottom: 40px;
+        color: #aaaaaa; font-weight: 700;
+    } 
+    .brand_usaTextarea,
+    .brandusasubbox{
+        margin-bottom: 50px;   
+    }
+    .brandusasubbox [type="button"]{
+        border: none; background-color: transparent;
+    }
+    .brandusasubbox li{
+        border-bottom: 3px solid #aaaaaa;
+    }
+    .brandusasubbox > li > p{
+        opacity: 0; transition: opacity 0.7s ease-in-out; font-size: 12px; 
+        margin-bottom: 20px;
+    }
+    .brandusasubbox > li .open{
+        opacity: 1;
+    }
+    .brandusasubbox [type="button"]:hover{
+        cursor: pointer; 
+    } 
+    .subscribepopup{
+        display: none;
+    }
+    .formbox form{
+        position: relative;
+    }
+    .formbox form > #confirmPopup.active{
+        display: block; position: absolute; left:0; top: 250px;
+        background-color: #d4d4d4; width: 100%; max-width: 400px;
+        box-sizing: border-box; overflow: hidden;
+    }
+    .formbox form > #confirmPopup.active img{
+        width: 100%; max-width: 190px; position: absolute; right: -100px; top: -20px;
+    }
+    .formbox form > #confirmPopup.active h3{
+        padding-top: 60px; font-size: 30px; color: black; display: block;
+        text-align: center; font-weight: 700;
+    }
+    .formbox form > #confirmPopup.active span{
+        display: block; font-size: 20px; color: #aaaaaa;
+        padding-bottom: 70px; text-align: center; font-weight: 700;
+    }
+    .formbox form > #confirmPopup.active input{
+        font-size: 20px; padding: 20px 0; background-color: #d28c1d;
+        width: 100%; max-width: 170px; margin: 0 auto; text-align: center; border: none;
+        font-weight: 700; margin: 0 115px 20px; cursor: pointer; box-sizing: border-box;
+    }
+    #confirmPopup{
+        display: none;
+    }
+    .formbox::after{
+        content: ""; display: block; clear: both;
+    }
+    .formbox form fieldset legend{
+        margin-bottom: 45px;
+    }
+    .formbox form fieldset{
+        font-size: 16px; font-weight: 700; line-height: 22px;
+        color: #aaaaaa; margin-bottom: 45px; float: left; width: 55%;
+        margin-right: 5%;
+    }
+    .formbox form fieldset [type="checkbox"]{
+        display: inline-block; margin-right: 1%;
+    }
+    .formbox form fieldset > a{
+        color: #b3cadb; padding-bottom: 50px; display: block;
+    }
+    .formbox form fieldset > label{
+        margin-bottom: 15px; line-height: 22px;
+    }
+    .formbox form fieldset input[type="button"]{
+        color: white; border: none; background-color: #dfa927;
+        width: 100%; padding: 20px 0; border-radius: 10px; font-size: 20px; font-weight: 700;
+    }
+    .formbox form fieldset input[type="button"]:hover{
+        cursor: pointer;
+    }
+    .formbox fieldset > input[type="text"],
+    .formbox fieldset > input[type="email"]{
+        display: block; font-size: 16px; line-height: 22px; color: #aaaaaa; border: none;
+        border-bottom: 4px solid #aaaaaa; padding-bottom: 10px;
+        margin-bottom: 40px; font-weight: 700; width: 100%;
+    }
+    .formbox > div:first-child > a img{
+        width: 100%; max-width: 250px;
+    }
+    .formbox div:last-child a img{
+        width: 100%; max-width: 560px;
+        margin-bottom: 50px;
+    }
+    .formbox div:last-child > b{
+        font-size: 16px; line-height: 22px; color: #aaaaaa;font-weight: 700;
+    }
+    .formbox div:last-child > h3{
+        font-weight: 700; font-size: 25px; text-align: left; padding-top: 75px;
+    }
+    .formbox div:last-child > p > b{
+        margin-top: 50px; display: block;
+    }
+    /* fin */
+    .allvideoContainer{
+        margin-bottom: 50px; position: relative;
+    }
+    .allvideoContainer > div:first-child{
+        margin-bottom: 100px; max-width: 720px;
+        z-index: 1;
+    }
+    .allvideoContainer > div:first-child > h2{
+        font-size: 30px; font-weight: 700; color: white; 
+        position: absolute; left: 3.3%; top: 100px; z-index: 1;
+    }
+    .allvideoContainer > div:first-child > img{
+        object-fit: cover; filter: brightness(0.8); max-width: 768px;
+    }
+    .allvideoContainer > div:first-child > h2 small{
+        display: block; font-size: 14px; color: white; font-weight: 700; 
+        margin-bottom: 30px;
+    }
+    .allvideoContainer > div:nth-child(2) > h3{
+        font-size: 30px; font-weight: 700; margin-bottom: 50px; text-align: center;
+    }
+    .allvideoContainer > div:nth-child(2) > p{
+        font-size: 18px; line-height: 22px; margin-bottom: 60px; font-weight: 700;
+        text-align: center; color: #686464; line-height: 26px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox{
+        margin-bottom: 100px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video{
+        display: block; 
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul{
+        list-style: none; float: left; width: 25%;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li{
+        list-style: none; position: relative;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video:after{
+        content: ""; display: block; clear: both;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:nth-child(2){
+        padding-left: 12%; margin-top: 70px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:first-child li:last-of-type{
+        padding-top: 70px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:nth-child(2) li:last-of-type{
+        padding-top: 70px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:nth-child(3) li:last-of-type{
+        padding-top: 70px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:nth-child(3){
+        padding-left: 12%; margin-top: 140px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li a{
+        display: block; 
+    } 
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li a img{
+        width: 100%; border-radius: 10px; height: 250px; object-fit: cover;
+        filter: brightness(0.8);
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li a:hover img{
+        transform: scale(1.2); box-sizing: border-box; overflow-y: hidden; transition: transform 0.3s;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li a strong{
+        position: absolute; bottom: 30px; width: 100%; text-align: center; left: 0;
+        font-size: 16px; color: white;  padding: 0 3.3%; box-sizing: border-box;
+    }
+
+}
+/* tablet fin */
+
+@media screen and (min-width:1280px) {
+    
+    
+    .mainContainer > div:nth-child(2),
+    .mainContainer > div:nth-child(3),
+    .mainContainer > div:nth-child(4),
+    .mainContainer > div:nth-child(5),
+    .mainContainer > div:last-child{
+        max-width: 1680px; padding: 0 7.44% 0 6.84%;
+    }
+    .mainContainer .mainSliderBox{
+        margin-bottom: 145px;
+    }
+    .mainContainer .mainSliderBox div:first-child{
+        padding: 390px 330px;
+        position: absolute;
+        color: white; 
+    }
+    .mainContainer .mainSliderBox h2 > small{
+        font-size: 16px;
+        margin-bottom: 50px;
+        display: block;
+    }
+    .mainContainer .mainSliderBox div h2 span{
+        font-weight: 700;
+        font-size: 55px;
+        max-width: 450px;
+        display: block;
+        margin-bottom: 50px;
+        line-height: 81px;
+    }
+    .btn_more{
+        display: block; text-align: center;
+        font-size: 30px;font-weight: 700;
+        max-width: 250px; background-color: #dfa927;
+        color: black; line-height: 60px; border-radius: 30px;
+    }
+    .mainContainer .mainSliderBox ul li.active img{
+        width: 100%;
+    }
+    .mainContainer .mainSliderBox ul li:not(.active) img{
+        display: none;
+    }
+    .mainContainer .mainSliderBox div:last-child{
+        position: absolute; bottom: 90px; right: 10%;
+        transform: rotate(-90deg); line-height: 80px;
+        width: 230px; padding-left: 45px;
+    }
+    /* ! code 해석해오기 */
+    .mainContainer .mainSliderBox div:last-child::before{
+        content: "　"; background-color: #62832b; border-radius: 40px;
+        width: 80px; display: block; left: 0; top: 0; position: absolute; opacity: 0.5;
+        z-index: -1;
+    }
+    .mainContainer .mainSliderBox div:last-child span{
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: 700;
+        color: white;
+    }
+    /* fin */
+
+    .mainContainer div:nth-child(2)::after{
+        content: ""; display: block; clear: both;
+    }
+    .mainContainer div:nth-child(2){
+        margin-bottom: 185px;
+    }
+    .mainContainer div:nth-child(2) .travelList:first-child{
+        float: left; padding-right: 8.92%; 
+        width: 60%; 
+    }
+    .mainContainer div:nth-child(2) .travelList:last-child{
+        padding-top: 150px; float: left;  
+    }
+    .mainContainer div:nth-child(2) .travelList li{
+        max-width: 44.94%; box-sizing: border-box;
+        float: left; list-style: none; position: relative;
+    }
+    .mainContainer div:nth-child(2) .travelList li a{
+        display: block; 
+    }
+    .mainContainer div:nth-child(2) .travelList li a img{
+        width: 100%; border-radius: 10px; height: 600px;
+        object-fit: cover;
+    }
+    .mainContainer div:nth-child(2) .travelList li a strong{
+        font-size: 30px; font-weight: 700;
+        position: absolute; left: 0; bottom: 45px; width: 100%;
+        text-align: center; color: #ffffff;
+        
+    }
+    .mainContainer div:nth-child(2) .travelList li:first-of-type,
+    .mainContainer div:nth-child(2) .travelList li:nth-of-type(3){
+        /* margin: 0 75px 75px 0; */
+        margin: 0 4.46% 4.46% 0;
+    }
+    .mainContainer div:nth-child(2) .travelList li:nth-of-type(2),
+    .mainContainer div:nth-child(2) .travelList li:last-of-type{
+        margin-top: 75px;  
+    }
+    .mainContainer div:nth-child(2) .expList{
+        display: none;
+    }
+    .mainContainer div:nth-child(2) .tabBox{
+        padding-bottom: 20px;
+    }
+    .mainContainer > div:nth-child(2) > div .tabBox input.active{
+        border-bottom: 3px solid #62832b;
+    }
+    .mainContainer div:nth-child(2) .tabBox input[type="button"]{
+        font-size: 16px; font-weight: 700; line-height: 21px;
+        background-color: transparent; border: none;
+        cursor: pointer;
+    }
+    .mainContainer div:nth-child(2) .tabBox input[type="button"]:last-of-type{
+        margin-left: 1%;
+    }
+    .mainContainer div:nth-child(2) .travelList h2{
+        font-size: 50px; font-weight: 700; line-height: 56px;
+        margin-bottom: 50px; 
+    }
+    .mainContainer div:nth-child(2) .travelList p{
+        font-size: 16px; line-height: 22px; color: #737373;
+        margin-bottom: 55px;   
+    }
+    /* fin */
+
+    .mainContainer > div:nth-child(3){
+        padding: 0 1;
+    }
+    .mainContainer > div:nth-child(3):after{
+        content: ''; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(3) > div{
+        float: left; margin-bottom: 70px;
+        width: 38.34%;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1){
+        /* width: 58.23%; */
+        width: 60.49%;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1) h2{
+        font-size: 60px; font-weight: 700; color: #4a2b83; margin-bottom: 60px;
+        text-align: center;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1) ul::after{
+        content: ""; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1) ul li{
+        float: left; margin-right: 1%; cursor: pointer;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(1) ul li{
+        float: left; max-width: 48.48%; box-sizing: border-box;
+        list-style: none; position: relative;
+        filter: drop-shadow(5px 5px 10px #000);
+    }
+    .mainContainer > div:nth-child(3) > div:first-child ul li:first-child{
+        margin-right: 1%; 
+    }
+    .mainContainer > div:nth-child(3) > div:first-child ul li a{
+        display: block; background-color: transparent; 
+        border: none;
+    }
+    .mainContainer > div:nth-child(3) > div:first-child ul li a img{
+        width: 100%; border-radius: 10px; height: 550px;
+    }
+    .mainContainer > div:nth-child(3) > div:first-child ul li a strong{
+        position: absolute; left: 0; bottom: 45px; text-align: center;
+        color: white; font-size: 25px; width: 100%;
+    }
+    /* fin */
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2){
+        margin-left: 1.17%; 
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) h2{
+        font-size: 60px; color: #62832b; text-align: center; font-weight: 700;
+        margin-bottom: 50px;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2):after{
+        content: ''; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul{
+         float: left; width: 45.48%; cursor: pointer;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1){
+        padding-top: 135px;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(2){
+        margin-left: 9.04%;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul li{
+        padding: 285px 0 45px; margin-bottom: 65px;
+        list-style: none; background-repeat: no-repeat; background-size: cover;
+        background-position: center bottom; position: relative;
+        border-radius: 10px; 
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul li a strong{
+        position: absolute; left: 0; bottom: 45px; text-align: center;
+        color: #ffffff; font-size: 25px; font-weight: 700; padding: 0 30px;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li:nth-child(1){
+        position: relative;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li::before{
+        content: ""; opacity: 0.5; position: absolute; left: 0; top: 0; background-color: #000;
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li:nth-child(1){
+        background-image: url("../images/content4_02.jpeg");
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(1) li:nth-child(2){
+        background-image: url("../images/content4_03.jpeg");
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(2) li:nth-child(1){
+        background-image: url("../images/content4_01.jpeg");
+    }
+    .mainContainer > div:nth-child(3) > div:nth-of-type(2) ul:nth-of-type(2) li:nth-child(2){
+        background-image: url("../images/content4_04.jpeg");
+    }
+    /* fin */
+    .mainContainer > div:nth-child(4)::after{
+        content: ""; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(4){
+        margin-bottom: 145px; 
+    }
+    .mainContainer > div:nth-child(4) figure{
+        float: left; margin-right: 1%;
+    }
+    .mainContainer > div:nth-child(4) figure > a:first-child{
+        display: block; max-width: 770px; box-sizing: border-box;
+    }
+    .mainContainer > div:nth-child(4) figure::after{
+        content: ""; display: block; clear: both;
+    }
+    .mainContainer > div:nth-child(4) figure > a{
+        max-width: 225px; box-sizing: border-box; display: block;
+    }
+    .mainContainer > div:nth-child(4) figure > a img{
+        width: 100%; 
+    }
+    .mainContainer > div:nth-child(4) figure > figcaption{
+        display: flex;
+    }
+    .mainContainer > div:nth-child(4) figure > figcaption span{
+        margin: 65px 35px 0 15px;
+        font-size: 16px; line-height: 22px; font-weight: 700;color: #71a35e;
+        justify-content: center; align-items: center;
+    }
+    .mainContainer > div:nth-child(4) figure > figcaption a img{
+        padding-top: 45px; max-width: 225px; box-sizing: border-box;
+    }
+    .mainContainer > div:nth-child(4) > div h2{
+        font-size: 56px; font-weight: 700; color: #62832b;
+        padding-bottom: 50px;
+    }
+    .mainContainer > div:nth-child(4) > div p{
+        font-size: 16px; line-height: 28px; font-weight: 700; 
+        padding-bottom: 15px;
+    }
+    .mainContainer > div:nth-child(4) > div a{
+        font-size: 16px; line-height: 22px; font-weight: 700;
+        display: block;
+    }
+    .mainContainer > div:nth-child(4) > div a > b{
+        font-size: 30px; color: #ffffff; border-radius: 40px; width: 80px;
+        background-color: #62832b; line-height: 22px; text-align: right; 
+        padding: 5px 0 5px 20px;
+    }
+    /* fin */
+    .mainContainer >div:last-child{
+        margin-bottom: 145px;
+    }
+    .mainContainer >div:last-child h2{
+        font-size: 45px; font-weight: 700;
+        text-align: right; color: #d1d1d1;
+        margin-bottom: 50px;
+        padding-left: 55%;
+    }
+    .mainContainer >div:last-child  h2 > b{
+        font-size: 20px; line-height: 26px; font-weight: 700;
+        display: block; text-align: right; margin-bottom: 50px;
+        color: #ffffff;
+    }
+    .mainContainer > div:last-child ul{
+        display: flex; justify-content: flex-end;
+    }
+    .mainContainer > div:last-child ul li{
+        max-width: 400px; height: 250px; box-sizing: border-box;
+        position: relative;
+    }
+    .mainContainer > div:last-child ul li:last-child{
+        margin-left: 30px;
+    }
+    .mainContainer > div:last-child ul li a{
+        display: block;
+    }
+    .mainContainer > div:last-child ul li a strong{
+        color: #ffffff; position: absolute; top: 250px; left: 155px;
+        padding-bottom: 50px; visibility: hidden;
+    }
+    .mainContainer > div:last-child ul li a img{
+        width: 100%; border-radius: 10px; 
+    }
+    .mainContainer > div:last-child ul li a img:hover{
+        filter: brightness(0.6); 
+    }
+    .mainContainer > div:last-child ul li a:hover strong{
+        visibility: visible;
+    }
+    /* mainpages fin */
+
+    /* list pages */
+/*     
+    .listContainer{
+        max-width: 1230px; margin: 0 auto;
+    } */
+    .listContainer{
+        margin-bottom: 250px;
+    }
+    .listContainer .mainSliderBox .mainCarouselSlider{
+        list-style: none; position: relative;
+    }
+    .listContainer .mainSliderBox .mainCarouselSlider li img{
+        width: 100%; filter: brightness(0.7); z-index: -1;
+    }
+    .listContainer .mainSliderBox .mainCarouselSlider li h2{
+        position: absolute; top: 250px;  
+        font-size: 55px; color: white; font-weight: 700;
+        margin-bottom: 50px; line-height: 80px;
+        padding: 0 6.25%; z-index: 1;
+    }
+    .listContainer .mainSliderBox .mainCarouselSlider li h2 > small{
+        font-size: 16px; line-height: 22px; color: white;
+        margin-bottom: 50px;
+        display: block;
+    }
+    /* .listContainer .mainSliderBox .mainCarouselSlider li:not(:first-child){
+        /* display: none; 
+    }*/
+    .listContainer .mainaroww{
+        position: absolute; bottom: 140px; left: 6.25%; width: 100%;
+    }
+    .listContainer .mainaroww > input[type="button"]{
+        border: 5px solid white; border-radius: 50%; padding: 30px; color: white;
+        background-color: transparent; cursor: pointer;
+    }
+    /* fin */
+    .listContainer > div:nth-child(2){
+        margin-bottom: 145px;
+    }
+    .listContainer > div:nth-child(2) figure img{
+        width: 100%; max-width: 45%; box-sizing: border-box;
+        background-color: #f1f3ed; padding: 250px 20px 140px 0;
+        margin-left: 5%;
+    }
+    .listContainer > div:nth-child(2) figure{
+        display: flex; flex-direction: row-reverse;
+    }
+    .listContainer > div:nth-child(2) figure figcaption{
+        width: 51%; padding-top: 250px;
+    }
+    .listContainer > div:nth-child(2) figure figcaption h3{
+        font-size: 60px; font-weight: 700; padding-bottom: 80px;
+        line-height: 80px; 
+    }
+    .listContainer > div:nth-child(2) figure figcaption p{
+        font-size: 18px; line-height: 30px; font-weight: 400;
+        color: #848484; margin-right: 45px;
+    }
+    /* fin */
+    .listContainer > div:nth-child(3){
+        background: url("../images/list_text_circle_img.png") left top / contain no-repeat;
+        background-size: 140px; margin-bottom: 200px;
+    }
+    .listContainer > div:nth-child(3) .sideSlide::after{
+        content: ""; display: block; clear: both;
+    }
+    .listContainer > div:nth-child(3) .sideSlide{
+        margin-bottom: 145px; 
+    }
+    .listContainer > div:nth-child(3) .sideSlide li{
+        list-style: none; 
+    }
+    .listContainer > div:nth-child(3) .sideSlide li img{
+        max-width: 400px; box-sizing: border-box;
+        width: 100%; height: 645px; border-radius: 10px;
+        float: left; 
+        margin-right: 22.58%;      
+    }
+    .listContainer > div:nth-child(3) small{
+        font-size: 24px; font-weight: 400; line-height: 70px;
+        position: absolute; left: 55.5%; 
+    }
+    .listContainer > div:nth-child(3) .sideSlide li h3{
+        font-size: 60px;
+        padding: 70px 0;
+    }
+    .listContainer > div:nth-child(3) .sideSlide li p{
+        font-size: 18px; line-height: 24px; color: #737373;
+        font-weight: 400; margin-bottom: 120px; 
+    }
+    .listContainer > div:nth-child(3) .sideSlide li > a{
+        margin-bottom: 20px; display: block; font-size: 26px; line-height: 32px;
+        font-weight: 700;  color: #62832b;
+    }
+    .listContainer > div:nth-child(3) .sideSlide li a strong{
+        font-size: 26px; font-weight: 700; line-height: 24px; color: white;
+        border: 1px solid #62832b; background-color: #62832b; width: 80px;
+        border-radius: 50px; padding: 15px 0 15px 40px;
+    }
+    .listContainer > div:nth-child(3) .sideSlide li u{
+        text-align: right; display: block;
+        color: #6a92f6; font-size: 26px; line-height: 24px; font-weight: 700;
+        padding: 20px 0 0 25%;
+    }
+    /* fin */
+    .listContainer > div:nth-child(4){
+        margin-bottom: 145px;   
+    }
+    .listContainer > div:nth-child(4) h3{
+        text-align: center; font-size: 60px;
+        margin-bottom: 65px;
+    }
+    .expcardSlot{
+        opacity: 0; transition: 0.4s; 
+    }
+    .expcardSlot.active{
+        opacity: 1; 
+    }
+    .expcardSlot.active li:first-child{
+        transition-delay: 0.1s;
+    }
+    .expcardSlot.active li:nth-child(2){
+        transition-delay: 0.2s;
+    }
+    .expcardSlot.active li:nth-child(3){
+        transition-delay: 0.3s;
+    }
+    .expcardSlot.active li:nth-child(4){
+        transition-delay: 0.4s;
+    }
+    .expcardSlot.active li:nth-child(5){
+        transition-delay: 0.5s;
+    }
+    .expcardSlot.active li:nth-child(6){
+        transition-delay: 0.6s;
+    }
+    .expcardSlot.active li:nth-child(7){
+        transition-delay: 0.7s;
+    }
+    .expcardSlot.active li:last-child{
+        transition-delay: 0.8s;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot::after{
+        content: ""; display: block; clear: both;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li{
+        width: 25.60%; list-style: none; float: left;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(1),
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(2),
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(4),
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(5),
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(7){
+        margin-right: 10%;
+    }
+    .expcardSlot > li:nth-child(2),
+    .expcardSlot > li:nth-child(5),
+    .expcardSlot > li:nth-child(8){
+        margin-top: 70px;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(3),
+    .listContainer > div:nth-child(4) .expcardSlot li:nth-child(6){
+        margin-top: 140px;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li a{
+        display: block; position: relative;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li a strong{
+        position: absolute; bottom: 45px; width: 100%; left: 0;
+        font-size: 30px; font-weight: 700; color: #fff;
+        text-align: center; padding: 0 8%; display: block; 
+        box-sizing: border-box;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot li a img{
+        width: 100%; border-radius: 20px;
+        height: 500px; object-fit: cover;
+        filter: brightness(0.7);
+    }
+    /* fin */
+    .listContainer > div:nth-child(5){
+        margin-bottom: 145px; background-color: #f2f2f2;
+    }
+    .listContainer > div:nth-child(5) img{
+        width: 100%; max-width: 34.95%; box-sizing: border-box; height: 650px;
+        padding: 80px 0 80px 5%; background-color: #cfd6c5;
+        border-radius: 10px; object-fit: cover;
+    }
+    .listContainer > div:nth-child(5)::after{
+        content: ""; display: block; clear: both;
+    }
+    .listContainer > div:nth-child(5) > div{
+        float: right; margin-bottom: 175px;
+        width: 53%;
+    }
+    .listContainer > div:nth-child(5) .airplanebox{
+       margin-bottom: 145px;
+    }
+    .airplanebox{
+        margin-right: 6.5%; 
+    }
+    .airplanebox h3{
+        font-size: 60px; font-weight: 700;
+        margin-bottom: 70px; padding-top: 125px;
+    }
+    .airplanebox div:first-of-type{
+        margin-bottom: 80px;
+        display: inline-block;
+    }
+    .airplanebox div b{
+       font-size: 16px; line-height: 24px; color: #444444; 
+    }
+    .airplanebox div:first-of-type:after{
+        content: ""; display: block; clear: both;
+    }
+    .airplanebox div:first-of-type ul{
+        list-style: none; float: right; 
+        padding-left: 55px;
+    }
+    .airplanebox div:first-of-type ul li{
+        font-size: 16px; color: #848484; font-weight: 700;
+        padding-right: 250px; line-height: 22px;
+        padding-bottom: 20px;
+    }
+    .airplanebox div:last-of-type span{
+        padding-left: 85px; font-size: 14px; line-height: 24px; font-weight: 700; color: #939393;
+    }
+    /* fin */
+    .listContainer > div:nth-child(6){
+        margin-bottom: 145px;  
+    }
+    .funnystory{
+        margin: 0 6.5%; 
+    }
+    .funnystory .active{
+        list-style: none;
+    }
+    .funnystory .active img{
+        width: 100%; border-radius: 10px;
+        margin-bottom: 50px; height: 330px; object-fit: cover;
+    }
+    .funnystory li:not(.active){
+        display: none;
+    }
+    .funnystory .active h3,
+    .funnystory .active p{
+        width: 60%;
+    }
+    .funnystory .active h3{
+        font-size: 30px; font-weight: 400;
+        margin-bottom: 45px;
+    }
+    .funnystory .active p{
+        font-size: 14px; line-height: 26px; font-weight: 400;
+    }
+    .funnyarrow{
+        float: right; width: 17%; 
+    }
+    .funnyarrow > span{
+        background-color: #f2f2f2; padding: 30px; border-radius: 50%;
+        cursor: pointer;
+    }
+    /* class active 추가하기!!!!!!!!*/
+    .moreBox{
+        /* margin-bottom: 145px; */
+        padding-bottom: 145px;
+    }
+    .moreBox h3{
+        margin-bottom: 50px;
+        font-size: 16px; line-height: 18px;color: #565656; font-weight: 700;
+    }
+    /* .moreBox ul::after{
+        content: ""; display: block; clear: both;
+    } */
+    .moreBox ul{
+        list-style: none; margin: 0 10.56%; display: flex; flex-wrap: wrap;
+    }
+    /* .moreBox ul li{
+        width: 24.8%; float: left; 
+    }*/
+    .moreBox ul li:first-of-type
+    .moreBox ul li:nth-of-type(2),
+    .moreBox ul li:nth-of-type(3){
+        padding-bottom: 100px;
+    }
+    .moreBox ul li{
+        justify-content: space-between; width: 25%;
+
+    }
+    .moreBox ul li a{
+        display: block; font-size: 20px; line-height: 24px; font-weight: 700; color: #565656;
+    }
+    .moreBox ul li a img{
+        width: 100%; max-width: 260px; box-sizing: border-box; margin-bottom: 20px;
+    }
+    /* 각각 주마다 이미지 삽입필요!!!!!! */
+    .moreBox ul li a b{
+        display: block; font-size: 14px; line-height: 24px; margin: 10px 0 0 8%; 
+        font-weight: 400; color: #565656;
+    }
+    .moreBox ul li:not(:last-of-type){
+        padding-right: 8.13%;
+    }
+    /* fin */   
+    .websitebox{
+        position: relative;
+        /* margin-bottom: 300px; */
+        padding-bottom: 145px;
+    }
+    .websitebox h3{
+        font-size: 12px; line-height: 18px; font-weight: 400; color: #7d7b7b;
+        margin-bottom: 50px;
+    }
+    .websitebox a{
+        margin-right: 7.72%; color: #565656; font-size: 14px; line-height: 22px; font-weight: 400;
+        display: inline-block;
+    }
+    .websitebox a img{
+        width: 100%; max-width: 250px; box-sizing: border-box; display: block;
+        margin-bottom: 10px;
+    }
+    .videobox{
+        padding-bottom: 250px;
+    }
+    .videobox h3{
+        font-size: 20px; line-height: 24px; font-weight: 700;
+        padding-bottom: 10px; color: #7d7b7b;
+    }
+    .videobox > b{
+        font-size: 14px; font-weight: 400; line-height: 18px;
+        color: #7d7b7b; display: block;
+    }
+    .videobox img{
+        max-width: 50%;
+        padding: 20px 0;
+    }
+    .videobox a{
+        display: block; background-color: #151f3a; color: white; width: 50%;
+        text-align: center; border-radius: 10px; font-weight: 700;line-height: 40px;
+    }
+    /* fin */
+/* list pages fin */ 
+/* .detailContainer{
+    max-width: 1230px; margin: 0 auto; 
+} */
+.detailContainer{
+    margin-bottom: 145px;
+}
+.detailContainer div:first-child{
+    position: relative; margin-bottom: 145px;
+}
+.detailContainer div:first-child h2{
+    position: absolute; left: 5.04%; top: 225px; font-size: 40px; font-weight: 700; 
+    z-index: 1; color: white; margin-bottom: 250px;
+}
+.detailContainer div:first-child h2 small{
+    font-size: 16px; line-height: 22px; font-weight: 700;
+    display: block; margin-bottom: 50px;
+}
+.detailContainer div:first-child h2 cite{
+    font-weight: 700; font-size: 16px; line-height: 100px;
+}
+.detailContainer div:first-child img{
+    width: 100%; filter: brightness(0.7); z-index: -1;
+}
+/* fin */
+.detailContainer div:nth-child(2){
+    margin-bottom: 145px;
+}
+.detailContainer div:nth-child(2):after{
+    content: ""; display: block; clear: both;
+}
+.detailContainer div:nth-child(2) figure img{
+    width: 100%; max-width: 50%; box-sizing: border-box; 
+}
+.detailContainer div:nth-child(2) figure:after{
+    content: ""; display: block; clear: both;
+}
+.detailContainer div:nth-child(2) figure figcaption{
+    float: right; width: 40%;
+}
+.detailContainer div:nth-child(2) figure figcaption h3{
+    font-size: 30px; font-weight: 700; color: #000;
+    margin-bottom: 50px; 
+}
+.detailContainer div:nth-child(2) figure figcaption h3 small{
+    display: block; font-size: 16px; margin-left: 5%; 
+    padding-top: 20px; color: #686464; font-weight: 400;
+}
+.detailContainer div:nth-child(2) figure p{
+    font-size:  14px; line-height: 26px; font-weight: 400; margin-bottom: 50px;
+}
+.detailContainer div:nth-child(2) figure div{
+    margin-bottom: 145px;
+}
+.detailContainer div:nth-child(2) figure div h4{
+    font-size: 20px; line-height: 24px; font-weight: 400;
+    color: #565656; padding-bottom: 35px; 
+}
+.detailContainer div:nth-child(2) figure div a{
+    display: block; font-size: 14px; line-height: 22px; font-weight: 400;
+    color: #565656;
+}
+.detailContainer div:nth-child(2) figure div a img{
+    width: 100%; max-width: 54.25%; margin-bottom: 10px;
+    box-sizing: border-box; 
+}
+.detailContainer div:nth-child(2) figure div a b{
+    padding-bottom: 10px; display: block; font-size: 20px; line-height: 24px; 
+    font-weight: 700; color: #565656;
+}
+.detailContainer div:nth-child(3){
+    margin-bottom: 145px;
+}
+.detailContainer > div:nth-child(3) img{
+    margin-bottom: 50px; width: 100%; border-radius: 10px;
+    height: 380px; object-fit: cover;
+}
+.detailContainer div:nth-child(3) h2{
+    text-align: center; font-size: 30px; font-weight: 700;
+    padding-bottom: 50px;
+}
+.detailContainer div:nth-child(3) h2 small{
+    display: block; font-size: 14px; padding-top: 10px; color: #565656;
+    line-height: 24px; font-weight: 400; 
+}
+.detailContainer div:nth-child(3) p{
+    font-size: 14px; line-height: 24px; font-weight: 400;
+    text-align: center;
+}
+.detailContainer div:nth-child(4){
+    margin-bottom: 145px;
+}
+.detailContainer div:nth-child(4) figure:after{
+    content: ""; display: block; clear: both;
+}
+.detailContainer div:nth-child(4) figure img{
+    max-width: 45%; height: 660px; object-fit: cover;
+    border-radius: 10px;
+}
+.detailContainer div:nth-child(4) figure figcaption{
+    float: right; width: 45%; margin-top: 80px;
+} 
+.detailContainer div:nth-child(4) figure figcaption h3{
+    margin-bottom: 50px; font-size: 30px; font-weight: 700;
+}
+.detailContainer div:nth-child(4) figure figcaption h3 small{
+    display: block; font-size: 14px; line-height: 22px; color: #565656;
+    padding: 20px 0 0 5%;
+}
+.detailContainer div:nth-child(4) figure figcaption p{
+    line-height: 28px; font-size: 16px; font-weight: 400; color: #565656;
+}
+.detailContainer .floatBox{
+    margin-bottom: 145px; list-style: none;
+}
+.detailContainer .floatBox li figure img{
+    max-width: 45%;
+}
+.detailContainer .floatBox .limgRtxt{
+    margin-bottom: 145px;
+}
+.floatBox .limgRtxt figure:after{
+    content: ""; display: block; clear: both;
+}
+.floatBox .limgRtxt figure figcaption{
+    float: right; width: 40%;
+}
+.floatBox .limgRtxt figure figcaption h3{
+    margin-bottom: 50px; font-size: 30px; font-weight: 700; 
+}
+.floatBox .limgRtxt figure figcaption p{
+    font-size: 16px; line-height: 22px; font-weight: 400; color: #565656; 
+}
+.detailContainer .floatBox .ltxtRimg{
+    margin-bottom: 145px; position: relative;
+}
+.floatBox .ltxtRimg figure:after{
+    content: ""; display: block; clear: both;
+}
+.detailContainer .floatBox .ltxtRimg figure img{
+    padding-left: 15%;
+    height: 430px;
+    /* height? */
+}
+.floatBox .ltxtRimg figure figcaption{
+    float: left; width: 39%; 
+}
+.floatBox .ltxtRimg figure h3{
+    margin-bottom: 50px; font-size: 30px; font-weight: 700;
+    display: block; text-align: right; 
+}
+.detailContainer .floatBox .ltxtRimg figure figcaption p{
+    margin-bottom: 220px; 
+}
+.floatBox .ltxtRimg figure figcaption p{
+    font-size: 16px; line-height: 22px; font-weight: 400; color: #565656; 
+    margin-top: 85px;  
+}
+.floatBox .ltxtRimg figure figcaption small{
+    text-align: right; position: absolute; right: 140px; top: 520px;
+    font-size: 14px; line-height: 26px;
+}
+/* fin */
+.detailContainer .expcardSlot{
+    margin-bottom: 145px;
+}
+.detailContainer div:last-child h3{
+    font-size: 60px; text-align: center; margin-bottom: 60px; font-weight: 700;
+}
+.detailContainer .expcardSlot::after{
+    content: ""; display: block; clear: both;
+}
+.detailContainer .expcardSlot li{
+    width: 25.60%; list-style: none; float: left;
+}
+.detailContainer .expcardSlot li:nth-child(1),
+.detailContainer .expcardSlot li:nth-child(2),
+.detailContainer .expcardSlot li:nth-child(4),
+.detailContainer .expcardSlot li:nth-child(5),
+.detailContainer .expcardSlot li:nth-child(7){
+    /* padding-right: 11.78%; */margin-right: 10%;
+}
+.expcardSlot > li:nth-child(2),
+.expcardSlot > li:nth-child(5),
+.expcardSlot > li:nth-child(8){
+    margin-top: 70px;
+}
+.detailContainer .expcardSlot li:nth-child(3),
+.detailContainer .expcardSlot li:nth-child(6){
+    margin-top: 140px;
+}
+.detailContainer .expcardSlot li a{
+    display: block; position: relative;
+}
+.detailContainer .expcardSlot li a strong{
+    position: absolute; bottom: 45px; width: 100%; left: 0;
+    font-size: 30px; font-weight: 700; color: #fff;
+    text-align: center; padding: 0 8%; display: block; 
+    box-sizing: border-box;  
+}
+.detailContainer .expcardSlot li a img{
+    width: 100%; border-radius: 20px; box-sizing: border-box;
+    height: 500px; object-fit: cover;
+    filter: brightness(0.7);
+}
+.expcardSlot li a img:hover{
+    transform: scale(1.1);
+    overflow: hidden; transition: transform 0.3s; box-sizing: border-box;
+}
+/* detalipages fin */
+
+
+.destination{
+    margin-bottom: 250px;
+}
+    .destination div:first-child{
+        position: relative;
+        margin-bottom: 80px;
+    }
+    .destination div:first-child h2{
+        position: absolute;
+        bottom: 0; left: 6.25%;
+        padding-bottom: 50px;
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+    }
+    .destination div:first-child img{
+        width: 100%; height: 370px;
+        object-fit: cover;
+    }
+    .destination .guide h3{
+     text-align: center; font-size: 60px; font-weight: 700;
+     margin-bottom: 80px;   
+    }
+    .destination .guide > .destinatiMenu{
+        display: flex; font-size: 30px; font-weight: 700;
+        justify-content: space-between;
+        list-style: none; padding: 0 6.25%;
+        margin-bottom: 85px; cursor: pointer;
+    }
+    .destination .guide > .destinatiMenu > .active{
+        border-bottom: 4px solid #4e53bb; border-radius: 2px;
+        padding-bottom: 10px;
+    }
+    .destination .guide > .imgslotbox{
+        padding: 0 6.25%;
+        margin-bottom: 145px;
+    }
+    .destination .guide > .imgslotbox::after{
+        content: ""; display: block; clear: both;
+    }
+    .destination .guide > .imgslotbox > .active ul{
+        float: left; width: 26.41%;
+        list-style: none;
+    }
+    .destination .guide > .imgslotbox .active ul:first-child{
+        margin-right: 10.29%;
+    }
+    .destination .guide > .imgslotbox .active ul:nth-child(2){
+        margin-top: 70px;
+        margin-right: 10.29%;
+    }
+    .destination .guide > .imgslotbox .active ul:last-child{
+        margin-top: 140px;
+    }
+    .destination .guide > .imgslotbox .active ul li{
+        margin-bottom: 110px; 
+        position: relative;
+    }
+    .destination .guide > .imgslotbox .active ul li a{
+        display: block;
+    }
+    .destination .guide > .imgslotbox .active ul li a img{
+        width: 100%; border-radius: 20px; filter: brightness(0.8);
+        height: 500px;
+        /* height로 사용가능? */
+        object-fit: cover; 
+    }
+    .destination .guide > .imgslotbox .active ul li a img:hover{
+        transform:scale(1.2); box-sizing: border-box; transition: transform 0.5s;
+    }
+    .destination .guide > .imgslotbox .active ul li a strong{
+        position: absolute; bottom: 45px; left: 0; 
+        font-size: 30px; width: 100%; 
+        text-align: center;
+        color: white; 
+    }
+    .imgslotbox > div:not(.active){
+        display: none;
+    }
+    /* 수정 중 class 사용 */
+    
+/* destination fin */
+    .travel{
+        margin-bottom: 225px;
+    }
+    .travel div:first-child{
+        position: relative;
+        margin-bottom: 145px;
+    }
+    .travel div:first-child h2{
+        position: absolute;
+        bottom: 0; left: 6.25%;
+        padding-bottom: 50px;
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+    }
+    .travel div:first-child img{
+        width: 100%;
+    }
+    .travel .guide h3{
+     text-align: center; font-size: 60px; font-weight: 700;
+     margin-bottom: 80px;   
+    }
+    .travel .guide > p{
+        text-align: center; font-size: 20px;line-height: 30px;
+        font-weight: 700; margin-bottom: 50px;
+    }
+    .travel .guide > p > a{
+        color: #4e53bb; margin-left: 0.5%;
+    }
+    .travel .guide > .destinatiMenu{
+        list-style: none;
+        display: flex; font-size: 30px; font-weight: 700;
+        justify-content: space-between;
+        list-style: none; padding: 0 6.25%;
+        margin-bottom: 85px; cursor: pointer;
+    }
+    .travel .guide .destinatiMenu > .active{
+        border-bottom: 4px solid #4e53bb; border-radius: 2px;
+        padding-bottom: 10px;
+    }   
+    .travel .guide > .imgslotbox > div:not(.active){
+        display: none;
+    }
+    .travel .guide > .imgslotbox{
+        padding: 0 6.25%;
+        margin-bottom: 145px;
+    }
+    .travel .guide > .imgslotbox::after{
+        content: ""; display: block; clear: both;
+    }
+    .travel .guide > .imgslotbox > .active ul{
+        float: left; width: 26.41%;
+        list-style: none;
+    }
+    .travel .guide > .imgslotbox .active ul:first-child{
+        margin-right: 10.29%;
+    }
+    .travel .guide > .imgslotbox .active ul:nth-child(2){
+        margin-top: 70px;
+        margin-right: 10.29%;
+    }
+    .travel .guide > .imgslotbox .active ul:last-child{
+        margin-top: 140px;
+    }
+    .travel .guide > .imgslotbox .active ul li{
+        margin-bottom: 110px; 
+        position: relative;
+    }
+    .travel .guide > .imgslotbox .active ul li a{
+        display: block; 
+    }
+    .travel .guide > .imgslotbox .active ul li a img{
+        width: 100%; border-radius: 20px;
+        height: 500px;
+        /* height로 사용가능? */
+        object-fit: cover;
+        filter: brightness(0.7);
+    }
+    .travel .guide > .imgslotbox .active ul li a:hover img{
+        transform: scale(1.1);
+        overflow: hidden; transition: transform 0.3s;
+    }
+    .travel .guide > .imgslotbox .active ul li a strong{
+        position: absolute; bottom: 45px; left: 0; 
+        font-size: 30px; width: 100%; font-weight: 700; 
+        text-align: center; box-sizing: border-box; padding: 0 8%;
+        color: white; 
+    }
+    /* traver fin */
+    .experience{
+        margin-bottom: 225px;
+    }
+    .experience div:first-child{
+        position: relative;
+        margin-bottom: 145px;
+    }
+    .experience div:first-child h2{
+        position: absolute;
+        bottom: 0; left: 6.25%;
+        padding-bottom: 50px;
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+    }
+    .experience div:first-child img{
+        width: 100%;
+    }
+    .experience .guide h3{
+     text-align: center; font-size: 60px; font-weight: 700;
+     margin-bottom: 80px;   
+    }
+    .experience .guide > p{
+        text-align: center; font-size: 20px;line-height: 30px;
+        font-weight: 700; margin-bottom: 50px;
+    }
+    .experience .guide > p > a{
+        color: #4e53bb;
+    }
+    .experience .guide > .destinatiMenu{
+        list-style: none;
+        display: flex; font-size: 30px; font-weight: 700;
+        justify-content: space-between;
+        list-style: none; padding: 0 6.25%;
+        margin-bottom: 85px; cursor: pointer;
+    }
+    .experience .guide .destinatiMenu > .active{
+        border-bottom: 4px solid #4e53bb; border-radius: 2px;
+        padding-bottom: 10px;
+    }   
+    .experience .guide > .imgslotbox > div:not(.active){
+        display: none;
+    }
+    .experience .guide > .imgslotbox{
+        padding: 0 6.25%;
+        margin-bottom: 145px;
+    }
+    .experience .guide > .imgslotbox::after{
+        content: ""; display: block; clear: both;
+    }
+    .experience .guide > .imgslotbox > .active ul{
+        float: left; width: 26.41%;
+        list-style: none;
+    }
+    .experience .guide > .imgslotbox .active ul:first-child{
+        margin-right: 10.29%;
+    }
+    .experience .guide > .imgslotbox .active ul:nth-child(2){
+        margin-top: 70px;
+        margin-right: 10.29%;
+    }
+    .experience .guide > .imgslotbox .active ul:last-child{
+        margin-top: 140px;
+    }
+    .experience .guide > .imgslotbox .active ul li{
+        margin-bottom: 110px; 
+        position: relative;
+    }
+    .experience .guide > .imgslotbox .active ul li a{
+        display: block; 
+    }
+    .experience .guide > .imgslotbox .active ul li a img{
+        width: 100%; border-radius: 20px;
+        height: 500px;
+        /* height로 사용가능? */
+        object-fit: cover;
+        filter: brightness(0.7);
+    }
+    .experience .guide > .imgslotbox .active ul li a:hover img{
+        transform: scale(1.1);
+        overflow: hidden; transition: transform 0.3s;
+    }
+    .experience .guide > .imgslotbox .active ul li a strong{
+        position: absolute; bottom: 45px; left: 0; 
+        font-size: 30px; width: 100%; font-weight: 700; 
+        text-align: center;
+        color: white; 
+    }
+    /* experience fin */
+    
+    .loadMapContainer{
+        margin-bottom: 250px;
+    }
+    .loadMapContainer > div:first-child{
+        margin-bottom: 145px; position: relative;
+    }
+    .loadMapContainer > div:first-child h2{
+        position: absolute; top: 325px;
+        font-size: 40px; font-weight: 700; line-height: 45px;
+        padding-bottom: 45px; color: white;
+        margin-left: 6%; z-index: 1;
+    }
+    .loadMapContainer > div:first-child h2 cite{
+        font-size: 16px; line-height: 122px;
+    }
+    .loadMapContainer > div:first-child img{
+        width: 100%; filter: brightness(0.7);
+    }
+    .centerbox{
+        text-align: center; padding-bottom: 145px;
+    }
+    .centerbox h3{
+        font-size: 30px; font-weight: 700;
+        margin-bottom: 50px; color: black;
+    }
+    .centerbox p{
+        font-size: 14px; line-height: 26px; color: #686464;
+    }
+    /* fin */
+    .loadMapContainer .floatBox{
+        margin-bottom: 145px; list-style: none; width: 90%; margin: 0 auto;
+    }
+    .loadMapContainer .floatBox::after{
+        content: ""; display: block; clear: both;
+     }
+     .loadMapContainer .floatBox li{
+        padding-bottom: 90px;
+     }
+     .loadMapContainer .floatBox .limgRtxt figure > *{
+        float: left; width: 45%;
+     }
+     .loadMapContainer .floatBox .ltxtRimg figure > *{
+        float: right; width: 45%; 
+     }
+     .loadMapContainer .floatBox .ltxtRimg figure > *{
+        float: right; width: 45%;
+     }
+     .loadMapContainer .floatBox li figure img{
+        display: block; height: 530px; object-fit: cover;
+     }
+     .loadMapContainer .floatBox .limgRtxt figure figcaption{
+        margin-left: 10%;
+     }
+     .loadMapContainer .floatBox .ltxtRimg figure figcaption{
+        margin-right: 10%; 
+     }
+     .loadMapContainer .floatBox li figure figcaption h3{
+        font-size: 30px; line-height: 30px; color: black;
+        font-weight: 700;
+     }
+     .loadMapContainer .floatBox li figure figcaption p{
+        font-size: 16px; font-weight: 400; line-height: 22px;
+     }
+     .loadMapContainer .floatBox li > div{
+        border-bottom: 28px solid transparent; 
+        padding: 50px 25px 100px; box-sizing: border-box;
+        clear: both; position: relative; margin: 0 6%; border-radius: 10px;
+    }
+     .loadMapContainer .floatBox li > div h4{
+        margin-bottom: 20px; font-size: 24px; font-weight: 400; color: #7d7b7b;
+    }
+     .loadMapContainer .floatBox li > div a img{
+        width: 50%; margin-bottom: 10px; 
+    }
+     .loadMapContainer .floatBox li > div a > *{
+        display: block;
+    }
+     .loadMapContainer .floatBox li > div a b{
+        color: #565656; font-size: 24px; margin-bottom: 10px; 
+    }
+     .loadMapContainer .floatBox li > div a small{
+        padding-left: 2%; color: #565656
+    }
+     .loadMapContainer .floatBox li > div .circlebox{
+        position: absolute; right: 0; bottom: -20px;
+    }
+    .loadMapContainer .floatBox li.limgRtxt > div{
+        border-left: 28px solid transparent;  
+        border-image: linear-gradient(90deg,#8294c4 0%,#ffead2 100%);
+        border-image-slice: 1;  
+        background-position-y: 50px;
+    }
+    .loadMapContainer .floatBox li.limgRtxt > div mark{
+        padding-right: 60px; line-height: 25px; color: white;
+        position: absolute; left: 0; top: 100px; transform: rotate(-90deg); 
+        text-transform: uppercase; background-color: transparent; transform-origin: left bottom;
+    }
+    .loadMapContainer .floatBox li.ltxtRimg > div mark{
+        padding-left: 60px; line-height: 25px; position: absolute; right: -9%; top: 80px; padding: 2.43% 0 2.43% 100px;
+        transform: rotate(90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
+        text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
+        background-size: 40px;
+    }
+    .loadMapContainer .floatBox li.limgRtxt > div mark{
+        line-height: 25px; position: absolute; left: 1.5%; top: 80px;
+        transform: rotate(-90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
+        text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
+        background-size: 40px; padding: 20px 110px 20px 0; text-align: center;
+    }
+    .loadMapContainer .floatBox li.ltxtRimg > div{
+        border-right: 28px solid transparent; border-image: linear-gradient(90deg,#8294c4 0%,#ffead2 100%);
+        border-image-slice: 1; 
+    }
+    .loadMapContainer .floatBox li:last-child div:last-of-type{
+        margin-left: 43.90%; border: none;    
+    }
+    .circlebox{
+        margin-right: 20px; padding-bottom: 100px; 
+    }
+    .car,
+    .speed,
+    .airplane{
+        width: 180px; height: 180px; border-radius: 80px; background-color: #f5f5f5;
+        text-align: center;
+    }
+    .car{
+        background-image: url("../images/loadmap/loadmapPart/carimg.png");
+        background-repeat: no-repeat; background-size: 30px;
+        background-position:center 60px; padding: 90px 20px 50px;
+    } 
+    .speed{
+        background-image: url("../images/loadmap/loadmapPart/speedimg.png");
+        background-repeat: no-repeat; background-position: center 60px;
+        padding: 90px 50px 50px; margin-left: 50px; background-size: 30px;
+    }
+    .airplane{
+        background-image: url("../images/loadmap/loadmapPart/airplane.png");
+        background-repeat: no-repeat; background-position: center;
+        padding: 90px 20px 50px; background-size: 30px;
+    }
+    
+/* fin */
+    .top_menucontainer{
+        margin-bottom: 145px;
+    }
+    .top_menucontainer div:first-child{
+        position: relative; margin-bottom: 145px;
+    }
+    .top_menucontainer div:first-child h2{
+        position: absolute; top: 190px; padding-left: 6%;
+        color: white; font-size: 40px; z-index: 1;
+    }
+    .top_menucontainer div:first-child h2 small{
+        font-size: 16px; line-height: 22px; display: block;
+        padding-bottom: 50px;
+    }
+    .top_menucontainer div:first-child > img{
+        width: 100%; filter: brightness(0.6);
+    }
+    .top_menucontainer .menubox{
+        display: none;
+    }
+    .top_menucontainer > div:nth-child(3){
+        margin-bottom: 145px;
+    }
+    .top_menucontainer > div:nth-child(3)::after{
+        content: ""; display: block; clear: both;
+    }
+    .top_menucontainer > div:nth-child(3) > div{
+        float: left; width: 50%;
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset legend{
+        display: inline-block;
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset > input{
+        font-size: 16px; line-height: 22px; font-weight: 700; 
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset > label{
+        color: #b7b3b3; border-bottom: 4px solid #b7b3b3; border: none;
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset > div:first-child{
+        margin-bottom: 130px;
+    }
+    .top_menucontainer > div:nth-child(3) > div form fieldset > div:last-child input{
+        display: block; margin-bottom: 50px; 
+        border: none; box-shadow: none; border-bottom: 4px solid #b7b3b3;
+        background-image: none; background-color: transparent;
+        padding-bottom: 10px; font-size: 16px; line-height: 22px; font-weight: 700;
+        color: #b7b3b3; width: 40%;
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child{
+        width: 40%; padding: 0;
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child h3{
+        font-size: 30px; font-weight: 700; margin-bottom: 20px;
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child p{
+        font-size: 16px; line-height: 22px; font-weight: 700; color: #929090;
+        margin-bottom: 80px;
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child textarea{
+        display: block; margin-bottom: 20px; width:100%; height: 200px; 
+        background-color: #e5e5e5; border: none; font-size: 16px; line-height: 22px;
+        color: #b7b3b3; font-weight: 700; 
+    }
+    .top_menucontainer > div:nth-child(3) > div:last-child [type="button"]{
+        width: 100%; padding: 15px; background-color: #62832b; color: white;
+        font-size: 16px; line-height: 22px; font-weight: 700; border: none;
+        cursor: pointer;
+    }
+    .top_menucontainer .textbox h2{
+        font-size: 30px; font-weight: 700; text-align: center;
+        margin-bottom: 50px;
+    }
+    .top_menucontainer div:nth-child(3) h3,
+    .brandusasubbox h3{
+        font-size: 30px; text-align: center;
+        margin-bottom: 40px;
+    }
+    .top_menucontainer .brand_usaTextarea,
+    .brandusasubbox{
+        list-style: none; 
+    }
+    .brandusasubbox{
+        margin-bottom: 145px;
+    }
+    .top_menucontainer .brand_usaTextarea li,
+    .brandusasubbox li{
+        margin-bottom: 40px; font-size: 18px; line-height: 24px;
+        font-weight: 700; color: #aaaaaa;
+    }
+    .top_menucontainer  .brand_usaTextarea li p > a,
+    .top_menucontainer  .brand_usaTextarea li  a,
+    .brandusasubbox li a{
+        color: #7dc1ef;
+    }
+    .top_menucontainer .textbox .brand_usaTextarea li,
+    .brandusasubbox{
+        font-size: 18px; line-height: 24px; margin-bottom: 40px;
+        color: #aaaaaa; font-weight: 700;
+    } 
+    .brand_usaTextarea,
+    .brandusasubbox{
+        margin-bottom: 300px;
+    }
+    .brandusasubbox [type="button"]{
+        border: none; background-color: transparent;
+    }
+    .brandusasubbox li{
+        border-bottom: 3px solid #aaaaaa;
+    }
+    .brandusasubbox > li > p{
+        opacity: 0; transition: opacity 0.7s ease-in-out; font-size: 16px; 
+        margin-bottom: 20px;
+    }
+    .brandusasubbox > li .open{
+        opacity: 1;
+    }
+    .brandusasubbox [type="button"]:hover{
+        cursor: pointer;
+    } 
+    .subscribepopup{
+        display: none;
+    }
+    .formbox form{
+        position: relative;
+    }
+    .formbox form > #confirmPopup.active{
+        display: block; position: absolute; left:0; top: 250px;
+        background-color: #d4d4d4; width: 100%; max-width: 500px;
+        box-sizing: border-box; overflow: hidden;
+    }
+    .formbox form > #confirmPopup.active img{
+        width: 100%; max-width: 190px; position: absolute; right: -100px; top: -20px;
+    }
+    .formbox form > #confirmPopup.active h3{
+        padding-top: 60px; font-size: 30px; color: black; display: block;
+        text-align: center; font-weight: 700;
+    }
+    .formbox form > #confirmPopup.active span{
+        display: block; font-size: 20px; color: #aaaaaa;
+        padding-bottom: 70px; text-align: center; font-weight: 700;
+    }
+    .formbox form > #confirmPopup.active input{
+        font-size: 20px; padding: 20px 0; background-color: #d28c1d;
+        width: 100%; max-width: 170px; margin: 0 auto; text-align: center; border: none;
+        font-weight: 700; margin: 0 170px 20px; cursor: pointer;
+    }
+    #confirmPopup{
+        display: none;
+    }
+    .formbox::after{
+        content: ""; display: block; clear: both;
+    }
+    .formbox form fieldset legend{
+        margin-bottom: 45px;
+    }
+    .formbox form fieldset{
+        font-size: 16px; font-weight: 700; line-height: 22px;
+        color: #aaaaaa; margin-bottom: 45px; float: left; width: 40%;
+        margin-right: 20%;
+    }
+    .formbox form fieldset [type="checkbox"]{
+        display: inline-block; margin-right: 1%;
+    }
+    .formbox form fieldset > a{
+        color: #b3cadb; padding-bottom: 50px; display: block;
+    }
+    .formbox form fieldset > label{
+        margin-bottom: 15px; line-height: 22px;
+    }
+    .formbox form fieldset input[type="button"]{
+        color: white; border: none; background-color: #dfa927;
+        width: 100%; padding: 20px 0; border-radius: 10px; font-size: 20px; font-weight: 700;
+    }
+    .formbox form fieldset input[type="button"]:hover{
+        cursor: pointer;
+    }
+    .formbox fieldset > input[type="text"],
+    .formbox fieldset > input[type="email"]{
+        display: block; font-size: 16px; line-height: 22px; color: #aaaaaa; border: none;
+        border-bottom: 4px solid #aaaaaa; padding-bottom: 10px;
+        margin-bottom: 40px; font-weight: 700; width: 100%;
+    }
+    .formbox > div:first-child > a img{
+        width: 100%; max-width: 250px;
+    }
+    .formbox div:last-child a img{
+        width: 100%; max-width: 560px;
+        margin-bottom: 50px;
+    }
+    .formbox div:last-child > b{
+        font-size: 16px; line-height: 22px; color: #aaaaaa;font-weight: 700;
+    }
+    .formbox div:last-child > h3{
+        font-weight: 700; font-size: 25px; text-align: left; padding-top: 75px;
+    }
+    .formbox div:last-child > p > b{
+        margin-top: 50px; display: block;
+    }
+    /* fin */
+    .allvideoContainer{
+        margin-bottom: 250px; position: relative;
+    }
+    .allvideoContainer > div:first-child{
+        margin-bottom: 145px; max-width: 1230px;
+        z-index: 1;
+    }
+    .allvideoContainer > div:first-child > h2{
+        font-size: 40px; font-weight: 700; color: white; 
+        position: absolute; left: 6%; top: 270px; z-index: 1;
+    }
+    .allvideoContainer > div:first-child > img{
+        object-fit: cover; filter: brightness(0.8);
+    }
+    .allvideoContainer > div:first-child > h2 small{
+        display: block; font-size: 16px; color: white; font-weight: 700; 
+        margin-bottom: 50px;
+    }
+    .allvideoContainer > div:nth-child(2){
+        margin-bottom: 145px;
+    }
+    .allvideoContainer > div:nth-child(2) > h3{
+        font-size: 40px; font-weight: 700; margin-bottom: 50px; text-align: center;
+    }
+    .allvideoContainer > div:nth-child(2) > p{
+        font-size: 18px; line-height: 22px; margin-bottom: 145px; font-weight: 700;
+        text-align: center; color: #686464; line-height: 26px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox{
+        margin-bottom: 145px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video{
+        display: block; 
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul{
+        list-style: none; float: left; width: 25%;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li{
+        list-style: none; position: relative;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video:after{
+        content: ""; display: block; clear: both;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:nth-child(2){
+        padding-left: 12%; margin-top: 70px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:first-child li:last-of-type{
+        padding-top: 70px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:nth-child(2) li:last-of-type{
+        padding-top: 70px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:nth-child(3) li:last-of-type{
+        padding-top: 70px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul:nth-child(3){
+        padding-left: 12%; margin-top: 140px;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li a{
+        display: block; 
+    } 
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li a img{
+        width: 100%; border-radius: 10px; height: 500px; object-fit: cover;
+        filter: brightness(0.8);
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li a:hover img{
+        transform: scale(1.2); box-sizing: border-box; overflow-y: hidden; transition: transform 0.3s;
+    }
+    .allvideoContainer > div:nth-child(2) .imgslotbox .video ul li a strong{
+        position: absolute; bottom: 45px; width: 100%; text-align: center; left: 0;
+        font-size: 30px; color: white; 
+    }
+
+}
+/* dasktop */

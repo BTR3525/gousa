@@ -1,0 +1,39 @@
+/* .bx-wrapper .bx-pager{
+    color:red; font-weight: normal;
+} */
+/* 복수의 slider일경우 이를 분기할수 있는 방법이 있어야함 */
+/* 기존 페이지 customize */
+.newPager .bx-wrapper .bx-pager .bx-default-pager{
+    text-align: center;
+}
+.newPager .bx-wrapper .bx-pager .bx-default-pager .bx-pager-item{
+    display: inline-block;
+}
+.newPager .bx-wrapper .bx-pager .bx-default-pager .bx-pager-item:not(:first-of-type){
+    margin-left: 2%;
+}
+.newPager .bx-wrapper .bx-pager .bx-default-pager .bx-pager-item a.bx-pager-link{
+    text-decoration: none; background-color: #e2e2e2; border-radius: 40px;
+    padding: 17px 20px; display: block;
+}
+.newPager .bx-wrapper .bx-pager .bx-default-pager .bx-pager-item a.bx-pager-link.active{
+    font-weight: bold; color: white; background-color: black;
+}
+.customPager{
+    text-align: center;
+}
+.customPager li{
+    display: inline-block; width: 20%;
+}
+.customPager li:not(:first-child){
+    margin-left: 2%;
+}
+.customPager li a{
+    opacity: 0.5; display: block; transition: all 0.35 ease-in;
+}
+.customPager li a.active{
+    padding: 5px; border: 1px solid black; opacity: 1;
+}
+.customPager li a img{
+    width: 100%; display: block;
+}
