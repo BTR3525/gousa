@@ -1,7 +1,7 @@
 $(document).ready(function(){
     tabControl(".destinatiMenu li");
     panelControl("input[value='apps']");
-    askfor("input[value='expand_more']");
+    askfor(".brandusasubbox > li");
     maintravelandexp(".tabBox input[type=button]");
     scrollevent(".expcardSlot");
     popupEvent(".formbox form fieldset input[type='button']");
