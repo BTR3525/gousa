@@ -4159,7 +4159,13 @@
     }
     .loadMapContainer .floatBox li.limgRtxt > div{
         border-left: 28px solid transparent;  
-        border-image: linear-gradient(90deg,#8294c4 0%,#ffead2 100%);
+        border-image: linear-gradient(90deg,#ef2e21 0%,#dcce2c 100%);
+        border-image-slice: 1;  
+        background-position-y: 50px;
+    }
+    .loadMapContainer .floatBox li.ltxtRimg > div{
+        border-right: 28px solid transparent;
+        border-image: linear-gradient(90deg,#ef2e21 0%,#dcce2c 100%);
         border-image-slice: 1;  
         background-position-y: 50px;
     }
@@ -4181,8 +4187,19 @@
         background-size: 40px; padding: 20px 110px 20px 0; text-align: center;
     }
     .loadMapContainer .floatBox li.ltxtRimg > div{
-        border-right: 28px solid transparent; border-image: linear-gradient(90deg,#8294c4 0%,#ffead2 100%);
-        border-image-slice: 1; 
+        border-right: 28px solid transparent; 
+        /* border-image: linear-gradient(90deg,#8294c4 0%,#ffead2 100%);
+        border-image-slice: 1;  */
+    }
+    .loadMapContainer .floatBox.cold li.limgRtxt > div{
+        border-left: 28px solid transparent;
+        border-image: linear-gradient(90deg,#8294c2 0%,#ffead2 100%);
+        border-image-slice: 1;   
+    }
+    .loadMapContainer .floatBox.cold li.ltxtRimg > div{
+        border-right: 28px solid transparent;
+        border-image: linear-gradient(90deg,#8294c2 0%,#ffead2 100%);
+        border-image-slice: 1;
     }
     .loadMapContainer .floatBox li:last-child div:last-of-type{
         margin-left: 43.90%; border: none;    
