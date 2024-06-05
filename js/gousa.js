@@ -9,7 +9,6 @@ $(document).ready(function(){
     listSlider();
     sideSlide();
     // mainslide();
-    // sidesliderbutton(".sideSlide");
     // randomEvent(".mainContainer > div:last-child ul li a");
 });
 function panelControl(target){
