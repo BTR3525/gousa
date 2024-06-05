@@ -6,7 +6,6 @@ $(document).ready(function(){
     scrollevent(".expcardSlot");
     popupEvent(".formbox form fieldset input[type='button']");
     moreboxEvent(".moreBox");
-    funnyboxEvent(".funnystory");
     listSlider();
     sideSlide();
     // mainslide();
@@ -57,19 +56,7 @@ function maintravelandexp(target){
     });
 }
 
-function funnyboxEvent(target){
-    var currentfunny = null;
-    var funnyevent = $(".funnystory > li");
-    $(target).click(function(){
-        currentfunny.attr(".funnystory > li");
-        if(funnyevent==".active"){
-            removeClass("active");
-        }else{
-            addClass("active");
-        }
-    }); 
 
-}
 // function randomEvent(){
 //     var randomplace = new Array();
 //     randomplace[0] = "list_alaska.html"
