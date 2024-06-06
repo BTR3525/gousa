@@ -1086,7 +1086,7 @@
         font-size: 12px; line-height: 30px;
     }
     .loadMapContainer > div:first-child img{
-        width: 100%; filter: brightness(0.7); height: 145px;
+        width: 100%; filter: brightness(0.7); height: 200px;
     }
     .centerbox{
          padding-bottom: 80px;
