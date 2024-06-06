@@ -4175,12 +4175,24 @@
         text-transform: uppercase; background-color: transparent; transform-origin: left bottom;
     }
     .loadMapContainer .floatBox li.ltxtRimg > div mark{
+        padding-left: 60px; line-height: 25px; position: absolute; right: -9.5%; top: 80px; padding: 2.43% 0 2.43% 100px;
+        transform: rotate(90deg); color: white; background-image: url("../images/loadmap/loadmapPart/wramcircle.png");
+        text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
+        background-size: 40px;
+    }
+    .loadMapContainer .floatBox.cold li.ltxtRimg > div mark{
         padding-left: 60px; line-height: 25px; position: absolute; right: -9%; top: 80px; padding: 2.43% 0 2.43% 100px;
         transform: rotate(90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
         text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
         background-size: 40px;
     }
     .loadMapContainer .floatBox li.limgRtxt > div mark{
+        line-height: 25px; position: absolute; left: 1.5%; top: 80px;
+        transform: rotate(-90deg); color: white; background-image: url("../images/loadmap/loadmapPart/wramcircle.png");
+        text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
+        background-size: 40px; padding: 20px 110px 20px 0; text-align: center;
+    }
+    .loadMapContainer .floatBox.cold li.limgRtxt > div mark{
         line-height: 25px; position: absolute; left: 1.5%; top: 80px;
         transform: rotate(-90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
         text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;

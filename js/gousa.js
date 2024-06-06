@@ -89,10 +89,14 @@ function moreboxEvent(){
     });
 };
 function listSlider(){
-    $(".listContainer > .mainSliderBox > .mainCarouselSlider").bxSlider();
+    $(".listContainer > .mainSliderBox > .mainCarouselSlider").bxSlider({
+        pager: false,
+    });
 }
 function sideSlide(){
-    $(".sideSlide").bxSlider();
+    $(".sideSlide").bxSlider({
+        pager: false,
+    });
 }
 // function mainslide(){
 //     $(".mainContainer > .mainSliderBox .mainCarouselSlider").bxSlider();
