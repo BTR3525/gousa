@@ -8,6 +8,7 @@ $(document).ready(function(){
     moreboxEvent(".moreBox");
     listSlider();
     sideSlide();
+    funnybox();
     // mainslide();
     // randomEvent(".mainContainer > div:last-child ul li a");
 });
@@ -97,6 +98,13 @@ function sideSlide(){
     $(".sideSlide").bxSlider({
         pager: false,
     });
+}
+function funnybox(){
+    $(".funnystory").bxSlider({
+        pager: false,
+        control: true,
+        minslider:1,
+    })
 }
 // function mainslide(){
 //     $(".mainContainer > .mainSliderBox .mainCarouselSlider").bxSlider();

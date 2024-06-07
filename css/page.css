@@ -473,15 +473,15 @@
     .listContainer > div:nth-child(6){
         margin-bottom: 80px;  
     }
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction{
+        display: block; position: absolute; right: 60px; top: 440px;
+    }
     .funnystory li{
         list-style: none;
     }
     .funnystory li img{
         width: 100%; border-radius: 10px;
         margin-bottom: 50px; height: 400px; object-fit: cover;
-    }
-    .funnystory li:not(:first-of-type){
-        display: none;
     }
     .funnystory li h3{
         font-size: 20px; font-weight: 400;
@@ -490,7 +490,6 @@
     .funnystory li p{
         font-size: 14px; line-height: 20px; font-weight: 400;
     }
-    /* class active 추가하기!!!!!!!!*/
     .moreBox{
         /* margin-bottom: 145px; */
         padding-bottom: 80px; opacity: 0;
@@ -1950,18 +1949,16 @@
     .listContainer > div:nth-child(6){
         margin-bottom: 145px;  
     }
-    .funnystory{
-        margin: 0 5%;
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction{
+        display: block; position: absolute; right: 100px; top: 230px;
     }
+    
     .funnystory li{
         list-style: none;
     }
     .funnystory li img{
         width: 100%; border-radius: 10px;
         margin-bottom: 50px; height: 200px; object-fit: cover;
-    }
-    .funnystory li:not(:first-of-type){
-        display: none;
     }
     .funnystory li h3{
         font-size: 20px; font-weight: 400;
@@ -3481,38 +3478,50 @@
     .listContainer > div:nth-child(6){
         margin-bottom: 145px;  
     }
-    .funnystory{
+    /* .funnystory{
         margin: 0 6.5%; 
-    }
-    .funnystory .active{
+    } */
+    .funnystory{    
         list-style: none;
     }
-    .funnystory .active img{
+    .funnystory li{
+        display: block;
+    }
+    .funnystory img{
         width: 100%; border-radius: 10px;
-        margin-bottom: 50px; height: 330px; object-fit: cover;
+        margin-bottom: 50px; height: 330px; object-fit: cover; display: block;
     }
-    .funnystory li:not(.active){
-        display: none;
-    }
-    .funnystory .active h3,
-    .funnystory .active p{
+    .funnystory li h3,
+    .funnystory li p{
         width: 60%;
     }
-    .funnystory .active h3{
+    .funnystory li h3{
         font-size: 30px; font-weight: 400;
         margin-bottom: 45px;
     }
-    .funnystory .active p{
+    .funnystory > li > p{
         font-size: 14px; line-height: 26px; font-weight: 400;
     }
-    .funnyarrow{
-        float: right; width: 17%; 
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction{
+        display: block; position: absolute; right: 100px; top: 370px;
     }
-    .funnyarrow > span{
-        background-color: #f2f2f2; padding: 30px; border-radius: 50%;
-        cursor: pointer;
-    }
-    /* class active 추가하기!!!!!!!!*/
+    /* .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a{
+        display: block; 
+        background-position: center;
+    } */
+    /* .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url("../images/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-repeat: no-repeat; padding: 30px; background-size: 30px;
+        border: 1px solid #f2f2f2; border-radius: 50%; background-color: #f2f2f2;
+        position: absolute; transform: rotate(180deg);
+    } 
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url("../images/arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-repeat: no-repeat; padding: 30px; background-size: 30px;
+        border: 1px solid #f2f2f2; border-radius: 50%; background-color: #f2f2f2;
+        transform: rotate(-180deg);
+    } */
+    /* fin */
     .moreBox{
         /* margin-bottom: 145px; */
         padding-bottom: 145px;

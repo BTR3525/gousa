@@ -64,8 +64,9 @@ footer > div > p:last-of-type{
         left: 80%; background-size: 20px; background-color: transparent;
         border: 3px solid white; border-radius: 50%; background-position: center;
     }
+    /* fin */
     .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction{
-        position: absolute; top: 210px; right: 33%;
+        position: absolute; top: 210px;margin: 0 auto;
     }
     .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction a.bx-prev{
         background-image: url("../images/arrow_back_ios_24dp_FILL0_wght400_GRAD0_opsz24.png");
@@ -74,8 +75,26 @@ footer > div > p:last-of-type{
     .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction a.bx-next{
         background-image: url("../images/arrow_forward_ios_24dp_FILL0_wght400_GRAD0_opsz24.png");
         background-repeat: no-repeat; background-size: 30px; background-position: center;
-        right: 50px;
+        left: 70%;
     }
+    /* slide fin */
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a{
+        display: block; 
+        background-position: center; 
+    }
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url("../images/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-repeat: no-repeat; padding: 10px; background-size: 30px;
+        border: 1px solid #f2f2f2; border-radius: 50%; background-color: #f2f2f2;
+        position: absolute; transform: rotate(180deg);
+    } 
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url("../images/arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-repeat: no-repeat; padding: 10px; background-size: 30px;
+        border: 1px solid #f2f2f2; border-radius: 50%; background-color: #f2f2f2;
+        transform: rotate(-180deg);
+    }
+
     .mainPage{
         background: url('../images/footer_moblie.png') left bottom / contain no-repeat;
         width: 100%;
@@ -286,7 +305,7 @@ footer > div > p:last-of-type{
         border: 3px solid white; border-radius: 50%; background-position: center;
     }
     .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction{
-        position: absolute; top: 200px; left: 12%;
+        position: absolute; top: 470px; left: 15%;
     }
     .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction a.bx-prev{
         background-image: url("../images/arrow_back_ios_24dp_FILL0_wght400_GRAD0_opsz24.png");
@@ -297,6 +316,24 @@ footer > div > p:last-of-type{
         background-repeat: no-repeat; background-size: 30px; background-position: center;
         left: 50px;
     }
+    /* side slide aroww fin */
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a{
+        display: block; 
+        background-position: center; 
+    }
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url("../images/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-repeat: no-repeat; padding: 15px; background-size: 30px;
+        border: 1px solid #f2f2f2; border-radius: 50%; background-color: #f2f2f2;
+        position: absolute; transform: rotate(180deg);
+    } 
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url("../images/arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-repeat: no-repeat; padding: 15px; background-size: 30px;
+        border: 1px solid #f2f2f2; border-radius: 50%; background-color: #f2f2f2;
+        transform: rotate(-180deg);
+    }
+    /* funnystory arrow fin */
     .mainPage{
         background: url('../images/footer_tablet.png') left bottom / contain no-repeat;
         width: 100%;
@@ -539,6 +576,25 @@ footer > div > p:last-of-type{
         background-repeat: no-repeat; background-size: 30px; background-position: center;
         left: 50px;
     }
+    /* sideslide arrow fin */
+
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a{
+        display: block; 
+        background-position: center;
+    }
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url("../images/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-repeat: no-repeat; padding: 30px; background-size: 30px;
+        border: 1px solid #f2f2f2; border-radius: 50%; background-color: #f2f2f2;
+        position: absolute; transform: rotate(180deg);
+    } 
+    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url("../images/arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-repeat: no-repeat; padding: 30px; background-size: 30px;
+        border: 1px solid #f2f2f2; border-radius: 50%; background-color: #f2f2f2;
+        transform: rotate(-180deg);
+    }
+    /* funnystory arrow fin */
     .mainPage{
         background: url('../images/bg_footer.png') right bottom / contain no-repeat;
     }
