@@ -4166,6 +4166,9 @@
         border-image-slice: 1;  
         background-position-y: 50px;
     }
+    .loadMapContainer .floatBox li.ltxtRimg > div::before{
+        border-right: 25px solid red;   
+    }
     .loadMapContainer .floatBox li.ltxtRimg > div{
         border-right: 28px solid transparent;
         border-image: linear-gradient(90deg,#ef2e21 0%,#dcce2c 100%);
