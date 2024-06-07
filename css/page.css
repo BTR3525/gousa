@@ -353,13 +353,13 @@
         content: ""; display: block; clear: both;
     }
     .listContainer > div:nth-child(3) .sideSlide{
-        margin: 0 3.3% 100px 3.3%;
+        margin: 0 3.3% 100px 3.3%; 
     }
     .listContainer > div:nth-child(3) .sideSlide > li > small{
         display: none;
     }
     .listContainer > div:nth-child(3) .sideSlide li{
-        list-style: none;
+        list-style: none; box-sizing:border-box; overflow: hidden; width: 100%;
     }
     .listContainer > div:nth-child(3) .sideSlide li img{
         max-width: 250px; box-sizing: border-box; 
@@ -1829,7 +1829,7 @@
         list-style: none; 
     }
     .listContainer > div:nth-child(3) .sideSlide li img{
-        max-width: 250px; box-sizing: border-box; height: 430px;
+        max-width: 250px; box-sizing: border-box; height: 450px;
         width: 100%; border-radius: 10px; 
         float: left; margin-right: 16.6%;      
     } 
@@ -3766,7 +3766,8 @@
 .detailContainer .expcardSlot{
     margin-bottom: 145px;
 }
-.detailContainer div:last-child h3{
+.detailContainer > div:last-child h2,
+.detailContainer > div:last-child h3{
     font-size: 60px; text-align: center; margin-bottom: 60px; font-weight: 700;
 }
 .detailContainer .expcardSlot::after{
