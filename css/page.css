@@ -814,43 +814,32 @@
     .destination .guide > .destinatiMenu li:not(:last-child){
         margin-right: 15px;
     }
-    /* .destination .guide > .destinatiMenu{
-        display: flex; font-size: 18px; font-weight: 700;
-        justify-content: space-between;
-        list-style: none;
-        margin-bottom: 100px; cursor: pointer;
-    } */
     .destination .guide > .destinatiMenu > .active{
         border-bottom: 4px solid #4e53bb; border-radius: 2px;
         padding-bottom: 10px;
     }
-    /* .destination .guide > .imgslotbox::after{
-        content: ""; display: block; clear: both;
-    }
-    .destination .guide > .imgslotbox > .active ul{
-        float: left; width: 26.41%;
-        list-style: none;
-    } */
     .destination .guide > .imgslotbox ul:not(:last-child){
-        /* display: inline-block;  */float: left;
-        width: 49%;
+        float: left;
+        width: 48%;
+        margin: 1%;
     }
-    .destination .guide > .imgslotbox ul:not(:last-child) li{
+    /* .destination .guide > .imgslotbox ul:not(:last-child) li{
         margin-right: 1%;
-    }
+    } */
     .destination .guide > .imgslotbox .active ul li{
-        margin-bottom: 30px; list-style: none; 
+        margin: 0 0.5% 30px 0.5%; list-style: none; 
         position: relative;
     }
     .destination .guide > .imgslotbox .active ul:last-child::after{
         content: ""; display: block; clear: both;
     }
     .destination .guide > .imgslotbox .active ul:last-child > li{
-        float: left; width: 48%; margin-left: 1%;
+        float: left; width: 48%; 
+        /* margin-left: 1%; */
     }
-    .destination .guide > .imgslotbox .active ul:last-child > li:first-child{
+    /* .destination .guide > .imgslotbox .active ul:last-child > li:first-child{
         margin-right: 1%;
-    }
+    } */
     .destination .guide > .imgslotbox .active ul li a{
         display: block;
     }
@@ -934,19 +923,19 @@
         content: ""; display: block; clear: both;
     }
     .travel .guide > .imgslotbox > .active ul:not(:last-child){  
-        list-style: none; width: 48%; float: left;
+        list-style: none; width: 48%; float: left; margin: 0 1%;
     }
     .travel .guide > .imgslotbox > .active ul:not(:first-child){
         margin-left: 1%;
     }
     .travel .guide > .imgslotbox > .active ul:last-child li{
-        float: left; width: 48%; list-style: none; margin-left: 1%;
+        float: left; width: 48%; list-style: none; 
     }
-    .travel .guide > .imgslotbox > .active ul:last-child li:first-child{
+    /* .travel .guide > .imgslotbox > .active ul:last-child li:first-child{
         margin-right: 1%;
-    }
+    } */
     .travel .guide > .imgslotbox .active ul li{
-        margin-bottom: 30px; 
+        margin:0 0.5% 30px 0.5%; 
         position: relative;
     }
     .travel .guide > .imgslotbox .active ul li a{
@@ -1020,31 +1009,34 @@
         display: none;
     }
     .experience .guide > .imgslotbox{
-        margin-bottom: 20px;
+        margin-bottom: 20px; 
+    }
+    .experience .guide > .imgslotbox ul{
+        list-style: none;
     }
     .experience .guide > .imgslotbox::after{
         content: ""; display: block; clear: both;
     }
     .experience .guide > .imgslotbox ul:not(:last-child){
         /* display: inline-block;  */float: left;
-        width: 48%;
+        width: 48%; margin: 0 1%;
     }
-    .experience .guide > .imgslotbox ul:not(:last-child) li{
+    /* .experience .guide > .imgslotbox ul:not(:last-child) li{
         margin-right: 1%;
-    }
+    } */s
     .experience .guide > .imgslotbox .active ul li{
-        margin-bottom: 30px; list-style: none; 
+        margin: 0 0.5% 30px 0.5%; list-style: none; 
         position: relative;
     }
     .experience .guide > .imgslotbox .active ul:last-child::after{
         content: ""; display: block; clear: both;
     }
     .experience .guide > .imgslotbox .active ul:last-child > li{
-        float: left; width: 48%; margin-left: 1%;
+        float: left; width: 48%; margin: 0 1% 30px 1%;
     }
-    .experience .guide > .imgslotbox .active ul:last-child > li:first-child{
+    /* .experience .guide > .imgslotbox .active ul:last-child > li:first-child{
         margin-right: 1%;
-    }
+    } */
     .experience .guide > .imgslotbox .active ul li{
         margin-bottom: 30px;
         position: relative;
