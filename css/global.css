@@ -554,13 +554,13 @@ footer > div > p:last-of-type{
         position: absolute; left: 6.09%; top: 600px;
     }
     .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-prev{
-        background-image: url("../images/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-image: url("../images/leftarrow.png");
         padding: 30px; color: white; background-color: transparent;
         border-radius: 50%; background-size: 30px;
         border: 5px solid white; background-position: center;
     }
     .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-next{
-        background-image: url("../images/arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.png");
+        background-image: url("../images/rightarrow.png");
         padding: 30px;
         left: 220px; background-size: 30px; background-color: transparent;
         border: 5px solid white; border-radius: 50%; background-position: center;
