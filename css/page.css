@@ -4168,6 +4168,7 @@
     }
     .loadMapContainer .floatBox li.ltxtRimg > div::before{
         border-right: 25px solid red;   
+        /* test중 */
     }
     .loadMapContainer .floatBox li.ltxtRimg > div{
         border-right: 28px solid transparent;
