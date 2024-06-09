@@ -22,13 +22,13 @@ footer > div > p:last-of-type{
 .circlebox .speed{
     font-family: "Montserrat";
 }
-[id$='Panel']{
-    width: 0; text-indent: -9999px; 
+[id$='Panel']{  
+    opacity: 0; display: none;
 }
 [id$='Panel'].active{
-    width: 100%; display: block; transition: width 0.4s ease-in-out; text-indent: 0;
+    width: 100%; display: block; transition: all 0.4s ease-in-out; 
 }
-.bx-wrapper {
+.bx-wrapper{
     box-shadow: none;
     border: none;
     background: #fff;
@@ -182,7 +182,7 @@ footer > div > p:last-of-type{
     header nav{
         position: absolute;
         left: 41%; top: 30px; 
-        width: calc(100% - 50px);
+        width: calc(100% - 20px);
     }
     header nav ul{
         text-align: right; 
@@ -635,7 +635,7 @@ footer > div > p:last-of-type{
     #sitemapPanel{
         position: absolute; z-index: 10; left: 0; top: 0;
         background-color: black; opacity: 0.7;
-        padding-top: 30px; 
+        padding-top: 30px;
     }
     #sitemapPanel h2{
         font-weight: 600; font-size: 50px;

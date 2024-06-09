@@ -2936,7 +2936,7 @@
 }
 /* tablet fin */
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1280px) {  
     
     
     .mainContainer > div:nth-child(2),
@@ -4520,6 +4520,5 @@
         position: absolute; bottom: 45px; width: 100%; text-align: center; left: 0;
         font-size: 30px; color: white; 
     }
-
 }
 /* dasktop */
