@@ -605,7 +605,7 @@
 }
 .detailContainer div:first-child h2{
     position: absolute; left: 3.3%; top: 70px; font-size: 18px; font-weight: 700; 
-    z-index: 1; color: white; 
+    z-index: 1; color: white; padding-right: 3.3%;
 }
 .detailContainer div:first-child h2 small{
     font-size: 12px; line-height: 18px; font-weight: 700;
