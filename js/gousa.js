@@ -9,8 +9,6 @@ $(document).ready(function(){
     listSlider();
     sideSlide();
     funnybox();
-    // mainslide();
-    // randomEvent(".mainContainer > div:last-child ul li a");
 });
 function panelControl(target){
     var currentPanel = null;
@@ -57,17 +55,6 @@ function maintravelandexp(target){
 }
 
 
-// function randomEvent(){
-//     var randomplace = new Array();
-//     randomplace[0] = "list_alaska.html"
-//     randomplace[1] = "list_hawaii.html"
-//     randomplace[2] = "list_oregon.html"
-//     randomplace[3] = "list_california.html"
-
-//     window.location = randomplace[Math.floor(Math.random()*randomEvent.length)];
-// }
-
-
 function scrollevent(){
     $(window).scroll(function(){
         var $expcardslot = $(".expcardSlot");
@@ -82,8 +69,8 @@ function scrollevent(){
 function moreboxEvent(){
     $(window).scroll(function(){
         var morebox = $(".moreBox");
-        var moreboxevent = morebox.offset().top - 350;
-
+        var moreboxevent = morebox.offset().top - 450;
+    
         if($(this).scrollTop() > moreboxevent){
             $(".moreBox").addClass("active");
         }

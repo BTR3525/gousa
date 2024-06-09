@@ -490,11 +490,14 @@
     .funnystory li p{
         font-size: 14px; line-height: 20px; font-weight: 400;
     }
+    .listContainer > .moreBox{
+        opacity: 0;
+    }
     .moreBox{
         /* margin-bottom: 145px; */
-        padding-bottom: 80px; opacity: 0;
+        padding-bottom: 80px; 
     }
-    .moreBox.active{
+    .listContainer > .moreBox.active{
         opacity: 1; transition: 0.4s
     }
     .moreBox.active ul li:first-child{
@@ -538,7 +541,6 @@
         width: 100%; box-sizing: border-box; margin-bottom: 10px;height: 200px;
         object-fit: cover;
     }
-    /* 각각 주마다 이미지 삽입필요!!!!!! */
     .moreBox ul li a b{
         display: block; font-size: 12px; line-height: 18px; margin: 10px 0 0 8%; 
         font-weight: 400; color: #565656;
