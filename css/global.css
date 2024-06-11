@@ -98,7 +98,7 @@ footer > div > p:last-of-type{
 
     .mainPage{
         background: url('../images/footer_moblie.png') left bottom / contain no-repeat;
-        width: 100%;
+        width: 100%; 
     }
     .subBG{
         background: url("../images/footer_moblie.png") left bottom / contain no-repeat;

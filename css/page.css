@@ -1155,6 +1155,9 @@
     .loadMapContainer .floatBox li:last-child div:last-of-type{
         border: none; width: 100%;    
     }
+    .loadMapContainer .floatBox li:last-child div:last-of-type > mark{
+        display: none;
+    }
     .circlebox{
         padding: 20px 0 0 3%; border-left: 20px solid #8294c4;
     }
@@ -2636,6 +2639,9 @@
     }
     .loadMapContainer .floatBox li:last-child div:last-of-type{
         margin-left: 43.90%; border: none; width: 100%;    
+    }
+    .loadMapContainer .floatBox li:last-child div:last-of-type > mark{
+        display: none;
     }
     .circlebox{
         padding-bottom: 55px; 
