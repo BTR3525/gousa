@@ -3317,13 +3317,13 @@
     /* fin */
     .listContainer > div:nth-child(3){
         background: url("../images/list_text_circle_img.png") left top / contain no-repeat;
-        background-size: 140px; margin-bottom: 200px;
+        background-size: 140px; margin-bottom: 200px; position: relative;
     }
     .listContainer > div:nth-child(3) .sideSlide::after{
         content: ""; display: block; clear: both;
     }
     .listContainer > div:nth-child(3) .sideSlide{
-        margin-bottom: 145px; 
+        margin-bottom: 145px;
     }
     .listContainer > div:nth-child(3) .sideSlide li{
         list-style: none; 
@@ -3331,8 +3331,7 @@
     .listContainer > div:nth-child(3) .sideSlide li img{
         max-width: 400px; box-sizing: border-box;
         width: 100%; height: 645px; border-radius: 10px;
-        float: left; 
-        margin-right: 22.58%;      
+        float: left; margin-right: 22.58%; 
     }
     .listContainer > div:nth-child(3) small{
         font-size: 24px; font-weight: 400; line-height: 70px;
