@@ -83,7 +83,7 @@ function listSlider(){
 }
 function sideSlide(){
     $(".sideSlide").bxSlider({
-        pager: false,
+        pagerType : "short",
     });
 }
 function funnybox(){
