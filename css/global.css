@@ -66,17 +66,20 @@ footer > div > p:last-of-type{
     }
     /* fin */
     .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction{
-        position: absolute; top: 210px;margin: 0 auto; width: 100%;
+        position: absolute; top: 210px; margin: 0 auto; width: 100%;
     }
     .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction a.bx-prev{
         background-image: url("../images/arrow_back_ios_24dp_FILL0_wght400_GRAD0_opsz24.png");
         background-repeat: no-repeat; background-size: 30px; background-position: center;
-        left: 40%;
+        left: 30%;
     }
     .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction a.bx-next{
         background-image: url("../images/arrow_forward_ios_24dp_FILL0_wght400_GRAD0_opsz24.png");
         background-repeat: no-repeat; background-size: 30px; background-position: center;
-        left: 60%;
+        left: 67%;
+    }
+    .bx-wrapper .bx-pager{
+        font-size: 16px; position: absolute; left: 4%; top: 184px;
     }
     /* slide fin */
     .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a{
@@ -306,7 +309,7 @@ footer > div > p:last-of-type{
         border: 3px solid white; border-radius: 50%; background-position: center;
     }
     .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction{
-        position: absolute; top: 470px; left: 15%;
+        position: absolute; top: 470px; left: 12%;
     }
     .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction a.bx-prev{
         background-image: url("../images/arrow_back_ios_24dp_FILL0_wght400_GRAD0_opsz24.png");
@@ -315,12 +318,15 @@ footer > div > p:last-of-type{
     .listContainer > div:nth-child(3) .bx-wrapper .bx-controls-direction a.bx-next{
         background-image: url("../images/arrow_forward_ios_24dp_FILL0_wght400_GRAD0_opsz24.png");
         background-repeat: no-repeat; background-size: 30px; background-position: center;
-        left: 50px;
+        left: 110px;
     }
     /* side slide aroww fin */
     .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a{
         display: block; 
         background-position: center; 
+    }
+    .bx-wrapper .bx-pager{
+        font-size: 20px; position: absolute; left: -28%; bottom: 0;
     }
     .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction a.bx-prev{
         background-image: url("../images/arrow_back_24dp_FILL0_wght400_GRAD0_opsz24.png");
