@@ -2958,8 +2958,8 @@
         margin-bottom: 145px;
     }
     .mainContainer .mainSliderBox div:first-child{
-        padding: 390px 330px;
-        position: absolute;
+        /* padding: 390px 330px; */
+        position: absolute; left: 330px; top: 390px;
         color: white; 
     }
     .mainContainer .mainSliderBox h2 > small{
@@ -3009,44 +3009,52 @@
     .mainContainer div:nth-child(2)::after{
         content: ""; display: block; clear: both;
     }
-    .mainContainer div:nth-child(2){
+    .mainContainer > div:nth-child(2){
         margin-bottom: 185px;
     }
-    .mainContainer div:nth-child(2) .travelList:first-child{
+    .mainContainer div:nth-child(2) ul.active{
         float: left; padding-right: 8.92%; 
         width: 60%; 
     }
-    .mainContainer div:nth-child(2) .travelList:last-child{
+    /* .mainContainer div:nth-child(2) ul.active:last-child{
         padding-top: 150px; float: left;  
-    }
-    .mainContainer div:nth-child(2) .travelList li{
+    } */
+    .mainContainer div:nth-child(2) ul.active li{
         max-width: 44.94%; box-sizing: border-box;
         float: left; list-style: none; position: relative;
     }
-    .mainContainer div:nth-child(2) .travelList li a{
+    .mainContainer div:nth-child(2) ul.active li a{
         display: block; 
     }
-    .mainContainer div:nth-child(2) .travelList li a img{
+    .mainContainer div:nth-child(2) ul.active li a img{
         width: 100%; border-radius: 10px; height: 600px;
         object-fit: cover;
     }
-    .mainContainer div:nth-child(2) .travelList li a strong{
+    .mainContainer div:nth-child(2) ul.active li a strong{
         font-size: 30px; font-weight: 700;
         position: absolute; left: 0; bottom: 45px; width: 100%;
         text-align: center; color: #ffffff;
         
     }
-    .mainContainer div:nth-child(2) .travelList li:first-of-type,
-    .mainContainer div:nth-child(2) .travelList li:nth-of-type(3){
+    .mainContainer > div:nth-child(2) ul.active li:first-of-type,
+    .mainContainer > div:nth-child(2) ul.active li:nth-of-type(3){
         /* margin: 0 75px 75px 0; */
         margin: 0 4.46% 4.46% 0;
     }
-    .mainContainer div:nth-child(2) .travelList li:nth-of-type(2),
-    .mainContainer div:nth-child(2) .travelList li:last-of-type{
+    .mainContainer div:nth-child(2) ul.active li:nth-of-type(2),
+    .mainContainer div:nth-child(2) ul.active li:last-of-type{
         margin-top: 75px;  
     }
-    .mainContainer div:nth-child(2) .expList{
+    .mainContainer > div:nth-child(2) ul:not(.active),
+    .mainContainer > div:nth-child(2) > div > div:not(:first-child):not(.active){
         display: none;
+    }
+    /* .mainContainer >div:nth-child(2) .expList{
+        display: none;
+    } */
+    
+    .mainContainer > div:nth-child(2) > div{
+        width: 30%; float: left;
     }
     .mainContainer div:nth-child(2) .tabBox{
         padding-bottom: 20px;
@@ -3062,11 +3070,11 @@
     .mainContainer div:nth-child(2) .tabBox input[type="button"]:last-of-type{
         margin-left: 1%;
     }
-    .mainContainer div:nth-child(2) .travelList h2{
+    .mainContainer > div:nth-child(2) div.active h2{
         font-size: 50px; font-weight: 700; line-height: 56px;
         margin-bottom: 50px; 
     }
-    .mainContainer div:nth-child(2) .travelList p{
+    .mainContainer > div:nth-child(2) div.active p{
         font-size: 16px; line-height: 22px; color: #737373;
         margin-bottom: 55px;   
     }

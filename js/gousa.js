@@ -51,7 +51,12 @@ function maintravelandexp(target){
         currenttab = "." + $(this).attr("data-tabName");
         tabboxs.removeClass("active");
         $(currenttab).addClass("active");
+        
     });
+    $(".expList").click(function(){
+        removeClass("active");
+    });
+
 }
 
 
