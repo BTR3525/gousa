@@ -20,6 +20,7 @@
 }
 
 @media screen and (max-width: 767px) {
+
     .mainContainer > div:nth-child(3),
     .mainContainer > div:nth-child(4),
     .mainContainer > div:nth-child(5),
