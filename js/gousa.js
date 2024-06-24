@@ -4,7 +4,6 @@ $(document).ready(function(){
     askfor(".brandusasubbox > li");
     maintravelandexp(".tabBox input[type=button]");
     maintab(".mainContainer > div:nth-child(2) > div > div:not(:first-child)");
-    // maintravelandexp(".mainContainer > div:nth-child(2) [class$=List]");
     scrollevent(".expcardSlot");
     popupEvent(".formbox form fieldset input[type='button']");
     moreboxEvent(".moreBox");

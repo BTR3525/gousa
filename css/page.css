@@ -83,30 +83,31 @@
     .mainContainer > div:nth-child(2){
         margin: 0 0 80px 3%; 
     }
-    .mainContainer div:nth-child(2) > .travelList{
+    .mainContainer div:nth-child(2) > ul.active{
         display: block; width: 100%; overflow-x: scroll;
         white-space: nowrap; margin-bottom: 30px;
     }
-    .mainContainer > div:nth-child(2) > .travelList li:not(:first-child){
+    .mainContainer > div:nth-child(2) > ul.active li:not(:first-child){
         margin-left: 20px;
     }
-    .mainContainer div:nth-child(2) .travelList li{
+    .mainContainer div:nth-child(2) ul.active li{
         box-sizing: border-box;
         list-style: none; position: relative; display: inline-block;
     }
-    .mainContainer div:nth-child(2) .travelList li a{
+    .mainContainer div:nth-child(2) ul.active li a{
        display: block;
     }
-    .mainContainer div:nth-child(2) .travelList li a img{
+    .mainContainer div:nth-child(2) ul.active li a img{
         width: 100%; border-radius: 10px; max-width: 140px; height: 180px;
         object-fit: cover;
     }
-    .mainContainer div:nth-child(2) .travelList li a strong{
+    .mainContainer div:nth-child(2) ul.active li a strong{
         font-size: 16px; font-weight: 700;
         position: absolute; left: 0; bottom: 30px; width: 100%;
         text-align: center; color: #ffffff;
     }
-    .mainContainer div:nth-child(2) .expList{
+    .mainContainer > div:nth-child(2) ul:not(.active),
+    .mainContainer > div:nth-child(2) > div > div:not(:first-child):not(.active){
         display: none;
     }
     .mainContainer div:nth-child(2) .tabBox{
@@ -123,11 +124,11 @@
     .mainContainer div:nth-child(2) .tabBox input[type="button"]:last-of-type{
         margin-left: 1%;
     }
-    .mainContainer div:nth-child(2) .travelList h2{
+    .mainContainer div:nth-child(2) div.active h2{
         font-size: 30px; font-weight: 700; line-height:36px;
         margin-bottom: 20px; 
     }
-    .mainContainer div:nth-child(2) .travelList p{
+    .mainContainer div:nth-child(2) div.active p{
         font-size: 12px; line-height: 18px; color: #737373;
         margin-bottom: 50px;   
     }
@@ -1519,40 +1520,37 @@
     .mainContainer > div:nth-child(2){
         margin-bottom: 85px;
     }
-    .mainContainer div:nth-child(2) .travelList:first-child{
+    .mainContainer div:nth-child(2) ul.active{
         float: left; padding-right: 8%; 
         width: 50%; 
     }
-    .mainContainer div:nth-child(2) .travelList:last-child{
-        padding-top: 150px; float: left;  
-    }
-    .mainContainer div:nth-child(2) .travelList li{
+    .mainContainer div:nth-child(2) ul.active li{
         max-width: 47%; box-sizing: border-box; width: 50%;
         float: left; list-style: none; position: relative;
     }
-    .mainContainer div:nth-child(2) .travelList li a{
+    .mainContainer div:nth-child(2) ul.active li a{
         display: block; 
     }
-    .mainContainer div:nth-child(2) .travelList li a img{
+    .mainContainer div:nth-child(2) ul.active li a img{
         width: 100%; border-radius: 10px;
         object-fit: cover; height: 200px;
     }
-    .mainContainer div:nth-child(2) .travelList li a strong{
+    .mainContainer div:nth-child(2) ul.active li a strong{
         font-size: 18px; font-weight: 700;
         position: absolute; left: 0; bottom: 30px; width: 100%;
         text-align: center; color: #ffffff;
-        
     }
-    .mainContainer div:nth-child(2) .travelList li:first-of-type,
-    .mainContainer div:nth-child(2) .travelList li:nth-of-type(3){
+    .mainContainer div:nth-child(2) ul.active li:first-of-type,
+    .mainContainer div:nth-child(2) ul.active li:nth-of-type(3){
         /* margin: 0 75px 75px 0; */
         margin: 0 4.46% 4.46% 0;
     }
-    .mainContainer div:nth-child(2) .travelList li:nth-of-type(2),
-    .mainContainer div:nth-child(2) .travelList li:last-of-type{
+    .mainContainer div:nth-child(2) ul.active li:nth-of-type(2),
+    .mainContainer div:nth-child(2) ul.active li:last-of-type{
         margin-top: 75px;  
     }
-    .mainContainer div:nth-child(2) .expList{
+    .mainContainer > div:nth-child(2) ul:not(.active),
+    .mainContainer > div:nth-child(2) > div > div:not(:first-child):not(.active){
         display: none;
     }
     .mainContainer div:nth-child(2) .tabBox{
@@ -1569,11 +1567,11 @@
     .mainContainer div:nth-child(2) .tabBox input[type="button"]:last-of-type{
         margin-left: 1%;
     }
-    .mainContainer div:nth-child(2) .travelList h2{
+    .mainContainer div:nth-child(2) div.active h2{
         font-size: 30px; font-weight: 700; line-height:36px;
         margin-bottom: 20px; 
     }
-    .mainContainer div:nth-child(2) .travelList p{
+    .mainContainer div:nth-child(2) div.active p{
         font-size: 16px; line-height: 22px; color: #737373;
         margin-bottom: 70px;   
     }
