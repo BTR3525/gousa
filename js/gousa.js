@@ -3,6 +3,8 @@ $(document).ready(function(){
     panelControl("input[value='apps']");
     askfor(".brandusasubbox > li");
     maintravelandexp(".tabBox input[type=button]");
+    maintab(".mainContainer > div:nth-child(2) > div > div:not(:first-child)");
+    // maintravelandexp(".mainContainer > div:nth-child(2) [class$=List]");
     scrollevent(".expcardSlot");
     popupEvent(".formbox form fieldset input[type='button']");
     moreboxEvent(".moreBox");
@@ -31,6 +33,7 @@ function tabControl(target){
         $(currentTab).addClass("active");
     });
 }
+
 function askfor(target){
     $(target).click(function(){
         $(".brandusasubbox > li > p").toggleClass("open");
@@ -43,22 +46,30 @@ function popupEvent(target){
 }
 function maintravelandexp(target){
     var currenttab  = null;
-    // var tabboxs = $(".mainContainer > div:nth-child(2) > div:last-child");
-    var tabboxs = $("[class$=List]");
+    var tabboxs = $(".mainContainer > div:nth-child(2) > ul");
+
     $(target).click(function(){
-        $(target).removeClass("active");
+        $(target).toggleClass("active");
         $(this).addClass("active");
         currenttab = "." + $(this).attr("data-tabName");
         tabboxs.removeClass("active");
         $(currenttab).addClass("active");
-        
-    });
-    $(".expList").click(function(){
-        removeClass("active");
     });
 
 }
+function maintab(target){
+    var tab = null;
+    var tabcontroll = $(".mainContainer > div:nth-child(2) > div > div:not(:first-child");
 
+    $(".tabBox input").click(function(){
+        $(target).removeClass("active");
+        $(this).addClass("active");
+        tab = "." + $(this).attr("data-tabname");
+        tabcontroll.removeClass("active");
+        $(tab).addClass("active");
+    });
+    
+}
 
 function scrollevent(){
     $(window).scroll(function(){

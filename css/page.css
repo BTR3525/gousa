@@ -3052,7 +3052,6 @@
     /* .mainContainer >div:nth-child(2) .expList{
         display: none;
     } */
-    
     .mainContainer > div:nth-child(2) > div{
         width: 30%; float: left;
     }
