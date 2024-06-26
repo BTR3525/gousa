@@ -50,6 +50,26 @@ footer > div > p:last-of-type{
 
 @media screen and (max-width: 767px){
 
+    .mainContainer .bx-wrapper  img{
+        width: 100%; filter: brightness(0.8); 
+    }
+    .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
+        position: absolute; left: 6.09%; top: 750px;
+        background-repeat: no-repeat; z-index: 1; 
+    }
+    .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url("../images/leftarrow.png"); padding: 30px; color: white;
+        background-color: transparent; border-radius: 50%; background-size: 30px;
+        border-radius: 50%; border: 5px solid white; background-position: center;
+        
+    }
+    .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url("../images/rightarrow.png"); padding: 30px; color: white;
+        background-color: transparent; border-radius: 50%; background-size: 30px;
+        border-radius: 50%; border: 5px solid white; background-position: center;
+        left: 13%;
+    }
+
     .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
         position: absolute; left: 65%; top: 170px; 
     }
@@ -294,6 +314,24 @@ footer > div > p:last-of-type{
 @media screen and (min-width: 768px) and (max-width: 1279px) {
 
     
+    .mainContainer .bx-wrapper  img{
+        width: 100%; filter: brightness(0.8); 
+    }
+    .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
+        position: absolute; left: 3.3%; top: 350px;
+        background-repeat: no-repeat; z-index: 1; 
+    }
+    .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url("../images/leftarrow.png"); padding: 10px; color: white;
+        background-color: transparent; border-radius: 50%; background-size: 20px;
+        border-radius: 50%; border: 3px solid white; background-position: center;
+    }
+    .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url("../images/rightarrow.png"); padding: 10px; color: white;
+        background-color: transparent; border-radius: 50%; background-size: 20px;
+        border-radius: 50%; border: 3px solid white; background-position: center;
+        left: 11%;
+    }
     .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
         position: absolute; left: 3.3%; top: 280px;
     }
@@ -372,7 +410,7 @@ footer > div > p:last-of-type{
         max-width: 720px; margin: 0 auto;
     }
     header,footer{
-        max-width: 720px;
+        /* max-width: 720px; */
         position: relative;
         margin: 0 auto;
     }
@@ -460,7 +498,7 @@ footer > div > p:last-of-type{
     }
 
     footer{
-        padding-bottom: 20px;
+        padding-bottom: 20px; max-width: 720px;
     }
     footer:after{
         content: ''; display: block; clear: both;
