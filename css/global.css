@@ -599,7 +599,7 @@ footer > div > p:last-of-type{
         width: 100%; filter: brightness(0.8); 
     }
     .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
-        position: absolute; left: 6.09%; top: 750px;
+        position: absolute; left: 13%; top: 750px;
         background-repeat: no-repeat; z-index: 1; 
     }
     .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-prev{
@@ -612,7 +612,7 @@ footer > div > p:last-of-type{
         background-image: url("../images/rightarrow.png"); padding: 30px; color: white;
         background-color: transparent; border-radius: 50%; background-size: 30px;
         border-radius: 50%; border: 5px solid white; background-position: center;
-        left: 13%;
+        left: 18.5%;
     }
 
     .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
