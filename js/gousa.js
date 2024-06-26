@@ -10,6 +10,7 @@ $(document).ready(function(){
     listSlider();
     sideSlide();
     funnybox();
+    mainslide();
 });
 function panelControl(target){
     var currentPanel = null;
@@ -108,6 +109,8 @@ function funnybox(){
         minslider:1,
     })
 }
-// function mainslide(){
-//     $(".mainContainer > .mainSliderBox .mainCarouselSlider").bxSlider();
-// }
+function mainslide(){
+    $(".mainContainer > .mainSliderBox .mainCarouselSlider").bxSlider({
+        pager : false,
+    });
+}

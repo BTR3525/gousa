@@ -2956,12 +2956,13 @@
     .mainContainer .mainSliderBox{
         margin-bottom: 145px;
     }
-    .mainContainer .mainSliderBox div:first-child{
+    .mainContainer .mainSliderBox > div:first-child{
         /* padding: 390px 330px; */
         position: absolute; left: 330px; top: 390px;
         color: white; 
+        z-index: 1;
     }
-    .mainContainer .mainSliderBox h2 > small{
+    .mainContainer .mainSliderBox > h2 > small{
         font-size: 16px;
         margin-bottom: 50px;
         display: block;
@@ -2983,21 +2984,20 @@
     .mainContainer .mainSliderBox ul li.active img{
         width: 100%;
     }
-    .mainContainer .mainSliderBox ul li:not(.active) img{
+    /* .mainContainer .mainSliderBox ul li:not(.active) img{
         display: none;
-    }
-    .mainContainer .mainSliderBox div:last-child{
+    } */
+    .mainContainer .mainSliderBox > div:last-child{
         position: absolute; bottom: 90px; right: 10%;
         transform: rotate(-90deg); line-height: 80px;
         width: 230px; padding-left: 45px;
     }
-    /* ! code 해석해오기 */
-    .mainContainer .mainSliderBox div:last-child::before{
+    .mainContainer .mainSliderBox > div:last-child::before{
         content: "　"; background-color: #62832b; border-radius: 40px;
         width: 80px; display: block; left: 0; top: 0; position: absolute; opacity: 0.5;
         z-index: -1;
     }
-    .mainContainer .mainSliderBox div:last-child span{
+    .mainContainer .mainSliderBox > div:last-child span{
         font-size: 11px;
         line-height: 16px;
         font-weight: 700;

@@ -557,6 +557,26 @@ footer > div > p:last-of-type{
 
 @media screen and (min-width: 1280px) {
 
+    .mainContainer .bx-wrapper  img{
+        width: 100%; filter: brightness(0.8); 
+    }
+    .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
+        position: absolute; left: 6.09%; top: 750px;
+        background-repeat: no-repeat; z-index: 1; 
+    }
+    .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url("../images/leftarrow.png"); padding: 30px; color: white;
+        background-color: transparent; border-radius: 50%; background-size: 30px;
+        border-radius: 50%; border: 5px solid white; background-position: center;
+        
+    }
+    .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url("../images/rightarrow.png"); padding: 30px; color: white;
+        background-color: transparent; border-radius: 50%; background-size: 30px;
+        border-radius: 50%; border: 5px solid white; background-position: center;
+        left: 13%;
+    }
+
     .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
         position: absolute; left: 6.09%; top: 600px;
     }
