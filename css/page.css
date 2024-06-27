@@ -2995,6 +2995,7 @@
         z-index: -1;
     }
     .mainContainer .mainSliderBox > div:last-child span{
+        position: absolute; left: 40px; top: 30px;
         font-size: 11px;
         line-height: 16px;
         font-weight: 700;
