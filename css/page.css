@@ -3022,7 +3022,7 @@
     }
     @keyframes scrollevent {
         0%{   
-            transform: translatex(0); opacity: 0; 
+            transform: translatex(0); opacity: 0.3; 
         }100%{
             transform: translatex(20px); opacity: 1;
         }
@@ -3036,7 +3036,7 @@
         margin-bottom: 185px;
     }
     .mainContainer div:nth-child(2) ul.active{
-        float: left; padding-right: 8.92%; 
+        float: left; padding-right: 8.92%;
         width: 60%; 
     }
     /* .mainContainer div:nth-child(2) ul.active:last-child{
@@ -3074,7 +3074,7 @@
     }
     .mainContainer > div:nth-child(2) ul:not(.active),
     .mainContainer > div:nth-child(2) > div > div:not(:first-child):not(.active){
-        display: none;
+        display: none; 
     }
     /* .mainContainer >div:nth-child(2) .expList{
         display: none;
