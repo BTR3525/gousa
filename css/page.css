@@ -1918,6 +1918,7 @@
     /* fin */
     .listContainer > div:nth-child(5){
         margin-bottom: 100px; background-color: #f2f2f2;
+        border-radius: 10px;
     }
     .listContainer > div:nth-child(5) img{
         width: 100%; max-width: 30%; height: 300px;
@@ -3470,6 +3471,7 @@
     /* fin */
     .listContainer > div:nth-child(5){
         margin-bottom: 145px; background-color: #f2f2f2;
+        border-radius: 10px;
     }
     .listContainer > div:nth-child(5) img{
         width: 100%; max-width: 34.95%; box-sizing: border-box; height: 650px;
