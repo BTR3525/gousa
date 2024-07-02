@@ -4221,10 +4221,10 @@
         text-transform: uppercase; background-color: transparent; transform-origin: left bottom;
     }
     .loadMapContainer .floatBox li.ltxtRimg > div mark{
-        line-height: 25px; position: absolute; right: -11%; top: 80px; padding: 20px 0 20px 150px;
+        line-height: 25px; position: absolute; right: -27.5%; top: 80px; padding: 20px 0 20px 300px;
         transform: rotate(90deg); color: white; background-image: url("../images/loadmap/loadmapPart/wramcircle.png");
         text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
-        background-size: 40px;
+        background-size: 40px; width: 250px; 
     }
     .loadMapContainer .floatBox.cold li.ltxtRimg > div mark{
         padding-left: 60px; line-height: 25px; position: absolute; right: -9%; top: 80px; padding: 2.43% 0 2.43% 100px;
@@ -4233,7 +4233,7 @@
         background-size: 40px;
     }
     .loadMapContainer .floatBox li.limgRtxt > div mark{
-        line-height: 25px; position: absolute; left: 1.5%; top: 150px; width: 150px ;
+        line-height: 25px; position: absolute; left: 1.5%; top: 150px; width: 150px;
         transform: rotate(-90deg); color: white; background-image: url("../images/loadmap/loadmapPart/wramcircle.png");
         text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
         background-size: 40px; padding: 20px 150px 20px 0; text-align: center;
