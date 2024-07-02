@@ -18,7 +18,15 @@
     text-align: center;
     margin: 0 auto;
 }
-
+@keyframes mainanimation {
+    0%{
+        opacity: 0.5; transform: translateX(50px); 
+    }
+    100%{
+        opacity: 1; transform: translateX(0);
+    }
+    
+}
 @media screen and (max-width: 767px) {
 
     .mainContainer > div:nth-child(3),
@@ -83,7 +91,17 @@
     }
     .mainContainer div:nth-child(2) > ul.active{
         display: block; width: 100%; overflow-x: scroll;
-        white-space: nowrap; margin-bottom: 30px;
+        white-space: nowrap; margin-bottom: 30px; animation-name: tabevent;
+        animation-duration: 1s; animation-timing-function: ease-in-out;
+    }
+    @keyframes tabevent {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+        
     }
     .mainContainer > div:nth-child(2) > ul.active li:not(:first-child){
         margin-left: 20px;
@@ -1534,7 +1552,17 @@
     }
     .mainContainer div:nth-child(2) ul.active{
         float: left; padding-right: 8%; 
-        width: 50%; 
+        width: 50%; animation-name: tabevent;
+        animation-duration: 1s; animation-timing-function: ease-in-out;
+    }
+    @keyframes tabevent {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+        
     }
     .mainContainer div:nth-child(2) ul.active li{
         max-width: 47%; box-sizing: border-box; width: 50%;
@@ -2973,6 +3001,10 @@
         position: absolute; left: 330px; top: 390px;
         color: white; 
         z-index: 1;
+        animation: mainanimation;
+        animation-duration: 2s; animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
     }
     .mainContainer .mainSliderBox > h2 > small{
         font-size: 16px;
@@ -3038,7 +3070,18 @@
     }
     .mainContainer div:nth-child(2) ul.active{
         float: left; padding-right: 8.92%;
-        width: 60%; 
+        width: 60%; animation-name: tabevent;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes tabevent {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+        
     }
     /* .mainContainer div:nth-child(2) ul.active:last-child{
         padding-top: 150px; float: left;  
