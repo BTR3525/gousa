@@ -41,6 +41,10 @@
     .mainContainer .mainSliderBox > div:first-child{
         position: absolute; top: 80px; padding-left: 3.7%;
         color: white; z-index: 1;
+        animation: mainanimation;
+        animation-duration: 2s; animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
     }
     .mainContainer .mainSliderBox h2 > small{
         font-size: 8px;
@@ -1484,7 +1488,11 @@
     }
     .mainContainer .mainSliderBox > div:first-child{
         position: absolute; top: 120px; left: 3.3%;
-        color: white; z-index: 1;
+        color: white; z-index: 1;   
+        animation: mainanimation;
+        animation-duration: 2s; animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
     }
     .mainContainer .mainSliderBox h2 > small{
         font-size: 14px;
@@ -1512,18 +1520,18 @@
         display: none;
     } */
     .mainContainer .mainSliderBox > div:last-child{
-        position: absolute; top: 200px; right: 3%;
-        transform: rotate(-90deg); line-height: 80px;
+        position: absolute; top: 250px; right: 3%;
+        transform: rotate(-90deg); line-height: 60px;
         width: 200px; padding-left: 40px;
     }
     /* ! code 해석해오기 */
     .mainContainer .mainSliderBox > div:last-child::before{
-        content: "　"; background-color: #62832b; border-radius: 40px;
-        width: 80px; display: block; left: -20px; top: 0; position: absolute; opacity: 0.5;
+        content: "　"; background-color: #62832b; border-radius: 50%;
+        width: 60px; display: block; left: -20px; top: 0; position: absolute; opacity: 0.5;
         z-index: -1;
     }
     .mainContainer .mainSliderBox > div:last-child span{
-        position: absolute; top: 30px; left: 0; 
+        position: absolute; top: 23px; left: 10px;
         font-size: 11px;
         line-height: 16px;
         font-weight: 700;
