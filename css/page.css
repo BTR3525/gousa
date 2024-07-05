@@ -494,9 +494,6 @@
     .listContainer > div:nth-child(6){
         margin-bottom: 80px;  
     }
-    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction{
-        display: block; position: absolute; right: 60px; top: 440px;
-    }
     .funnystory li{
         list-style: none;
     }
@@ -1866,13 +1863,6 @@
     .sideSlide > small{
         display: none;
     }
-    .sideSlide > .active > .arrowbox{
-        cursor: pointer; position: absolute; bottom: 0; left: 75px;
-        width: 100%;
-    }
-    .sideSlide > .active > .arrowbox span{
-        font-size: 16px; font-weight: 700;
-    }
     .listContainer > div:nth-child(3) .sideSlide{
         margin: 0 3.3% 100px 3.3%; 
     }
@@ -1917,6 +1907,12 @@
     }
     .listContainer > div:nth-child(4) .expcardSlot::after{
         content: ""; display: block; clear: both;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot{
+        opacity: 0;
+    }
+    .listContainer > div:nth-child(4) .expcardSlot.active{
+        opacity: 1; transition: all 0.5s ease-in-out;
     }
     .listContainer > div:nth-child(4) .expcardSlot li{
         width: 25.60%; list-style: none; float: left;
@@ -2000,9 +1996,6 @@
     /* fin */
     .listContainer > div:nth-child(6){
         margin-bottom: 145px;  
-    }
-    .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction{
-        display: block; position: absolute; right: 100px; top: 230px;
     }
     
     .funnystory li{
@@ -3384,7 +3377,7 @@
     .listContainer > div:nth-child(2) figure img{
         width: 100%; max-width: 45%; box-sizing: border-box;
         background-color: #f1f3ed; padding: 250px 20px 140px 0;
-        margin-left: 5%;
+        margin-left: 5%; object-fit: cover;
     }
     .listContainer > div:nth-child(2) figure{
         display: flex; flex-direction: row-reverse;
