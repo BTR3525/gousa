@@ -1331,25 +1331,25 @@
         position: relative;
     }
     .formbox form > #confirmPopup.active{
-        display: block; position: absolute; left:0; top: 250px;
-        background-color: #d4d4d4; width: 100%; max-width: 400px;
-        box-sizing: border-box; overflow: hidden;
+        display: block; position: absolute; left:0; bottom: 70px;
+        background-color: #d4d4d4; width: 100%;
+        box-sizing: border-box; overflow: hidden; padding: 20px; 
     }
     .formbox form > #confirmPopup.active img{
         width: 100%; max-width: 100px; position: absolute; right: -50px; top: -20px;
     }
     .formbox form > #confirmPopup.active h3{
-        padding-top: 60px; font-size: 30px; color: black; display: block;
+        padding-top: 40px; font-size: 30px; color: black; display: block;
         text-align: center; font-weight: 700;
     }
     .formbox form > #confirmPopup.active span{
         display: block; font-size: 20px; color: #aaaaaa;
         padding-bottom: 70px; text-align: center; font-weight: 700;
     }
-    .formbox form > #confirmPopup.active input{
+    .formbox form > #confirmPopup.active > input{
         font-size: 20px; padding: 20px 0; background-color: #d28c1d;
-        width: 100%; max-width: 170px; margin: 0 auto; text-align: center; border: none;
-        font-weight: 700; cursor: pointer; box-sizing: border-box;
+        width: 100%; margin: 0 auto; text-align: center; border: none;
+        font-weight: 700; cursor: pointer; box-sizing: border-box; border-radius: 20px;
     }
     #confirmPopup{
         display: none;

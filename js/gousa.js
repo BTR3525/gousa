@@ -41,7 +41,10 @@ function askfor(target){
 }
 function popupEvent(target){
     $(target).click(function(){
-        $("#confirmPopup").toggleClass("active");
+        $("#confirmPopup").addClass("active");
+    });
+    $("#confirmPopup input").click(function(){
+        $("#confirmPopup").removeClass("active");
     });
 }
 function maintravelandexp(target){
