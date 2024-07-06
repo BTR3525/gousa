@@ -4461,7 +4461,7 @@
         position: relative;
     }
     .formbox form > #confirmPopup.active{
-        display: block; position: absolute; left:0; top: 250px;
+        display: block; position: absolute; left: 0; top: 250px;
         background-color: #d4d4d4; width: 100%; max-width: 500px;
         box-sizing: border-box; overflow: hidden;
     }
