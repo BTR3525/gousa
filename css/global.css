@@ -610,7 +610,7 @@ footer > div > p:last-of-type{
         width: 100%; filter: brightness(0.8); 
     }
     .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
-        position: absolute; left: 13%; top: 750px;
+        position: absolute; left: 13%; top: 800px;
         background-repeat: no-repeat; z-index: 1; 
     }
     .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-prev{
