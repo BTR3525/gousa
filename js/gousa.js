@@ -4,13 +4,14 @@ $(document).ready(function(){
     askfor(".brandusasubbox > li");
     maintravelandexp(".tabBox input[type=button]");
     maintab(".mainContainer > div:nth-child(2) > div > div:not(:first-child)");
-    scrollevent();
+    scrollevent(".expcardSlot");
     popupEvent(".formbox form fieldset input[type='button']");
     moreboxEvent(".moreBox");
     listSlider();
     sideSlide();
     funnybox();
     mainslide();
+    // maintrend(".mainContainer > div:nth-child(3)");
 });
 function panelControl(target){
     var currentPanel = null;
@@ -76,23 +77,36 @@ function maintab(target){
         $(tab).addClass("active");
     });
     
-}
+};
 
 function scrollevent(){
     $(window).scroll(function(){
         var $expcardslot = $(".expcardSlot");
         var $cardsloteventon = $expcardslot.offset().top - 250;
-        // var maintrandevent = maintrand.offset().top - 250;
+        console.log($cardsloteventon)
 
         if($(this).scrollTop() > $cardsloteventon){
             $(".expcardSlot").addClass("active");
         }
-
-        if($(this).scrollTop() > maintrandevent){
-            $(".mainContainer > div:nth-child(3)").addClass("active");
-        }
     });
-};
+}
+
+function maintrend(){
+    $(window).scroll(function(){
+        var top = $(window).scrollTop();
+        var height = $(window).height();
+        console.log(top);
+        var test = $(".mainContainer > div:nth-child(3) > h2").offset().top
+
+        $(".mainContainer > div:nth-child(3)").each(function(){
+            if(top > test - height){
+                $(this).addClass("active");
+            }else{
+                $(this).removeClass("active");
+            }
+        });
+    });
+}
 
 function moreboxEvent(){
     $(window).scroll(function(){

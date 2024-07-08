@@ -165,7 +165,7 @@
     /* fin */
 
     .mainContainer > div:nth-child(3){
-        padding: 0 1;
+        padding: 0 1; 
     }
     /* .mainContainer > div:nth-child(3):after{
         content: ''; display: block; clear: both;
@@ -3185,6 +3185,9 @@
 
     .mainContainer > div:nth-child(3){
         padding: 0 1;
+    }
+    .mainContainer > div:nth-child(3).active{
+        opacity: 1; transition: all 0.5s;
     }
     .mainContainer > div:nth-child(3):after{
         content: ''; display: block; clear: both;
