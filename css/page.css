@@ -1317,6 +1317,7 @@
     }
     .brandusasubbox [type="button"]{
         border: none; background-color: transparent;
+        transition: all 0.5s;
     }
     .brandusasubbox li{
         border-bottom: 3px solid #aaaaaa;
@@ -1324,6 +1325,9 @@
     .brandusasubbox > li > p{
         opacity: 0; transition: opacity 0.7s ease-in-out; font-size: 14px; 
         margin-bottom: 20px;
+    }
+    .brandusasubbox [type="button"].rotate{
+        transform: rotate(90deg); transition: all 0.5s;
     }
     .brandusasubbox > li .open{
         opacity: 1;
@@ -2836,7 +2840,10 @@
         margin-bottom: 50px;   
     }
     .brandusasubbox [type="button"]{
-        border: none; background-color: transparent;
+        border: none; background-color: transparent; transition: all 0.5s;
+    }
+    .brandusasubbox [type="button"].rotate{
+        transform: rotate(90deg); transition: all 0.5s;
     }
     .brandusasubbox li{
         border-bottom: 3px solid #aaaaaa;
@@ -4464,7 +4471,10 @@
         margin-bottom: 300px;
     }
     .brandusasubbox [type="button"]{
-        border: none; background-color: transparent;
+        border: none; background-color: transparent; transition: all 0.5s;
+    }
+    .brandusasubbox [type="button"].rotate{
+        transform: rotate(90deg); transition: all 0.5s;
     }
     .brandusasubbox li{
         border-bottom: 3px solid #aaaaaa;

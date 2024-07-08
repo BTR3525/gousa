@@ -4,7 +4,7 @@ $(document).ready(function(){
     askfor(".brandusasubbox > li");
     maintravelandexp(".tabBox input[type=button]");
     maintab(".mainContainer > div:nth-child(2) > div > div:not(:first-child)");
-    scrollevent(".expcardSlot");
+    scrollevent();
     popupEvent(".formbox form fieldset input[type='button']");
     moreboxEvent(".moreBox");
     listSlider();
@@ -35,9 +35,13 @@ function tabControl(target){
 }
 
 function askfor(target){
+    var $brandusasubbox = $(".brandusasubbox > li > p");
+
     $(target).click(function(){
-        $(".brandusasubbox > li > p").toggleClass("open");
+        $brandusasubbox.toggleClass("open");
+        $("input").toggleClass("rotate");
     });
+
 }
 function popupEvent(target){
     $(target).click(function(){
@@ -78,9 +82,14 @@ function scrollevent(){
     $(window).scroll(function(){
         var $expcardslot = $(".expcardSlot");
         var $cardsloteventon = $expcardslot.offset().top - 250;
-        
+        // var maintrandevent = maintrand.offset().top - 250;
+
         if($(this).scrollTop() > $cardsloteventon){
             $(".expcardSlot").addClass("active");
+        }
+
+        if($(this).scrollTop() > maintrandevent){
+            $(".mainContainer > div:nth-child(3)").addClass("active");
         }
     });
 };
