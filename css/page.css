@@ -2680,22 +2680,22 @@
         border-image-slice: 1;  
         background-position-y: 50px;
     }
-    .loadMapContainer .floatBox li.limgRtxt > div mark{
+    /* .loadMapContainer .floatBox li.limgRtxt > div mark{
         padding-right: 60px; line-height: 25px; color: white;
         position: absolute; left: 0; top: 100px; transform: rotate(-90deg); 
         text-transform: uppercase; background-color: transparent; transform-origin: left bottom;
-    }
+    } */
     .loadMapContainer .floatBox li.ltxtRimg > div mark{
-        padding-left: 60px; line-height: 25px; position: absolute; right: -14%; top: 80px; padding: 30px 0 30px 100px;
+        line-height: 25px; position: absolute; right: -29%; top: 30px; padding: 20px 0 20px 200px;
         transform: rotate(90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
         text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
-        background-size: 40px; 
+        background-size: 40px; width: 150px;
     }
     .loadMapContainer .floatBox li.limgRtxt > div mark{
-        line-height: 25px; position: absolute; left: 19px; top: 80px;
+        line-height: 25px; position: absolute; left: -168px; top: 30px;
         transform: rotate(-90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
         text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
-        background-size: 40px; padding: 20px 110px 20px 0; text-align: center;
+        background-size: 40px; padding: 20px 190px 20px 0; 
     }
     .loadMapContainer .floatBox li.ltxtRimg > div{
         border-right: 28px solid transparent; border-image: linear-gradient(90deg,#8294c4 0%,#ffead2 100%);
