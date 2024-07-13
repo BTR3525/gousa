@@ -62,13 +62,13 @@ footer > div > p:last-of-type{
     }
     .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-prev{
         background-image: url("../images/leftarrow.png"); padding: 5px; color: white;
-        background-color: transparent; border-radius: 50%; background-size: 30px;
+        background-color: transparent; border-radius: 50%; background-size: 20px;
         border-radius: 50%; border: 3px solid white; background-position: center;
         
     }
     .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-next{
         background-image: url("../images/rightarrow.png"); padding: 5px; color: white;
-        background-color: transparent; border-radius: 50%; background-size: 30px;
+        background-color: transparent; border-radius: 50%; background-size: 20px;
         border-radius: 50%; border: 3px solid white; background-position: center;
         left: 80%;
     }
