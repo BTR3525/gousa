@@ -1134,7 +1134,7 @@
         display: block; height: 160px; object-fit: cover; width: 100%;;
         border-radius: 10px; margin-bottom: 30px;
     }
-     .loadMapContainer .floatBox li figure figcaption{
+     .loadMapContainer .floatBox li figure{
         margin-bottom: 80px;
      }
      .loadMapContainer .floatBox li figure figcaption h3{
@@ -1146,7 +1146,7 @@
      }
      .loadMapContainer .floatBox li > div{ 
         box-sizing: border-box; margin-bottom: 20px;
-        clear: both; position: relative; border-radius: 10px;
+        clear: both;  border-radius: 10px; position: relative;
     }
      .loadMapContainer .floatBox li > div h4{
         margin-bottom: 10px; font-size: 20px; font-weight: 400; color: #7d7b7b;
@@ -1175,10 +1175,19 @@
         background-size: 40px;
     } */
     .loadMapContainer .floatBox li > div mark{
-        line-height: 25px; position: absolute; left: -76px; top: 200px;
+        display: none;
+    }
+    .loadMapContainer .floatBox li:first-child > div mark{
+        line-height: 25px; position: absolute; left: -120px; top: 195px; width: 150px;
         transform: rotate(-90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
         text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
-        background-size: 35px; padding: 20px 110px 20px 0; text-align: center;
+        background-size: 35px; padding: 20px 110px 20px 0;
+    }
+    .loadMapContainer .floatBox li > div mark{
+        line-height: 25px; position: absolute; left: -120px; top: 0; width: 150px;
+        transform: rotate(-90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
+        text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
+        background-size: 35px; padding: 20px 110px 20px 0;
     }
     .loadMapContainer .floatBox li:last-child div:last-of-type{
         border: none; width: 100%;    
@@ -1187,7 +1196,7 @@
         display: none;
     }
     .circlebox{
-        padding: 20px 0 0 3%; border-left: 20px solid #8294c4;
+        padding: 20px 0 0 3%; border-left: 20px solid #8294c4;    
     }
     .car,
     .speed,
