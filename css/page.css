@@ -2661,7 +2661,7 @@
      }
      .loadMapContainer .floatBox li > div{
         border-bottom: 28px solid transparent; 
-        padding: 50px 25px 100px; box-sizing: border-box;
+        padding: 50px 25px 100px ; box-sizing: border-box;
         clear: both; position: relative; border-radius: 10px;
     }
      .loadMapContainer .floatBox li > div h4{
@@ -2694,9 +2694,6 @@
         position: absolute; left: 0; top: 100px; transform: rotate(-90deg); 
         text-transform: uppercase; background-color: transparent; transform-origin: left bottom;
     } */
-    .loadMapContainer .floatBox li > div mark{
-        display: none;
-    }
     .loadMapContainer .floatBox li.ltxtRimg > div mark{
         line-height: 25px; position: absolute; right: -29%; top: 30px; padding: 20px 0 20px 200px;
         transform: rotate(90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
@@ -2704,10 +2701,10 @@
         background-size: 40px; width: 150px;
     }
     .loadMapContainer .floatBox li.limgRtxt > div mark{
-        line-height: 25px; position: absolute; left: -140px; top: 30px;
+        line-height: 25px; position: absolute; left: -165px; top: 30px; width: 50px;
         transform: rotate(-90deg); color: white; background-image: url("../images/loadmap/loadmapPart/coldclicle.png");
         text-transform: uppercase; background-color: transparent; background-repeat: no-repeat; background-position: center;
-        background-size: 40px; padding: 20px 190px 20px 0; 
+        background-size: 40px; padding: 20px 250px 20px 0; text-align: right;
     }
     .loadMapContainer .floatBox li.ltxtRimg > div{
         border-right: 28px solid transparent; border-image: linear-gradient(90deg,#8294c4 0%,#ffead2 100%);
