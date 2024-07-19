@@ -11,7 +11,7 @@ $(document).ready(function(){
     sideSlide();
     funnybox();
     mainslide();
-    // maintrend(".mainContainer > div:nth-child(3)");
+    maintrend(".mainContainer > div");
 });
 function panelControl(target){
     var currentPanel = null;
@@ -92,20 +92,17 @@ function scrollevent(){
 }
 
 function maintrend(){
-    $(window).scroll(function(){
-        var top = $(window).scrollTop();
-        var height = $(window).height();
-        console.log(top);
-        var test = $(".mainContainer > div:nth-child(3) > h2").offset().top
-
-        $(".mainContainer > div:nth-child(3)").each(function(){
-            if(top > test - height){
-                $(this).addClass("active");
-            }else{
-                $(this).removeClass("active");
+    var observer = new IntersectionObserver((e) =>{
+        e.forEach((box) =>{
+            if(box.isIntersecting){
+                div.addClass("active");
             }
-        });
+        })
     });
+
+    var div = $(".mainContainer > div")
+    observer.observe(div[2])
+    observer.observe(div[2] > div[1])
 }
 
 function moreboxEvent(){
