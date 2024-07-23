@@ -4,10 +4,11 @@ $(document).ready(function(){
     askfor(".brandusasubbox > li");
     maintravelandexp(".tabBox input[type=button]");
     maintab(".mainContainer > div:nth-child(2) > div > div:not(:first-child)");
-    scrollevent(".detailContainer");
+    scrollevent();
     popupEvent(".formbox form fieldset input[type='button']");
     moreboxEvent(".moreBox");
     listSlider();
+    detailpagesScroll();
     sideSlide();
     funnybox();
     mainslide();
@@ -82,18 +83,26 @@ function maintab(target){
 
 function scrollevent(){
     $(window).scroll(function(){
-        var $expcardslot = $(".detailContainer .expcardSlot");
-        var $centerbox = $(".detailContainer > div:nth-child(3)");
+        var $expcardslot = $(".expcardSlot");
         var $cardsloteventon = $expcardslot.offset().top - 250;
-        var $centerboxvevent = $centerbox.offset().top - 450;
-        console.log($cardsloteventon)
+        
+        // console.log($cardsloteventon)
 
         if($(this).scrollTop() > $cardsloteventon){
             $(".expcardSlot").addClass("active");
         }
+    });
+}
+function detailpagesScroll(){
+    $(window).scroll(function(){
+        var $centerbox = $(".centerbox");
+        var $centerboxvevent = $centerbox.offset().top - 450;
+        console.log($cardsloteventon)
+
         if($(this).scrollTop() > $centerboxvevent){
             $(".centerbox").addClass("active");
         }
+        
     });
 }
 
