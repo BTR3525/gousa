@@ -6,7 +6,7 @@ $(document).ready(function(){
     maintab(".mainContainer > div:nth-child(2) > div > div:not(:first-child)");
     scrollevent();
     popupEvent(".formbox form fieldset input[type='button']");
-    moreboxEvent(".moreBox");
+    // moreboxEvent();
     listSlider();
     detailpagesScroll();
     sideSlide();
@@ -82,26 +82,29 @@ function maintab(target){
 };
 
 function scrollevent(){
-    $(window).scroll(function(){
-        var $expcardslot = $(".expcardSlot");
-        var $cardsloteventon = $expcardslot.offset().top - 250;
+     $(window).scroll(function(){
+        var expcardslot = $(".expcardSlot");
+        var cardsloteventon = expcardslot.offset().top - 250;
         
-        // console.log($cardsloteventon)
+    //     // console.log($cardsloteventon)
 
-        if($(this).scrollTop() > $cardsloteventon){
+        if($(this).scrollTop() > cardsloteventon){
             $(".expcardSlot").addClass("active");
         }
     });
 }
 function detailpagesScroll(){
     $(window).scroll(function(){
-        var $centerbox = $(".centerbox");
-        var $centerboxvevent = $centerbox.offset().top - 450;
-        console.log($cardsloteventon)
+        var top = $(window).scrollTop();
+        var height = $(window).height();
+        var box = $(".detailContainer div:nth-child(3) > h2").offset().top
 
-        if($(this).scrollTop() > $centerboxvevent){
-            $(".centerbox").addClass("active");
-        }
+        $(".detailContainer div:nth-child(3) > h2").each(function(){
+            if(top > box - height){
+                $(".detailContainer div:nth-child(3)").addClass("active");
+            }
+            
+        });
         
     });
 }
