@@ -83,7 +83,7 @@ function maintab(target){
 function scrollevent(){
     $(window).scroll(function(){
         var $expcardslot = $(".detailContainer .expcardSlot");
-        var $centerbox = $(".detailContainer .centerbox");
+        var $centerbox = $(".detailContainer > div:nth-child(3)");
         var $cardsloteventon = $expcardslot.offset().top - 250;
         var $centerboxvevent = $centerbox.offset().top - 450;
         console.log($cardsloteventon)
