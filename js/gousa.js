@@ -4,7 +4,7 @@ $(document).ready(function(){
     askfor(".brandusasubbox > li");
     maintravelandexp(".tabBox input[type=button]");
     maintab(".mainContainer > div:nth-child(2) > div > div:not(:first-child)");
-    scrollevent(".expcardSlot");
+    scrollevent(".detailContainer");
     popupEvent(".formbox form fieldset input[type='button']");
     moreboxEvent(".moreBox");
     listSlider();
@@ -12,6 +12,7 @@ $(document).ready(function(){
     funnybox();
     mainslide();
     maintrend(".mainContainer > div");
+    subpages();
 });
 function panelControl(target){
     var currentPanel = null;
@@ -81,12 +82,17 @@ function maintab(target){
 
 function scrollevent(){
     $(window).scroll(function(){
-        var $expcardslot = $(".expcardSlot");
+        var $expcardslot = $(".detailContainer .expcardSlot");
+        var $centerbox = $(".detailContainer .centerbox");
         var $cardsloteventon = $expcardslot.offset().top - 250;
+        var $centerboxvevent = $centerbox.offset().top - 450;
         console.log($cardsloteventon)
 
         if($(this).scrollTop() > $cardsloteventon){
             $(".expcardSlot").addClass("active");
+        }
+        if($(this).scrollTop() > $centerboxvevent){
+            $(".centerbox").addClass("active");
         }
     });
 }
@@ -103,6 +109,19 @@ function maintrend(){
     var div = $(".mainContainer > div")
     observer.observe(div[2])
     observer.observe(div[2] > div[1])
+}
+
+function subpages(){
+    var observer = new IntersectionObserver((e) =>{
+        e.forEach((content) =>{
+            if(content.isIntersecting){
+                img.addClass("active");
+            }
+        })
+    });
+
+    var img = $(".detailContainer > div")
+    observer.observe(div[2]);
 }
 
 function moreboxEvent(){
