@@ -3450,6 +3450,7 @@
     }
     .listContainer .mainSliderBox .mainCarouselSlider li img{
         width: 100%; filter: brightness(0.7); z-index: -1;
+        height: 1000px;
     }
     .listContainer .mainSliderBox .mainCarouselSlider li h2{
         position: absolute; top: 250px;  
