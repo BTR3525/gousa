@@ -157,6 +157,9 @@ function moreboxEvent(){
 function listSlider(){
     $(".listContainer > .mainSliderBox > .mainCarouselSlider").bxSlider({
         pager: false,
+        speed : 800,
+        pause : 3000,
+        auto : true,
     });
 }
 function sideSlide(){
@@ -168,11 +171,13 @@ function funnybox(){
     $(".funnystory").bxSlider({
         pager: false,
         control: true,
-        minslider:1,
     })
 }
 function mainslide(){
     $(".mainContainer > .mainSliderBox .mainCarouselSlider").bxSlider({
         pager : false,
+        speed : 800,
+        pause : 3000,
+        auto : true,
     });
 }

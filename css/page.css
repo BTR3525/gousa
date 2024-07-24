@@ -3125,7 +3125,7 @@
         max-width: 250px; background-color: #dfa927;
         color: black; line-height: 60px; border-radius: 30px;
     }
-    .mainContainer .mainSliderBox ul li.active img{
+    .mainContainer .mainSliderBox ul li img{
         width: 100%; height: 1000px; object-fit: cover;
     }
     /* .mainContainer .mainSliderBox ul li:not(.active) img{
