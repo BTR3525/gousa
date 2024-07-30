@@ -16,7 +16,8 @@ footer > div:last-child,
 .experience,
 .loadMapContainer,
 .top_menucontainer,
-.allvideoContainer{
+.allvideoContainer,
+#confirmPopup{
     font-family: "Noto Sans KR";
 }
 footer > div > p:last-of-type{

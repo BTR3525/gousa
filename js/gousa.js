@@ -14,6 +14,7 @@ $(document).ready(function(){
     mainslide();
     maintrend(".mainContainer > div");
     subpages();
+    comment();
 });
 function panelControl(target){
     var currentPanel = null;
@@ -54,6 +55,14 @@ function popupEvent(target){
         $("#confirmPopup").removeClass("active");
     });
 }
+function comment(){
+    var btn = $(".top_menucontainer > div:nth-child(3) [type=button]")
+
+    btn.$(this).click(function(){
+        window.alert("입력이 완료되었습니다.");
+    });
+}
+
 function maintravelandexp(target){
     var currenttab  = null;
     var tabboxs = $(".mainContainer > div:nth-child(2) > ul");
