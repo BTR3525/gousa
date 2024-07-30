@@ -3725,6 +3725,7 @@
     } */
     .moreBox ul{
         list-style: none; margin: 0 10.56%; display: flex; flex-wrap: wrap;
+        justify-content: space-between;
     }
     /* .moreBox ul li{
         width: 24.8%; float: left; 
@@ -3735,7 +3736,7 @@
         padding-bottom: 100px;
     }
     .moreBox ul li{
-        justify-content: space-between; width: 25%;
+        width: 25%;
 
     }
     .moreBox ul li a{
@@ -3744,12 +3745,12 @@
     .moreBox ul li a img{
         width: 100%; max-width: 260px; box-sizing: border-box; margin-bottom: 20px;
     }
-    /* 각각 주마다 이미지 삽입필요!!!!!! */
     .moreBox ul li a b{
         display: block; font-size: 14px; line-height: 24px; margin: 10px 0 0 8%; 
         font-weight: 400; color: #565656;
     }
-    .moreBox ul li:not(:last-of-type){
+    .moreBox ul li:not(:last-of-type),
+    .moreBox ul li:not(:nth-of-type(3)){
         padding-right: 8.13%;
     }
     /* fin */   

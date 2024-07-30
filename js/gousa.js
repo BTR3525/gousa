@@ -107,6 +107,7 @@ function detailpagesScroll(){
                 $(".detailContainer div:nth-child(3)").removeClass("active");
             }
         });
+        
         $(".floatBox").each(function(){
             if(top > floatbox - height){
                 $(".floatBox").addClass("active");
