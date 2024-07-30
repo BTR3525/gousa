@@ -4090,11 +4090,10 @@
     .destination .guide > .imgslotbox .active ul li a img{
         width: 100%; border-radius: 20px; filter: brightness(0.8);
         height: 500px;
-        /* height로 사용가능? */
         object-fit: cover; 
     }
     .destination .guide > .imgslotbox .active ul li a img:hover{
-        transform:scale(1.2); box-sizing: border-box; transition: transform 0.5s;
+        transform:scale(1.1); box-sizing: border-box; transition: transform 0.5s ease-in-out;
     }
     .destination .guide > .imgslotbox .active ul li a strong{
         position: absolute; bottom: 45px; left: 0; 
@@ -4182,13 +4181,12 @@
     .travel .guide > .imgslotbox .active ul li a img{
         width: 100%; border-radius: 20px;
         height: 500px;
-        /* height로 사용가능? */
         object-fit: cover;
         filter: brightness(0.7);
     }
     .travel .guide > .imgslotbox .active ul li a:hover img{
         transform: scale(1.1);
-        overflow: hidden; transition: transform 0.3s;
+        overflow: hidden; transition: transform 0.5s ease-in-out;
     }
     .travel .guide > .imgslotbox .active ul li a strong{
         position: absolute; bottom: 45px; left: 0; 
@@ -4271,13 +4269,12 @@
     .experience .guide > .imgslotbox .active ul li a img{
         width: 100%; border-radius: 20px;
         height: 500px;
-        /* height로 사용가능? */
         object-fit: cover;
         filter: brightness(0.7);
     }
     .experience .guide > .imgslotbox .active ul li a:hover img{
         transform: scale(1.1);
-        overflow: hidden; transition: transform 0.3s;
+        overflow: hidden; transition: transform 0.5s ease-in-out;
     }
     .experience .guide > .imgslotbox .active ul li a strong{
         position: absolute; bottom: 45px; left: 0; 
