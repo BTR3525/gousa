@@ -3870,7 +3870,7 @@
     transition: all 0.8s ease-in-out;
 }
 .detailContainer > div:nth-child(3).active img{
-    transform: translate(0); opacity: 1;
+    transform: translate(0); opacity: 1; 
 }
 .detailContainer div:nth-child(3).active h2{
     opacity: 1; transform: translate(0);
