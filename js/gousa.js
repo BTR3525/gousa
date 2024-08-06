@@ -107,7 +107,7 @@ function detailpagesScroll(){
         var top = $(window).scrollTop();
         var height = $(window).height();
         var box = $(".detailContainer div:nth-child(3) > h2").offset().top
-        var floatbox = $(".floatBox").offset().top
+        // var floatbox = $(".floatBox").offset().top
 
         $(".detailContainer div:nth-child(3) > h2").each(function(){
             if(top > box - height){
@@ -117,13 +117,13 @@ function detailpagesScroll(){
             }
         });
         
-        $(".floatBox").each(function(){
-            if(top > floatbox - height){
-                $(".floatBox").addClass("active");
-            }else{
-                $(".floatBox").removeClass("active");
-            }
-        });        
+        // $(".floatBox").each(function(){
+        //     if(top > floatbox - height){
+        //         $(".floatBox").addClass("active");
+        //     }else{
+        //         $(".floatBox").removeClass("active");
+        //     }
+        // });        
     });
 }
 
