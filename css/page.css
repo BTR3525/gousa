@@ -3550,10 +3550,10 @@
         margin-bottom: 65px;
     }
     .expcardSlot{
-        opacity: 0; transition: 0.4s; 
+        opacity: 0; transition: all 0.4s; 
     }
     .expcardSlot.active{
-        opacity: 1; 
+        opacity: 1; transition: all 0.4s;
     }
     .expcardSlot.active li:first-child{
         transition-delay: 0.1s;
@@ -3737,7 +3737,6 @@
     }
     .moreBox ul li{
         width: 25%;
-
     }
     .moreBox ul li a{
         display: block; font-size: 20px; line-height: 24px; font-weight: 700; color: #565656;
@@ -3807,7 +3806,7 @@
 }
 .detailContainer div:first-child h2 small{
     font-size: 16px; line-height: 22px; font-weight: 700;
-    display: block; margin-bottom: 50px;
+    display: block; margin-bottom: 50px; 
 }
 .detailContainer div:first-child h2 cite{
     font-weight: 700; font-size: 16px; line-height: 100px;
@@ -3837,7 +3836,7 @@
 }
 .detailContainer div:nth-child(2) figure figcaption h3 small{
     display: block; font-size: 16px; margin-left: 5%; 
-    padding-top: 20px; color: #686464; font-weight: 400;
+    padding-top: 20px; color: #686464; font-weight: 400; line-height: 22px;
 }
 .detailContainer div:nth-child(2) figure p{
     font-size:  14px; line-height: 26px; font-weight: 400; margin-bottom: 50px;
@@ -3910,7 +3909,7 @@
 }
 .detailContainer div:nth-child(4) figure figcaption h3 small{
     display: block; font-size: 14px; line-height: 22px; color: #565656;
-    padding: 20px 0 0 5%;
+    padding: 20px 0 0 5%; 
 }
 .detailContainer div:nth-child(4) figure figcaption p{
     line-height: 28px; font-size: 16px; font-weight: 400; color: #565656;
@@ -3919,17 +3918,17 @@
     opacity: 1; transform: translateX(0);
 }
 .detailContainer .floatBox{
-    margin-bottom: 145px; list-style: none; opacity: 0; transition: all 0.5s ease-in-out;
+    margin-bottom: 145px; list-style: none;
 }
 .detailContainer .floatBox li figure img{
     max-width: 45%;
 }
 .detailContainer .floatBox .limgRtxt{
-    margin-bottom: 145px; transform: translateX(-50px);
+    margin-bottom: 145px; 
 }
-.detailContainer .floatBox.active .limgRtxt{
+/* .detailContainer .floatBox.active .limgRtxt{
     transform: translateX(0); transition: all 0.5s ease-in-out;
-}
+} */
 .floatBox .limgRtxt figure:after{
     content: ""; display: block; clear: both;
 }
@@ -3943,18 +3942,14 @@
     font-size: 16px; line-height: 22px; font-weight: 400; color: #565656; 
 }
 .detailContainer .floatBox .ltxtRimg{
-    margin-bottom: 145px; position: relative; transform: translateX(50px); opacity: 0;
-    transition: all 0.5s ease-in-out; transition-delay: 0.8s;
-}
-.detailContainer .floatBox.active .ltxtRimg{
-    transform: translateX(0); opacity: 1;
+    margin-bottom: 145px; position: relative;
 }
 .floatBox .ltxtRimg figure:after{
     content: ""; display: block; clear: both;
 }
 .detailContainer .floatBox .ltxtRimg figure img{
     padding-left: 15%;
-    height: 430px; position: relative;
+    height: 430px; position: relative; width: 100%;
     /* height? */
 }
 .floatBox .ltxtRimg figure figcaption{
@@ -3972,8 +3967,8 @@
     margin-top: 85px;  
 }
 .floatBox .ltxtRimg figure figcaption small{
-    text-align: right; position: absolute; right: 140px; bottom: 20px;
-    font-size: 14px; line-height: 26px;
+    text-align: right; position: absolute; right: 0; bottom: 20px;
+    font-size: 14px; line-height: 26px; 
 }
 /* fin */
 .detailContainer .expcardSlot{
