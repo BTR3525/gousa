@@ -754,19 +754,14 @@
     height: 230px; width: 100%; margin-bottom: 30px;
 }
 .detailContainer .floatBox .limgRtxt{
-    margin-bottom: 100px; opacity: 0; transform: translateY(50px); transition: all 0.8s ease-in-out;
+    margin-bottom: 100px;
 }
-.detailContainer .floatBox.active .limgRtxt{
-    opacity: 1; transform: translateY(0);
-}
+
 /* .floatBox .limgRtxt figure:after{
     content: ""; display: block; clear: both;
 } */
 .floatBox .limgRtxt figure figcaption{
-    width: 100%; transform: translateY(50px);
-}
-.floatBox.active .limgRtxt figure figcaption{
-    transform: translateY(0); transition: all 0.8s ease-in-out; transition-delay: 0.5s;
+    width: 100%; 
 }
 .floatBox .limgRtxt figure figcaption h3{
     margin-bottom: 40px; font-size: 20px; font-weight: 700; 
@@ -775,12 +770,7 @@
     font-size: 14px; line-height: 20px; font-weight: 400; color: #565656; 
 }
 .detailContainer .floatBox .ltxtRimg{
-    margin-bottom: 80px; position: relative; opacity: 0; transform: translateY(50px);
-    transition: all 0.8s ease-in-out; transition-delay: 1.5s;
-}
-.detailContainer .floatBox.active .ltxtRimg{
-    transform: translateY(0); 
-    opacity: 1;
+    margin-bottom: 80px; position: relative;
 }
 
 /* .floatBox .ltxtRimg figure:after{
@@ -791,12 +781,8 @@
     /* height? */
 }
 .floatBox .ltxtRimg figure figcaption{
-    width: 100%; transform: translateY(50px); transition: all 0.8s ease-in-out; opacity: 0;
+    width: 100%; 
 }
-.floatBox.active .ltxtRimg figure figcaption{
-    opacity: 1; transform: translateY(0);  transition: all 0.8s ease-in-out;transition-delay: 0.8s; 
-}
-
 .floatBox .ltxtRimg figure h3{
     margin-bottom: 40px; font-size: 20px; font-weight: 700;
     display: block;  
@@ -3251,10 +3237,10 @@
     /* fin */
 
     .mainContainer > div:nth-child(3){
-        padding: 0 1; opacity: 0; transition: all 2s ease-in-out;
+        padding: 0 1; opacity: 0; transition: all 0.8s ease-in-out; transition-delay: 0.5s;
     }
     .mainContainer > div:nth-child(3).active{
-        opacity: 1; 
+        opacity: 1; transition: all 0.8s ease-in-out;
     }
     .mainContainer > div:nth-child(3):after{
         content: ''; display: block; clear: both;
