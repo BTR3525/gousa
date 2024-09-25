@@ -4493,12 +4493,12 @@
     .top_menucontainer > div:nth-child(3) > div:last-child textarea{
         display: block; margin-bottom: 20px; width:100%; height: 200px; 
         background-color: #e5e5e5; border: none; font-size: 16px; line-height: 22px;
-        color: #b7b3b3; font-weight: 700; 
+        color: #b7b3b3; font-weight: 700; resize: none;
     }
     .top_menucontainer > div:nth-child(3) > div:last-child [type="button"]{
         width: 100%; padding: 15px; background-color: #62832b; color: white;
         font-size: 16px; line-height: 22px; font-weight: 700; border: none;
-        cursor: pointer;
+        cursor: pointer; 
     }
     .top_menucontainer .textbox h2{
         font-size: 30px; font-weight: 700; text-align: center;
