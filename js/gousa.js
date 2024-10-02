@@ -14,7 +14,7 @@ $(document).ready(function(){
     mainslide();
     maintrend(".mainContainer > div");
     subpages();
-    comment();
+    comment(".top_menucontainer > div:last-child > div:last-child > input[type='button']");
 });
 function panelControl(target){
     var currentPanel = null;
@@ -47,20 +47,24 @@ function askfor(target){
     });
 
 }
+// function popupEvent(target){
+//     $(target).click(function(){
+//         $("#confirmPopup").addClass("active");
+//     });
+//     $("#confirmPopup input").click(function(){
+//         $("#confirmPopup").removeClass("active");
+//     });
+// }
 function popupEvent(target){
     $(target).click(function(){
-        $("#confirmPopup").addClass("active");
+        alert("입력이 완료되었습니다.");
     });
-    $("#confirmPopup input").click(function(){
-        $("#confirmPopup").removeClass("active");
-    });
+    
 }
-function comment(){
-    var btn = $(".top_menucontainer > div:nth-child(3) [type=button]")
-
-    btn.$(this).click(function(){
-        window.alert("입력이 완료되었습니다.");
-    });
+function comment(target){
+    $(target).click(function(){
+        alert("입력이 완료돠었습니다.");
+    })
 }
 
 function maintravelandexp(target){
