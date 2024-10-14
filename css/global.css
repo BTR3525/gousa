@@ -372,7 +372,7 @@ footer > div > p:last-of-type{
         background-position: center; 
     }
     .bx-wrapper .bx-pager{
-        font-size: 20px; position: absolute; left: -28%; bottom: 0;
+        font-size: 20px; position: absolute; left: -28%; bottom:-12px;
     }
     .listContainer > div:nth-child(6) > .bx-wrapper .bx-controls-direction{
         display: block; position: absolute; right: 70px; top: 230px;
@@ -616,17 +616,22 @@ footer > div > p:last-of-type{
         position: absolute; left: 13%; top: 800px;
         background-repeat: no-repeat; z-index: 1; 
     }
+    .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-prev:hover,
+        .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-next:hover{
+        border: 3px solid white; 
+    }
     .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-prev{
         background-image: url("../images/leftarrow.png"); padding: 30px; color: white;
         background-color: transparent; border-radius: 50%; background-size: 30px;
-        border-radius: 50%; border: 5px solid white; background-position: center;
+        border-radius: 50%; border: 3px solid rgba(255,255,255,0.22); background-position: center;
+        transition: all 0.3s ease-in-out;
         
     }
     .mainContainer .mainSliderBox .bx-wrapper .bx-controls-direction a.bx-next{
         background-image: url("../images/rightarrow.png"); padding: 30px; color: white;
         background-color: transparent; border-radius: 50%; background-size: 30px;
-        border-radius: 50%; border: 5px solid white; background-position: center;
-        left: 18.5%;
+        border-radius: 50%; border: 3px solid rgba(255,255,255,0.22); background-position: center;
+        left: 18.5%; transition: all 0.3s ease-in-out;
     }
     .listContainer .mainSliderBox .bx-wrapper .bx-controls-direction a{
         position: absolute; left: 6.09%; top: 600px;
