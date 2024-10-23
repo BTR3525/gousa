@@ -391,6 +391,7 @@ footer > div > p:last-of-type{
         position: absolute; right: 0;
     }
     /* funnystory arrow fin */
+    
     .mainPage{
         background: url('../images/footer_tablet.png') left bottom / contain no-repeat;
         width: 100%;
