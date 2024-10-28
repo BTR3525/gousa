@@ -165,11 +165,11 @@ footer > div > p:last-of-type{
         text-decoration: none;
     }
     #sitemapPanel{
-        position: fixed; z-index: 10; 
+        position: fixed; z-index: 10; width: 100%;
     }
     #sitemapPanel > div{
         background-color: black; opacity: 0.8;
-        padding: 30px 3.3%;
+        padding: 30px 3.3%; 
     }
     #sitemapPanel h2{
         font-weight: 600; font-size: 20px;
