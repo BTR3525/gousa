@@ -31,7 +31,7 @@ footer > div > p:last-of-type{
     opacity: 0; height: 0; overflow: hidden; transition: all 0.5s ease-in-out; 
 }
 [id$='Panel'].active{
-    overflow-x: hidden; height: 450px; opacity: 1; transition: all 0.5s ease-in-out;
+    height: 450px; opacity: 1; transition: all 0.5s ease-in-out;
 }
 .bx-wrapper{
     box-shadow: none;
