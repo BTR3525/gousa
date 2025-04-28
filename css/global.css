@@ -609,6 +609,7 @@ footer > div > p:last-of-type{
 
 @media screen and (min-width: 1280px) {
 
+
     .mainContainer .bx-wrapper  img{
         width: 100%; filter: brightness(0.8); 
     }
