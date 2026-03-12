@@ -3105,7 +3105,7 @@
         color: black; line-height: 60px; border-radius: 30px;
     }
     .mainContainer .mainSliderBox ul li img{
-        width: 100%; object-fit: cover;
+        width: 100%; object-fit: cover; background-repeat: no-repeat;
     }
     /* .mainContainer .mainSliderBox ul li:not(.active) img{
         display: none;
