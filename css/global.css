@@ -796,7 +796,7 @@ footer > div > p:last-of-type{
     }
     header nav ul li a{
         color: white;
-        text-shadow: 3px 4px 2px black;   
+        text-shadow: 3px 4px 2px black; font-size: 18px;  
     }
     header nav ul li input[type='button']{
         background-color: transparent; border: none; color: white;
